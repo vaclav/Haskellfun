@@ -14,14 +14,12 @@ public class HaskellModule_TextGen extends SNodeTextGen {
     this.append(SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
     this.append(" where");
     this.append("\n");
-    this.increaseDepth();
     {
       Iterable<SNode> collection = SLinkOperations.getChildren(node, MetaAdapterFactory.getContainmentLink(0x70eb8650b1874f45L, 0x995803d27f5d94baL, 0x325044962780d7d2L, 0x3250449627822108L, "body"));
       for (SNode item : collection) {
         appendNode(item);
       }
     }
-    this.decreaseDepth();
   }
   public String getExtension(SNode node) {
     return "fr";
