@@ -144,7 +144,7 @@
     <property role="TrG5h" value="Import" />
     <property role="34LRSv" value="import" />
     <property role="R4oN_" value="import a module or selected functions" />
-    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <ref role="1TJDcQ" node="39gh9oBwoFG" resolve="Statement" />
     <node concept="1TJgyj" id="2yqiTrEC1kC" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="module" />

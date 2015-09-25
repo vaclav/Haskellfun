@@ -32,6 +32,9 @@
       <concept id="3625473111732402521" name="HaskellFun.structure.Println" flags="ng" index="lQBRf">
         <child id="3625473111732402539" name="message" index="lQBRX" />
       </concept>
+      <concept id="2925734019484094709" name="HaskellFun.structure.Import" flags="ng" index="32e_Hz">
+        <reference id="2925734019484095784" name="module" index="32e_UY" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -41,7 +44,10 @@
   </registry>
   <node concept="lO9d4" id="39gh9oBystC">
     <property role="TrG5h" value="Hello" />
-    <node concept="lOsT$" id="39gh9oBy_C1" role="lOAmu" />
+    <node concept="32e_Hz" id="7Jb9OYvWY4T" role="lOAmu">
+      <ref role="32e_UY" node="7Jb9OYvWPzU" resolve="Demo" />
+    </node>
+    <node concept="lOsT$" id="7Jb9OYvXgzt" role="lOAmu" />
     <node concept="lOAnL" id="39gh9oBystE" role="lOAmu">
       <property role="TrG5h" value="greeting" />
       <node concept="Xl_RD" id="39gh9oBystO" role="lODR3">
@@ -66,6 +72,15 @@
   <node concept="lO9d4" id="2yqiTrECdmv">
     <property role="TrG5h" value="TryImport" />
     <node concept="lOsT$" id="2yqiTrECrnr" role="lOAmu" />
+  </node>
+  <node concept="lO9d4" id="7Jb9OYvWPzU">
+    <property role="TrG5h" value="Demo" />
+    <node concept="lOAnL" id="7Jb9OYvWPzX" role="lOAmu">
+      <property role="TrG5h" value="a" />
+      <node concept="Xl_RD" id="7Jb9OYvWP$3" role="lODR3">
+        <property role="Xl_RC" value="a" />
+      </node>
+    </node>
   </node>
 </model>
 

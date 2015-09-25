@@ -1,0 +1,7 @@
+module Hello where
+<!TextGen not found for 'HaskellFun.structure.Import'!>
+greeting  = "Hello, Frege MPS!"
+
+main args = do
+  println greeting
+

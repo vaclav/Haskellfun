@@ -29,11 +29,7 @@
       <concept id="1202989658459" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_parentNode" flags="nn" index="nLn13" />
       <concept id="1213093968558" name="jetbrains.mps.lang.constraints.structure.ConceptConstraints" flags="ng" index="1M2fIO">
         <reference id="1213093996982" name="concept" index="1M2myG" />
-        <child id="1213100494875" name="referent" index="1Mr941" />
         <child id="1213106463729" name="canBeChild" index="1MLUbF" />
-      </concept>
-      <concept id="1148687176410" name="jetbrains.mps.lang.constraints.structure.NodeReferentConstraint" flags="ng" index="1N5Pfh">
-        <reference id="1148687202698" name="applicableLink" index="1N5Vy1" />
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
@@ -47,9 +43,6 @@
   </registry>
   <node concept="1M2fIO" id="2yqiTrEC1kF">
     <ref role="1M2myG" to="4pym:2yqiTrEC13P" resolve="Import" />
-    <node concept="1N5Pfh" id="2yqiTrECdam" role="1Mr941">
-      <ref role="1N5Vy1" to="4pym:2yqiTrEC1kC" />
-    </node>
     <node concept="nKS2y" id="2yqiTrEC1IJ" role="1MLUbF">
       <node concept="3clFbS" id="2yqiTrEC1IK" role="2VODD2">
         <node concept="3clFbF" id="2yqiTrEC2BA" role="3cqZAp">

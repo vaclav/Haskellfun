@@ -34,6 +34,9 @@
       <concept id="1078939183254" name="jetbrains.mps.lang.editor.structure.CellModel_Component" flags="sg" stub="3162947552742194261" index="PMmxH">
         <reference id="1078939183255" name="editorComponent" index="PMmxG" />
       </concept>
+      <concept id="1164914519156" name="jetbrains.mps.lang.editor.structure.CellMenuPart_ReplaceNode_CustomNodeConcept" flags="ng" index="UkePV">
+        <reference id="1164914727930" name="replacementConcept" index="Ul1FP" />
+      </concept>
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
@@ -107,7 +110,14 @@
   <node concept="24kQdi" id="39gh9oBwoOV">
     <ref role="1XX52x" to="4pym:39gh9oBwoFM" resolve="EmptyLine" />
     <node concept="3F0ifn" id="39gh9oBwraD" role="2wV5jI">
-      <node concept="VPxyj" id="39gh9oBwy46" role="3F10Kt" />
+      <node concept="VPxyj" id="39gh9oBwy46" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
+      <node concept="OXEIz" id="7Jb9OYvXdzB" role="P5bDN">
+        <node concept="UkePV" id="7Jb9OYvXdzD" role="OY2wv">
+          <ref role="Ul1FP" to="4pym:39gh9oBwoFG" resolve="Statement" />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="39gh9oBwy4x">
@@ -238,8 +248,14 @@
       <node concept="3F0ifn" id="2yqiTrECzVG" role="3EZMnx">
         <property role="3F0ifm" value="import" />
       </node>
-      <node concept="3F1sOY" id="2yqiTrECzVH" role="3EZMnx">
-        <ref role="1NtTu8" to="4pym:39gh9oBwH_l" />
+      <node concept="1iCGBv" id="7Jb9OYvX4AT" role="3EZMnx">
+        <ref role="1NtTu8" to="4pym:2yqiTrEC1kC" />
+        <node concept="1sVBvm" id="7Jb9OYvX4AV" role="1sWHZn">
+          <node concept="3F0A7n" id="7Jb9OYvX4B3" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
       </node>
       <node concept="l2Vlx" id="2yqiTrECzVI" role="2iSdaV" />
     </node>

@@ -26,7 +26,7 @@
       <unit at="10,0,21,0" name="HaskellFun.behavior.HaskellModule_BehaviorDescriptor" />
     </file>
     <file name="Import_BehaviorDescriptor.java">
-      <unit at="7,0,15,0" name="HaskellFun.behavior.Import_BehaviorDescriptor" />
+      <unit at="6,0,14,0" name="HaskellFun.behavior.Import_BehaviorDescriptor" />
     </file>
     <file name="Println_BehaviorDescriptor.java">
       <unit at="7,0,15,0" name="HaskellFun.behavior.Println_BehaviorDescriptor" />

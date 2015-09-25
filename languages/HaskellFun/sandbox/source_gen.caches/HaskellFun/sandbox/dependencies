@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="HaskellFun.sandbox.Demo" file="Demo.fr" />
+  <dependency className="HaskellFun.sandbox.Hello" file="Hello.fr" />
+  <dependency className="HaskellFun.sandbox.TryImport" file="TryImport.fr" />
+</dependenciesRoot>
+
