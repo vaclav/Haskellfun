@@ -6,14 +6,17 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82d2034e-ef27-461b-8855-3b4269c8fa16" name="Default" comment="my first modification: module top level is conventionally not indented">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.mps/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.mps/scopes/scope_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HaskellFun/classes_gen/HaskellFun/textGen/HaskellModule_TextGen.class" afterPath="$PROJECT_DIR$/languages/HaskellFun/classes_gen/HaskellFun/textGen/HaskellModule_TextGen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HaskellFun/source_gen.caches/HaskellFun/textGen/generated" afterPath="$PROJECT_DIR$/languages/HaskellFun/source_gen.caches/HaskellFun/textGen/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HaskellFun/languageModels/textGen.mps" afterPath="$PROJECT_DIR$/languages/HaskellFun/languageModels/textGen.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HaskellFun/classes_gen/HaskellFun/textGen/trace.info" afterPath="$PROJECT_DIR$/languages/HaskellFun/classes_gen/HaskellFun/textGen/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HaskellFun/source_gen/HaskellFun/textGen/trace.info" afterPath="$PROJECT_DIR$/languages/HaskellFun/source_gen/HaskellFun/textGen/trace.info" />
+    <list default="true" id="82d2034e-ef27-461b-8855-3b4269c8fa16" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HaskellFun/source_gen/HaskellFun/editor/HaskellModule_Editor.java" afterPath="$PROJECT_DIR$/languages/HaskellFun/source_gen/HaskellFun/editor/HaskellModule_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HaskellFun/source_gen/HaskellFun/Language.java" afterPath="$PROJECT_DIR$/languages/HaskellFun/source_gen/HaskellFun/Language.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HaskellFun/source_gen.caches/HaskellFun/dependencies" afterPath="$PROJECT_DIR$/languages/HaskellFun/source_gen.caches/HaskellFun/dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HaskellFun/languageModels/editor.mps" afterPath="$PROJECT_DIR$/languages/HaskellFun/languageModels/editor.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HaskellFun/source_gen.caches/HaskellFun/generated" afterPath="$PROJECT_DIR$/languages/HaskellFun/source_gen.caches/HaskellFun/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HaskellFun/source_gen.caches/HaskellFun/editor/generated" afterPath="$PROJECT_DIR$/languages/HaskellFun/source_gen.caches/HaskellFun/editor/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HaskellFun/classes_gen/HaskellFun/trace.info" afterPath="$PROJECT_DIR$/languages/HaskellFun/classes_gen/HaskellFun/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HaskellFun/classes_gen/HaskellFun/editor/trace.info" afterPath="$PROJECT_DIR$/languages/HaskellFun/classes_gen/HaskellFun/editor/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HaskellFun/source_gen/HaskellFun/trace.info" afterPath="$PROJECT_DIR$/languages/HaskellFun/source_gen/HaskellFun/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HaskellFun/source_gen/HaskellFun/editor/trace.info" afterPath="$PROJECT_DIR$/languages/HaskellFun/source_gen/HaskellFun/editor/trace.info" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/workspace.xml" afterPath="$PROJECT_DIR$/.mps/workspace.xml" />
     </list>
     <ignored path="Haskellfun.iws" />
@@ -51,7 +54,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Hello" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Hello" pinned="false" current-in-tab="true">
         <entry file="mps://node://HaskellFun.sandbox/HaskellFun.sandbox/Hello">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
@@ -60,7 +63,7 @@
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
                     <property name="caretXRelative" value="20" />
-                    <property name="caretX" value="87" />
+                    <property name="caretX" value="71" />
                     <property name="sideSelectDirection" value="NONE" />
                     <cellInfo cellId="property_name" cellNumber="0" isInList="false">
                       <node node_reference="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/3625473111732670984" />
@@ -70,7 +73,7 @@
                 <errorMarkers />
                 <folded />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:ea316719-3d72-4fe8-a4ea-870993d9f4ac(HaskellFun.textGen)/3625473111732797265" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/3625473111732670984" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <folded />
@@ -116,7 +119,7 @@
                 <errorMarkers />
                 <folded />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:ea316719-3d72-4fe8-a4ea-870993d9f4ac(HaskellFun.textGen)/3625473111732797265" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/3625473111732670984" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <folded />
@@ -145,7 +148,7 @@
                 <errorMarkers />
                 <folded />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:ea316719-3d72-4fe8-a4ea-870993d9f4ac(HaskellFun.textGen)/3625473111732797265" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/3625473111732670984" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <folded />
@@ -155,31 +158,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HaskellModule" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HaskellModule" pinned="false" current-in-tab="false">
         <entry file="mps://node://HaskellFun/HaskellFun.structure/HaskellModule">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
               <memento viewPositionX="0" viewPositionY="0">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="4" />
-                    <property name="caretX" value="263" />
+                    <property name="selectionEnd" value="2" />
+                    <property name="hasNonTrivialSelection" value="true" />
+                    <property name="caretXRelative" value="20" />
+                    <property name="selectionStart" value="0" />
+                    <property name="caretX" value="67" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:ea316719-3d72-4fe8-a4ea-870993d9f4ac(HaskellFun.textGen)/3625473111732797265" />
+                    <cellInfo cellId="ReadOnlyModelAccessor_mtiojs_a" cellNumber="0" isInList="false">
+                      <node node_reference="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/3625473111731872073" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
                 <errorMarkers />
                 <folded />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:ea316719-3d72-4fe8-a4ea-870993d9f4ac(HaskellFun.textGen)/3625473111732797265" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/3625473111732670984" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <folded />
               </inspectorMemento>
-              <node node_ref="r:ea316719-3d72-4fe8-a4ea-870993d9f4ac(HaskellFun.textGen)/3625473111732797265" />
+              <node node_ref="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/3625473111731872033" />
             </state>
           </provider>
         </entry>
@@ -192,23 +197,23 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="84" />
-                    <property name="caretX" value="343" />
+                    <property name="caretXRelative" value="4" />
+                    <property name="caretX" value="247" />
                     <property name="sideSelectDirection" value="NONE" />
                     <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:ea316719-3d72-4fe8-a4ea-870993d9f4ac(HaskellFun.textGen)/3625473111732801767" />
+                      <node node_reference="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/3625473111732100472" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
                 <errorMarkers />
                 <folded />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:ea316719-3d72-4fe8-a4ea-870993d9f4ac(HaskellFun.textGen)/3625473111732797265" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/3625473111732670984" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <folded />
               </inspectorMemento>
-              <node node_ref="r:ea316719-3d72-4fe8-a4ea-870993d9f4ac(HaskellFun.textGen)/3625473111732801767" />
+              <node node_ref="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/3625473111732100472" />
             </state>
           </provider>
         </entry>
@@ -232,7 +237,7 @@
                 <errorMarkers />
                 <folded />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:ea316719-3d72-4fe8-a4ea-870993d9f4ac(HaskellFun.textGen)/3625473111732797265" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/3625473111732670984" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <folded />
@@ -261,7 +266,7 @@
                 <errorMarkers />
                 <folded />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:ea316719-3d72-4fe8-a4ea-870993d9f4ac(HaskellFun.textGen)/3625473111732797265" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/3625473111732670984" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <folded />
@@ -290,7 +295,7 @@
                 <errorMarkers />
                 <folded />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:ea316719-3d72-4fe8-a4ea-870993d9f4ac(HaskellFun.textGen)/3625473111732797265" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/3625473111732670984" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <folded />
@@ -394,12 +399,6 @@
     <panes>
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Empty">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Empty">
               <option name="myItemId" value="" />
@@ -655,13 +654,13 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32971996" sideWeight="0.50026387" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32876712" sideWeight="0.5003524" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.49964765" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Dependencies Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32971996" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32876712" sideWeight="0.49964765" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Module Dependencies" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Class Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -732,7 +731,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="my first modification: module top level is conventionally not indented" />
-    <option name="LAST_COMMIT_MESSAGE" value="my first modification: module top level is conventionally not indented" />
+    <MESSAGE value="my first modification: module top level is conventionally not indented on text generation" />
+    <option name="LAST_COMMIT_MESSAGE" value="my first modification: module top level is conventionally not indented on text generation" />
   </component>
   <component name="editorHistoryManager">
     <entry file="mps://node://HaskellFun.sandbox/HaskellFun.sandbox/Hello">
@@ -976,24 +976,26 @@
           <memento viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="4" />
-                <property name="caretX" value="263" />
+                <property name="selectionEnd" value="2" />
+                <property name="hasNonTrivialSelection" value="true" />
+                <property name="caretXRelative" value="20" />
+                <property name="selectionStart" value="0" />
+                <property name="caretX" value="67" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:ea316719-3d72-4fe8-a4ea-870993d9f4ac(HaskellFun.textGen)/3625473111732797265" />
+                <cellInfo cellId="ReadOnlyModelAccessor_mtiojs_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/3625473111731872073" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
             <errorMarkers />
             <folded />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:ea316719-3d72-4fe8-a4ea-870993d9f4ac(HaskellFun.textGen)/3625473111732797265" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/3625473111732670984" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <folded />
           </inspectorMemento>
-          <node node_ref="r:ea316719-3d72-4fe8-a4ea-870993d9f4ac(HaskellFun.textGen)/3625473111732797265" />
+          <node node_ref="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/3625473111731872033" />
         </state>
       </provider>
     </entry>
@@ -1004,23 +1006,23 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="84" />
-                <property name="caretX" value="343" />
+                <property name="caretXRelative" value="4" />
+                <property name="caretX" value="247" />
                 <property name="sideSelectDirection" value="NONE" />
                 <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:ea316719-3d72-4fe8-a4ea-870993d9f4ac(HaskellFun.textGen)/3625473111732801767" />
+                  <node node_reference="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/3625473111732100472" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
             <errorMarkers />
             <folded />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:ea316719-3d72-4fe8-a4ea-870993d9f4ac(HaskellFun.textGen)/3625473111732797265" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/3625473111732670984" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <folded />
           </inspectorMemento>
-          <node node_ref="r:ea316719-3d72-4fe8-a4ea-870993d9f4ac(HaskellFun.textGen)/3625473111732801767" />
+          <node node_ref="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/3625473111732100472" />
         </state>
       </provider>
     </entry>
@@ -1042,7 +1044,7 @@
             <errorMarkers />
             <folded />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:ea316719-3d72-4fe8-a4ea-870993d9f4ac(HaskellFun.textGen)/3625473111732797265" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/3625473111732670984" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <folded />
@@ -1069,7 +1071,7 @@
             <errorMarkers />
             <folded />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:ea316719-3d72-4fe8-a4ea-870993d9f4ac(HaskellFun.textGen)/3625473111732797265" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/3625473111732670984" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <folded />
@@ -1096,7 +1098,7 @@
             <errorMarkers />
             <folded />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:ea316719-3d72-4fe8-a4ea-870993d9f4ac(HaskellFun.textGen)/3625473111732797265" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/3625473111732670984" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <folded />
@@ -1123,7 +1125,7 @@
             <errorMarkers />
             <folded />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:ea316719-3d72-4fe8-a4ea-870993d9f4ac(HaskellFun.textGen)/3625473111732797265" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/3625473111732670984" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <folded />
@@ -1150,7 +1152,7 @@
             <errorMarkers />
             <folded />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:ea316719-3d72-4fe8-a4ea-870993d9f4ac(HaskellFun.textGen)/3625473111732797265" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/3625473111732670984" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <folded />
@@ -1193,7 +1195,7 @@
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
                 <property name="caretXRelative" value="20" />
-                <property name="caretX" value="87" />
+                <property name="caretX" value="71" />
                 <property name="sideSelectDirection" value="NONE" />
                 <cellInfo cellId="property_name" cellNumber="0" isInList="false">
                   <node node_reference="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/3625473111732670984" />
@@ -1203,7 +1205,7 @@
             <errorMarkers />
             <folded />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:ea316719-3d72-4fe8-a4ea-870993d9f4ac(HaskellFun.textGen)/3625473111732797265" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/3625473111732670984" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <folded />

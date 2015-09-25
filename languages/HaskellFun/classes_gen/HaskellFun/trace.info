@@ -2,7 +2,8 @@
 <debug-info>
   <root>
     <file name="Language.java">
-      <unit at="16,0,52,0" name="HaskellFun.Language" />
+      <unit at="48,21,48,56" name="HaskellFun.Language$1" />
+      <unit at="20,0,62,0" name="HaskellFun.Language" />
     </file>
   </root>
 </debug-info>

@@ -128,9 +128,7 @@
       <node concept="3F2HdR" id="39gh9oBwy59" role="3EZMnx">
         <ref role="1NtTu8" to="4pym:39gh9oBwy48" />
         <node concept="2iRkQZ" id="39gh9oBysv3" role="2czzBx" />
-        <node concept="lj46D" id="39gh9oBwy5i" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
+        <node concept="lj46D" id="39gh9oBwy5i" role="3F10Kt" />
         <node concept="4$FPG" id="39gh9oBwy5O" role="4_6I_">
           <node concept="3clFbS" id="39gh9oBwy5P" role="2VODD2">
             <node concept="3clFbF" id="39gh9oBwF1K" role="3cqZAp">

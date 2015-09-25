@@ -9,9 +9,13 @@ import java.util.Collection;
 import jetbrains.mps.generator.runtime.TemplateModule;
 import jetbrains.mps.generator.runtime.TemplateUtil;
 import jetbrains.mps.smodel.runtime.LanguageAspectDescriptor;
+import jetbrains.mps.openapi.actions.descriptor.ActionAspectDescriptor;
+import jetbrains.mps.actions.descriptor.AbstractActionAspectDescriptor;
 import jetbrains.mps.openapi.editor.descriptor.EditorAspectDescriptor;
 import HaskellFun.editor.EditorAspectDescriptorImpl;
 import jetbrains.mps.smodel.runtime.StructureAspectDescriptor;
+import jetbrains.mps.smodel.runtime.TextGenAspectDescriptor;
+import jetbrains.mps.smodel.runtime.interpreted.TextGenAspectInterpreted;
 
 public class Language extends LanguageRuntime {
   public static String MODULE_REF = "70eb8650-b187-4f45-9958-03d27f5d94ba(HaskellFun)";
@@ -40,11 +44,17 @@ public class Language extends LanguageRuntime {
   }
   @Override
   protected <T extends LanguageAspectDescriptor> T createAspectDescriptor(Class<T> descriptorClass) {
+    if (descriptorClass == ActionAspectDescriptor.class) {
+      return (T) new AbstractActionAspectDescriptor() {};
+    }
     if (descriptorClass == EditorAspectDescriptor.class) {
       return (T) new EditorAspectDescriptorImpl();
     }
     if (descriptorClass == StructureAspectDescriptor.class) {
       return (T) new HaskellFun.structure.StructureAspectDescriptor();
+    }
+    if (descriptorClass == TextGenAspectDescriptor.class) {
+      return (T) new TextGenAspectInterpreted();
     }
     return super.createAspectDescriptor(descriptorClass);
   }
