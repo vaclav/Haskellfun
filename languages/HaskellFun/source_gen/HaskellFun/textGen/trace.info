@@ -12,37 +12,33 @@
       <node id="3625473111732799619" at="13,27,14,167" concept="1" />
       <node id="3625473111732799619" at="14,167,15,26" concept="1" />
       <node id="3625473111732799619" at="15,26,16,22" concept="1" />
-      <node id="3625473111732800885" at="16,22,17,25" concept="1" />
-      <node id="3625473111732800956" at="18,5,19,200" concept="4" />
-      <node id="3625473111732800956" at="20,37,21,25" concept="1" />
-      <node id="3625473111732800885" at="23,5,24,25" concept="1" />
-      <node id="3625473111732798955" at="26,42,27,16" concept="5" />
-      <node id="3625473111732800956" at="19,200,22,7" concept="2" />
-      <node id="3625473111732797265" at="26,0,29,0" concept="3" trace="getExtension#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="3625473111732800956" at="17,5,18,200" concept="4" />
+      <node id="3625473111732800956" at="19,37,20,25" concept="1" />
+      <node id="3625473111732798955" at="24,42,25,16" concept="5" />
+      <node id="3625473111732800956" at="18,200,21,7" concept="2" />
+      <node id="3625473111732797265" at="24,0,27,0" concept="3" trace="getExtension#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
       <node id="3625473111732799619" at="12,42,16,22" concept="0" />
-      <node id="3625473111732800956" at="17,25,23,5" concept="0" />
-      <node id="3625473111732800956" at="17,25,23,5" concept="0" />
-      <node id="3625473111732800885" at="16,22,24,25" concept="0" />
-      <node id="3625473111732797265" at="12,0,26,0" concept="3" trace="doGenerateText#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-      <scope id="3625473111732800956" at="20,37,21,25" />
-      <scope id="3625473111732797265" at="26,42,27,16" />
-      <scope id="3625473111732800956" at="19,200,22,7">
+      <node id="3625473111732800956" at="16,22,22,5" concept="0" />
+      <node id="3625473111732800956" at="16,22,22,5" concept="0" />
+      <node id="3625473111732797265" at="12,0,24,0" concept="3" trace="doGenerateText#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <scope id="3625473111732800956" at="19,37,20,25" />
+      <scope id="3625473111732797265" at="24,42,25,16" />
+      <scope id="3625473111732800956" at="18,200,21,7">
         <var name="item" id="3625473111732800956" />
       </scope>
-      <scope id="3625473111732797265" at="26,0,29,0">
+      <scope id="3625473111732797265" at="24,0,27,0">
         <var name="node" id="3625473111732797265" />
       </scope>
       <scope id="3625473111732799619" at="12,42,16,22" />
-      <scope id="3625473111732800956" at="18,5,22,7">
+      <scope id="3625473111732800956" at="17,5,21,7">
         <var name="collection" id="3625473111732800956" />
       </scope>
-      <scope id="3625473111732800956" at="17,25,23,5" />
-      <scope id="3625473111732800885" at="16,22,24,25" />
-      <scope id="3625473111732797265" at="12,42,24,25" />
-      <scope id="3625473111732797265" at="12,0,26,0">
+      <scope id="3625473111732800956" at="16,22,22,5" />
+      <scope id="3625473111732797265" at="12,42,22,5" />
+      <scope id="3625473111732797265" at="12,0,24,0">
         <var name="node" id="3625473111732797265" />
       </scope>
-      <unit id="3625473111732797265" at="11,0,30,0" name="HaskellFun.textGen.HaskellModule_TextGen" />
+      <unit id="3625473111732797265" at="11,0,28,0" name="HaskellFun.textGen.HaskellModule_TextGen" />
     </file>
   </root>
   <root nodeRef="r:ea316719-3d72-4fe8-a4ea-870993d9f4ac(HaskellFun.textGen)/3625473111732801767">
