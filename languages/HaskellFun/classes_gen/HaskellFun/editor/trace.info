@@ -11,7 +11,44 @@
   <concept fqn="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
   <root>
     <file name="EditorAspectDescriptorImpl.java">
-      <unit at="13,0,42,0" name="HaskellFun.editor.EditorAspectDescriptorImpl" />
+      <unit at="13,0,44,0" name="HaskellFun.editor.EditorAspectDescriptorImpl" />
+    </file>
+  </root>
+  <root nodeRef="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/2925734019484202580">
+    <file name="Import_Editor.java">
+      <node id="2925734019484202580" at="12,79,13,63" concept="6" />
+      <node id="2925734019484202580" at="15,89,16,96" concept="5" />
+      <node id="2925734019484202580" at="16,96,17,48" concept="2" />
+      <node id="2925734019484202580" at="17,48,18,28" concept="2" />
+      <node id="2925734019484202580" at="18,28,19,82" concept="0" />
+      <node id="2925734019484202580" at="18,28,19,82" concept="2" />
+      <node id="2925734019484202580" at="19,82,20,22" concept="6" />
+      <node id="2925734019484202582" at="22,89,23,131" concept="5" />
+      <node id="2925734019484202582" at="23,131,24,22" concept="6" />
+      <node id="2925734019484202580" at="12,0,15,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="2925734019484202582" at="22,0,26,0" concept="4" trace="createComponent_jvmgtf_a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="2925734019484202580" at="15,0,22,0" concept="4" trace="createCollection_jvmgtf_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <scope id="2925734019484202580" at="12,79,13,63" />
+      <scope id="2925734019484202580" at="18,28,19,82" />
+      <scope id="2925734019484202582" at="22,89,24,22">
+        <var name="editorCell" id="2925734019484202582" />
+      </scope>
+      <scope id="2925734019484202580" at="12,0,15,0">
+        <var name="editorContext" id="2925734019484202580" />
+        <var name="node" id="2925734019484202580" />
+      </scope>
+      <scope id="2925734019484202582" at="22,0,26,0">
+        <var name="editorContext" id="2925734019484202582" />
+        <var name="node" id="2925734019484202582" />
+      </scope>
+      <scope id="2925734019484202580" at="15,89,20,22">
+        <var name="editorCell" id="2925734019484202580" />
+      </scope>
+      <scope id="2925734019484202580" at="15,0,22,0">
+        <var name="editorContext" id="2925734019484202580" />
+        <var name="node" id="2925734019484202580" />
+      </scope>
+      <unit id="2925734019484202580" at="11,0,27,0" name="HaskellFun.editor.Import_Editor" />
     </file>
   </root>
   <root nodeRef="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/3625473111731834171">

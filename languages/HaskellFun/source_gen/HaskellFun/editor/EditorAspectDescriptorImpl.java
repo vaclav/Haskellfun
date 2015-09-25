@@ -27,6 +27,8 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
       case 5:
         return Collections.<ConceptEditor>singletonList(new HaskellModule_Editor());
       case 6:
+        return Collections.<ConceptEditor>singletonList(new Import_Editor());
+      case 7:
         return Collections.<ConceptEditor>singletonList(new Println_Editor());
       default:
     }
@@ -37,5 +39,5 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
   }
 
 
-  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"HaskellFun.structure.Definition", "HaskellFun.structure.DefinitionParameter", "HaskellFun.structure.DefinitionReference", "HaskellFun.structure.DoExpression", "HaskellFun.structure.EmptyLine", "HaskellFun.structure.HaskellModule", "HaskellFun.structure.Println"};
+  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"HaskellFun.structure.Definition", "HaskellFun.structure.DefinitionParameter", "HaskellFun.structure.DefinitionReference", "HaskellFun.structure.DoExpression", "HaskellFun.structure.EmptyLine", "HaskellFun.structure.HaskellModule", "HaskellFun.structure.Import", "HaskellFun.structure.Println"};
 }

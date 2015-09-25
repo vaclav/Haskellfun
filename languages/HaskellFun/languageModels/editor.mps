@@ -7,8 +7,8 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
+    <import index="4pym" ref="r:abc540d4-3f70-4969-8e52-358d4ba9345e(HaskellFun.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="4pym" ref="r:abc540d4-3f70-4969-8e52-358d4ba9345e(HaskellFun.structure)" implicit="true" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
   </imports>
   <registry>
@@ -230,6 +230,18 @@
     <ref role="1XX52x" to="4pym:39gh9oBy_Dt" resolve="DefinitionParameter" />
     <node concept="3F0A7n" id="39gh9oBy_DZ" role="2wV5jI">
       <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2yqiTrECrpk">
+    <ref role="1XX52x" to="4pym:2yqiTrEC13P" resolve="Import" />
+    <node concept="3EZMnI" id="2yqiTrECzVu" role="2wV5jI">
+      <node concept="3F0ifn" id="2yqiTrECzVG" role="3EZMnx">
+        <property role="3F0ifm" value="import" />
+      </node>
+      <node concept="3F1sOY" id="2yqiTrECzVH" role="3EZMnx">
+        <ref role="1NtTu8" to="4pym:39gh9oBwH_l" />
+      </node>
+      <node concept="l2Vlx" id="2yqiTrECzVI" role="2iSdaV" />
     </node>
   </node>
 </model>

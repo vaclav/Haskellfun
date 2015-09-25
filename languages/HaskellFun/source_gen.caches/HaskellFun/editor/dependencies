@@ -82,6 +82,7 @@
     <classNode dependClassName="HaskellFun.editor.DoExpression_Editor" />
     <classNode dependClassName="HaskellFun.editor.EmptyLine_Editor" />
     <classNode dependClassName="HaskellFun.editor.HaskellModule_Editor" />
+    <classNode dependClassName="HaskellFun.editor.Import_Editor" />
     <classNode dependClassName="HaskellFun.editor.Println_Editor" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.Arrays" />
@@ -124,6 +125,13 @@
     <classNode dependClassName="jetbrains.mps.openapi.editor.style.Style" />
     <classNode dependClassName="jetbrains.mps.smodel.action.SNodeFactoryOperations" />
     <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.nodeEditor.DefaultNodeEditor" />
+  </dependency>
+  <dependency className="HaskellFun.editor.Import_Editor" file="Import_Editor.java">
+    <classNode dependClassName="jetbrains.mps.nodeEditor.cells.EditorCell_Collection" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.EditorContext" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.cells.EditorCell" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.nodeEditor.DefaultNodeEditor" />
   </dependency>

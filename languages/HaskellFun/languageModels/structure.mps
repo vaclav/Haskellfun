@@ -12,6 +12,7 @@
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
+        <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="4628067390765956807" name="final" index="R5$K2" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
@@ -137,6 +138,21 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="39gh9oBz_8a" role="PzmwI">
       <ref role="PrY4T" to="tpee:hCUYCKd" resolve="IValidIdentifier" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2yqiTrEC13P">
+    <property role="TrG5h" value="Import" />
+    <property role="34LRSv" value="import" />
+    <property role="R4oN_" value="import a module or selected functions" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyj" id="2yqiTrEC1kC" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="module" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="39gh9oBwdvi" resolve="HaskellModule" />
+    </node>
+    <node concept="PrWs8" id="2yqiTrECi53" role="PzmwI">
+      <ref role="PrY4T" node="39gh9oByzyL" resolve="HaskellExpression" />
     </node>
   </node>
 </model>

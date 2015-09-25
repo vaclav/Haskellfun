@@ -19,15 +19,17 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return new Definition_BehaviorDescriptor();
       case 3:
         return new DoExpression_BehaviorDescriptor();
-      case 6:
+      case 7:
         return new Println_BehaviorDescriptor();
       case 2:
         return new DefinitionReference_BehaviorDescriptor();
       case 1:
         return new DefinitionParameter_BehaviorDescriptor();
+      case 6:
+        return new Import_BehaviorDescriptor();
       default:
         return BehaviorAspectInterpreted.getInstance().getDescriptor(fqName);
     }
   }
-  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"HaskellFun.structure.Definition", "HaskellFun.structure.DefinitionParameter", "HaskellFun.structure.DefinitionReference", "HaskellFun.structure.DoExpression", "HaskellFun.structure.EmptyLine", "HaskellFun.structure.HaskellModule", "HaskellFun.structure.Println"};
+  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"HaskellFun.structure.Definition", "HaskellFun.structure.DefinitionParameter", "HaskellFun.structure.DefinitionReference", "HaskellFun.structure.DoExpression", "HaskellFun.structure.EmptyLine", "HaskellFun.structure.HaskellModule", "HaskellFun.structure.Import", "HaskellFun.structure.Println"};
 }
