@@ -24,6 +24,7 @@ import jetbrains.mps.smodel.action.AbstractSideTransformHintSubstituteAction;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.constraints.ModelConstraints;
+import jetbrains.mps.smodel.action.SideTransformPreconditionContext;
 
 public class QueriesGenerated {
   public static List<SubstituteAction> nodeSubstituteActionsBuilder_ActionsFactory_EmptyLine_3625473111732739209(final IOperationContext operationContext, final NodeSubstituteActionsFactoryContext _context) {
@@ -101,6 +102,32 @@ public class QueriesGenerated {
       }
     });
     return result;
+  }
+  public static List<SubstituteAction> sideTransform_ActionsFactory_AlgebraicDataType_654027536477266033(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
+    List<SubstituteAction> result = ListSequence.fromList(new ArrayList<SubstituteAction>());
+    ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(MetaAdapterFactory.getConcept(0x70eb8650b1874f45L, 0x995803d27f5d94baL, 0x91392944907b44dL, "HaskellFun.structure.AlgebraicDataType").getDeclarationNode(), _context.getSourceNode()) {
+      public SNode doSubstitute(@Nullable final EditorContext editorContext, String pattern) {
+        SPropertyOperations.set(_context.getSourceNode(), MetaAdapterFactory.getProperty(0x70eb8650b1874f45L, 0x995803d27f5d94baL, 0x91392944907b44dL, 0x9139294490d107aL, "isAbstract"), "" + (true));
+        return _context.getSourceNode();
+      }
+      public String getMatchingText(String pattern) {
+        return "abstract";
+      }
+      public String getVisibleMatchingText(String pattern) {
+        return getMatchingText(pattern);
+      }
+      @Override
+      protected boolean isEnabled() {
+        SNode sourceNode = getSourceNode();
+        SNode parent = SNodeOperations.getParent(sourceNode);
+        SNode containingLink = SNodeOperations.getContainingLinkDeclaration(sourceNode);
+        return parent == null || containingLink == null || (ModelConstraints.canBeParent(parent, MetaAdapterFactory.getConcept(0x70eb8650b1874f45L, 0x995803d27f5d94baL, 0x91392944907b44dL, "HaskellFun.structure.AlgebraicDataType").getDeclarationNode(), containingLink, null, null) && ModelConstraints.canBeAncestor(parent, null, MetaAdapterFactory.getConcept(0x70eb8650b1874f45L, 0x995803d27f5d94baL, 0x91392944907b44dL, "HaskellFun.structure.AlgebraicDataType").getDeclarationNode(), null));
+      }
+    });
+    return result;
+  }
+  public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_AlgebraicDataType_654027536477266152(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
+    return !(SPropertyOperations.getBoolean(_context.getSourceNode(), MetaAdapterFactory.getProperty(0x70eb8650b1874f45L, 0x995803d27f5d94baL, 0x91392944907b44dL, 0x9139294490d107aL, "isAbstract")));
   }
   public static List<SubstituteAction> sideTransform_ActionsFactory_AlgebraicDataType_654027536477058833(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
     List<SubstituteAction> result = ListSequence.fromList(new ArrayList<SubstituteAction>());

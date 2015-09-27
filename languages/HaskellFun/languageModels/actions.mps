@@ -58,6 +58,9 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
+        <property id="1068580123138" name="value" index="3clFbU" />
+      </concept>
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
@@ -65,6 +68,9 @@
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
+      <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
+        <child id="1081516765348" name="expression" index="3fr31v" />
+      </concept>
     </language>
     <language id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions">
       <concept id="5979988948250981289" name="jetbrains.mps.lang.actions.structure.SNodeCreatorAndInitializer" flags="nn" index="2fJWfE" />
@@ -94,6 +100,7 @@
       <concept id="767145758118872833" name="jetbrains.mps.lang.actions.structure.NF_LinkList_AddNewChildOperation" flags="nn" index="2DeJg1" />
       <concept id="767145758118872828" name="jetbrains.mps.lang.actions.structure.NF_Node_ReplaceWithNewOperation" flags="nn" index="2DeJnW" />
       <concept id="1177568407352" name="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_currentTargetNode" flags="nn" index="GyYSE" />
+      <concept id="1154622616118" name="jetbrains.mps.lang.actions.structure.SideTransformHintSubstitutePreconditionFunction" flags="in" index="3kRJcU" />
       <concept id="441141899510871798" name="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_createdNode" flags="nn" index="1xZrre" />
       <concept id="441141899447644451" name="jetbrains.mps.lang.actions.structure.QueryFunction_Substitute_SelectionHandler" flags="in" index="1y0n4r" />
       <concept id="1112056943463" name="jetbrains.mps.lang.actions.structure.NodeSubstituteActions" flags="ng" index="3FK_9_">
@@ -104,8 +111,10 @@
         <child id="1177324142645" name="part" index="tZc4B" />
       </concept>
       <concept id="1138079221458" name="jetbrains.mps.lang.actions.structure.SideTransformHintSubstituteActionsBuilder" flags="ig" index="3UNGvq">
+        <property id="1215605257730" name="side" index="7I3sp" />
         <reference id="1138079221462" name="applicableConcept" index="3UNGvu" />
         <child id="1177442283389" name="part" index="_1QTJ" />
+        <child id="1154622757656" name="precondition" index="3kShCk" />
       </concept>
       <concept id="1138079416598" name="jetbrains.mps.lang.actions.structure.SideTransformHintSubstituteActions" flags="ng" index="3UOs0u">
         <child id="1138079416599" name="actionsBuilder" index="3UOs0v" />
@@ -349,6 +358,52 @@
   <node concept="3UOs0u" id="$j$Dh92vsg">
     <property role="3GE5qa" value="algebraicDataType" />
     <property role="TrG5h" value="AlgebraicDataTypeDeclarations" />
+    <node concept="3UNGvq" id="$j$Dh93i1L" role="3UOs0v">
+      <property role="7I3sp" value="left" />
+      <ref role="3UNGvu" to="4pym:$j$Dh91Vhd" resolve="AlgebraicDataType" />
+      <node concept="3kRJcU" id="$j$Dh93i3C" role="3kShCk">
+        <node concept="3clFbS" id="$j$Dh93i3D" role="2VODD2">
+          <node concept="3clFbF" id="$j$Dh93i8$" role="3cqZAp">
+            <node concept="3fqX7Q" id="$j$Dh93iQU" role="3clFbG">
+              <node concept="2OqwBi" id="$j$Dh93iQW" role="3fr31v">
+                <node concept="Cj7Ep" id="$j$Dh93iQX" role="2Oq$k0" />
+                <node concept="3TrcHB" id="$j$Dh93iQY" role="2OqNvi">
+                  <ref role="3TsBF5" to="4pym:$j$Dh93h1U" resolve="isAbstract" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="tYCnQ" id="$j$Dh93iX1" role="_1QTJ">
+        <ref role="uz4UX" to="4pym:$j$Dh91Vhd" resolve="AlgebraicDataType" />
+        <node concept="Cmt7Y" id="$j$Dh93j8P" role="uz6Si">
+          <node concept="Cnhdc" id="$j$Dh93j8R" role="Cncma">
+            <node concept="3clFbS" id="$j$Dh93j8T" role="2VODD2">
+              <node concept="3clFbF" id="$j$Dh93j9A" role="3cqZAp">
+                <node concept="37vLTI" id="$j$Dh93k9j" role="3clFbG">
+                  <node concept="3clFbT" id="$j$Dh93kcu" role="37vLTx">
+                    <property role="3clFbU" value="true" />
+                  </node>
+                  <node concept="2OqwBi" id="$j$Dh93jcL" role="37vLTJ">
+                    <node concept="Cj7Ep" id="$j$Dh93j9_" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="$j$Dh93jCx" role="2OqNvi">
+                      <ref role="3TsBF5" to="4pym:$j$Dh93h1U" resolve="isAbstract" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="$j$Dh93kkM" role="3cqZAp">
+                <node concept="Cj7Ep" id="$j$Dh93kkK" role="3clFbG" />
+              </node>
+            </node>
+          </node>
+          <node concept="2h1dTh" id="$j$Dh93j9z" role="Cn2iK">
+            <property role="2h1i$Z" value="abstract" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3UNGvq" id="$j$Dh92vsh" role="3UOs0v">
       <ref role="3UNGvu" to="4pym:$j$Dh91Vhd" resolve="AlgebraicDataType" />
       <node concept="tYCnQ" id="$j$Dh92vtI" role="_1QTJ">

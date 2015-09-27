@@ -36,6 +36,7 @@
         <child id="3625473111732402539" name="message" index="lQBRX" />
       </concept>
       <concept id="654027536476910669" name="HaskellFun.structure.AlgebraicDataType" flags="ng" index="1052rp">
+        <property id="654027536477261946" name="isAbstract" index="107CbI" />
         <child id="654027536476934959" name="constructore" index="106S6V" />
         <child id="654027536476934994" name="typeVars" index="106S76" />
         <child id="654027536476934991" name="declarations" index="106S7r" />
@@ -67,6 +68,7 @@
     <node concept="lOsT$" id="39gh9oBy_BT" role="lOAmu" />
     <node concept="1052rp" id="$j$Dh92F9M" role="lOAmu">
       <property role="TrG5h" value="Day" />
+      <property role="107CbI" value="false" />
       <node concept="106S6S" id="$j$Dh92F9O" role="106S6V">
         <property role="TrG5h" value="Monday" />
       </node>

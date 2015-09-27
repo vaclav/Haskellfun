@@ -2,6 +2,7 @@ module Hello where
 <!TextGen not found for 'HaskellFun.structure.Import'!>
 greeting  = "Hello, Frege MPS!"
 
+<!TextGen not found for 'HaskellFun.structure.AlgebraicDataType'!>
 main args = do
   println greeting
 
