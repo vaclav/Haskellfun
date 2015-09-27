@@ -8,7 +8,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 
-public class DefinitionReference_TextGen extends SNodeTextGen {
+public class DeclarationReference_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
     this.append(SPropertyOperations.getString(SLinkOperations.getTarget(node, MetaAdapterFactory.getReferenceLink(0x70eb8650b1874f45L, 0x995803d27f5d94baL, 0x32504496278a39b2L, 0x32504496278a39b5L, "definition")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
   }

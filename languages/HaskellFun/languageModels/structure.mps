@@ -66,11 +66,13 @@
     <property role="TrG5h" value="Form" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
+    <property role="3GE5qa" value="form" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="39gh9oBwoFM">
     <property role="TrG5h" value="EmptyLine" />
     <property role="34LRSv" value="&lt;empty&gt;" />
+    <property role="3GE5qa" value="form" />
     <ref role="1TJDcQ" node="39gh9oBwoFG" resolve="Form" />
     <node concept="PrWs8" id="39gh9oBwoK9" role="PzmwI">
       <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
@@ -79,12 +81,13 @@
   <node concept="1TIwiD" id="39gh9oBwy5B">
     <property role="TrG5h" value="Declaration" />
     <property role="34LRSv" value="definition" />
+    <property role="3GE5qa" value="daclaration" />
     <ref role="1TJDcQ" node="39gh9oBwoFG" resolve="Form" />
     <node concept="1TJgyj" id="39gh9oByA5p" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="parameters" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="39gh9oBy_Dt" resolve="DefinitionParameter" />
+      <ref role="20lvS9" node="39gh9oBy_Dt" resolve="DeclarationParameter" />
     </node>
     <node concept="1TJgyj" id="39gh9oBwH_l" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -99,6 +102,7 @@
   <node concept="1TIwiD" id="39gh9oBytcJ">
     <property role="TrG5h" value="DoExpression" />
     <property role="34LRSv" value="do" />
+    <property role="3GE5qa" value="expression" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="1TJgyj" id="39gh9oByz$9" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -112,10 +116,12 @@
   </node>
   <node concept="PlHQZ" id="39gh9oByzyL">
     <property role="TrG5h" value="HaskellExpression" />
+    <property role="3GE5qa" value="expression" />
   </node>
   <node concept="1TIwiD" id="39gh9oByz_p">
     <property role="TrG5h" value="Println" />
     <property role="34LRSv" value="println" />
+    <property role="3GE5qa" value="expression" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="1TJgyj" id="39gh9oByz_F" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -128,7 +134,8 @@
     </node>
   </node>
   <node concept="1TIwiD" id="39gh9oByzAM">
-    <property role="TrG5h" value="DefinitionReference" />
+    <property role="TrG5h" value="DeclarationReference" />
+    <property role="3GE5qa" value="daclaration" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="1TJgyj" id="39gh9oByzAP" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -141,7 +148,8 @@
     </node>
   </node>
   <node concept="1TIwiD" id="39gh9oBy_Dt">
-    <property role="TrG5h" value="DefinitionParameter" />
+    <property role="TrG5h" value="DeclarationParameter" />
+    <property role="3GE5qa" value="daclaration" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="39gh9oBz_8a" role="PzmwI">
       <ref role="PrY4T" to="tpee:hCUYCKd" resolve="IValidIdentifier" />
@@ -151,6 +159,7 @@
     <property role="TrG5h" value="Import" />
     <property role="34LRSv" value="import" />
     <property role="R4oN_" value="import a module or selected functions" />
+    <property role="3GE5qa" value="form" />
     <ref role="1TJDcQ" node="39gh9oBwoFG" resolve="Form" />
     <node concept="1TJgyj" id="2yqiTrEC1kC" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -205,6 +214,7 @@
   <node concept="1TIwiD" id="$j$Dh921dm">
     <property role="TrG5h" value="TypeVariable" />
     <property role="34LRSv" value="type variable" />
+    <property role="3GE5qa" value="algebraicDataType" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="$j$Dh921dn" role="PzmwI">
       <ref role="PrY4T" to="tpee:hCUYCKd" resolve="IValidIdentifier" />

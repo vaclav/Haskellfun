@@ -21,9 +21,9 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
       case 2:
         return Collections.<ConceptEditor>singletonList(new Declaration_Editor());
       case 3:
-        return Collections.<ConceptEditor>singletonList(new DefinitionParameter_Editor());
+        return Collections.<ConceptEditor>singletonList(new DeclarationParameter_Editor());
       case 4:
-        return Collections.<ConceptEditor>singletonList(new DefinitionReference_Editor());
+        return Collections.<ConceptEditor>singletonList(new DeclarationReference_Editor());
       case 5:
         return Collections.<ConceptEditor>singletonList(new DoExpression_Editor());
       case 6:
@@ -45,5 +45,5 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
   }
 
 
-  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"HaskellFun.structure.AlgebraicDataType", "HaskellFun.structure.Constructor", "HaskellFun.structure.Declaration", "HaskellFun.structure.DefinitionParameter", "HaskellFun.structure.DefinitionReference", "HaskellFun.structure.DoExpression", "HaskellFun.structure.EmptyLine", "HaskellFun.structure.HaskellModule", "HaskellFun.structure.Import", "HaskellFun.structure.Println", "HaskellFun.structure.TypeVariable"};
+  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"HaskellFun.structure.AlgebraicDataType", "HaskellFun.structure.Constructor", "HaskellFun.structure.Declaration", "HaskellFun.structure.DeclarationParameter", "HaskellFun.structure.DeclarationReference", "HaskellFun.structure.DoExpression", "HaskellFun.structure.EmptyLine", "HaskellFun.structure.HaskellModule", "HaskellFun.structure.Import", "HaskellFun.structure.Println", "HaskellFun.structure.TypeVariable"};
 }

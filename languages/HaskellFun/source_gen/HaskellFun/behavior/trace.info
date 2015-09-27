@@ -10,14 +10,14 @@
     <file name="Constructor_BehaviorDescriptor.java">
       <unit at="10,0,21,0" name="HaskellFun.behavior.Constructor_BehaviorDescriptor" />
     </file>
+    <file name="DeclarationParameter_BehaviorDescriptor.java">
+      <unit at="10,0,21,0" name="HaskellFun.behavior.DeclarationParameter_BehaviorDescriptor" />
+    </file>
+    <file name="DeclarationReference_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="HaskellFun.behavior.DeclarationReference_BehaviorDescriptor" />
+    </file>
     <file name="Declaration_BehaviorDescriptor.java">
       <unit at="9,0,20,0" name="HaskellFun.behavior.Declaration_BehaviorDescriptor" />
-    </file>
-    <file name="DefinitionParameter_BehaviorDescriptor.java">
-      <unit at="10,0,21,0" name="HaskellFun.behavior.DefinitionParameter_BehaviorDescriptor" />
-    </file>
-    <file name="DefinitionReference_BehaviorDescriptor.java">
-      <unit at="7,0,15,0" name="HaskellFun.behavior.DefinitionReference_BehaviorDescriptor" />
     </file>
     <file name="DoExpression_BehaviorDescriptor.java">
       <unit at="7,0,15,0" name="HaskellFun.behavior.DoExpression_BehaviorDescriptor" />

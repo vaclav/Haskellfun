@@ -142,6 +142,7 @@
     </language>
   </registry>
   <node concept="24kQdi" id="39gh9oBwoOV">
+    <property role="3GE5qa" value="form" />
     <ref role="1XX52x" to="4pym:39gh9oBwoFM" resolve="EmptyLine" />
     <node concept="3F0ifn" id="39gh9oBwraD" role="2wV5jI">
       <node concept="VPxyj" id="39gh9oBwy46" role="3F10Kt">
@@ -191,6 +192,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="39gh9oBxpPS">
+    <property role="3GE5qa" value="daclaration" />
     <ref role="1XX52x" to="4pym:39gh9oBwy5B" resolve="Declaration" />
     <node concept="3EZMnI" id="39gh9oBxpPU" role="2wV5jI">
       <node concept="3F0A7n" id="39gh9oBxpQ4" role="3EZMnx">
@@ -228,6 +230,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="39gh9oByzzn">
+    <property role="3GE5qa" value="expression" />
     <ref role="1XX52x" to="4pym:39gh9oBytcJ" resolve="DoExpression" />
     <node concept="3EZMnI" id="39gh9oByzzp" role="2wV5jI">
       <node concept="3F0ifn" id="39gh9oByzzw" role="3EZMnx">
@@ -247,6 +250,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="39gh9oByzAt">
+    <property role="3GE5qa" value="expression" />
     <ref role="1XX52x" to="4pym:39gh9oByz_p" resolve="Println" />
     <node concept="3EZMnI" id="39gh9oByzAv" role="2wV5jI">
       <node concept="PMmxH" id="39gh9oByzAD" role="3EZMnx">
@@ -259,7 +263,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="39gh9oByzBe">
-    <ref role="1XX52x" to="4pym:39gh9oByzAM" resolve="DefinitionReference" />
+    <property role="3GE5qa" value="daclaration" />
+    <ref role="1XX52x" to="4pym:39gh9oByzAM" resolve="DeclarationReference" />
     <node concept="1iCGBv" id="39gh9oByzBg" role="2wV5jI">
       <ref role="1NtTu8" to="4pym:39gh9oByzAP" />
       <node concept="1sVBvm" id="39gh9oByzBi" role="1sWHZn">
@@ -271,12 +276,14 @@
     </node>
   </node>
   <node concept="24kQdi" id="39gh9oBy_DU">
-    <ref role="1XX52x" to="4pym:39gh9oBy_Dt" resolve="DefinitionParameter" />
+    <property role="3GE5qa" value="daclaration" />
+    <ref role="1XX52x" to="4pym:39gh9oBy_Dt" resolve="DeclarationParameter" />
     <node concept="3F0A7n" id="39gh9oBy_DZ" role="2wV5jI">
       <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
     </node>
   </node>
   <node concept="24kQdi" id="2yqiTrECrpk">
+    <property role="3GE5qa" value="form" />
     <ref role="1XX52x" to="4pym:2yqiTrEC13P" resolve="Import" />
     <node concept="3EZMnI" id="2yqiTrECzVu" role="2wV5jI">
       <node concept="3F0ifn" id="2yqiTrECzVG" role="3EZMnx">
@@ -295,6 +302,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="$j$Dh921ev">
+    <property role="3GE5qa" value="algebraicDataType" />
     <ref role="1XX52x" to="4pym:$j$Dh921dm" resolve="TypeVariable" />
     <node concept="3F0A7n" id="$j$Dh926sq" role="2wV5jI">
       <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />

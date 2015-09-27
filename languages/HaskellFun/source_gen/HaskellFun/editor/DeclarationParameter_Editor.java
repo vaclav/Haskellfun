@@ -10,11 +10,11 @@ import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.nodeEditor.EditorManager;
 
-public class DefinitionParameter_Editor extends DefaultNodeEditor {
+public class DeclarationParameter_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createProperty_px4aij_a(editorContext, node);
+    return this.createProperty_g7cfu6_a(editorContext, node);
   }
-  private EditorCell createProperty_px4aij_a(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_g7cfu6_a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("name");
     provider.setNoTargetText("<no name>");

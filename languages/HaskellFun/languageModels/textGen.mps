@@ -65,6 +65,11 @@
         <reference id="1138056546658" name="link" index="3TtcxE" />
       </concept>
     </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
+    </language>
   </registry>
   <node concept="WtQ9Q" id="39gh9oB$3Xh">
     <ref role="WuzLi" to="4pym:39gh9oBwdvi" resolve="HaskellModule" />
@@ -112,7 +117,8 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="39gh9oB$53B">
-    <ref role="WuzLi" to="4pym:39gh9oBwy5B" resolve="Definition" />
+    <property role="3GE5qa" value="daclaration" />
+    <ref role="WuzLi" to="4pym:39gh9oBwy5B" resolve="Declaration" />
     <node concept="11bSqf" id="39gh9oB$53C" role="11c4hB">
       <node concept="3clFbS" id="39gh9oB$53D" role="2VODD2">
         <node concept="1bpajm" id="39gh9oB$h$L" role="3cqZAp" />
@@ -155,7 +161,8 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="39gh9oB$6x_">
-    <ref role="WuzLi" to="4pym:39gh9oBy_Dt" resolve="DefinitionParameter" />
+    <property role="3GE5qa" value="daclaration" />
+    <ref role="WuzLi" to="4pym:39gh9oBy_Dt" resolve="DeclarationParameter" />
     <node concept="11bSqf" id="39gh9oB$6xA" role="11c4hB">
       <node concept="3clFbS" id="39gh9oB$6xB" role="2VODD2">
         <node concept="lc7rE" id="39gh9oB$6xW" role="3cqZAp">
@@ -172,7 +179,8 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="39gh9oB$6Mc">
-    <ref role="WuzLi" to="4pym:39gh9oByzAM" resolve="DefinitionReference" />
+    <property role="3GE5qa" value="daclaration" />
+    <ref role="WuzLi" to="4pym:39gh9oByzAM" resolve="DeclarationReference" />
     <node concept="11bSqf" id="39gh9oB$6Md" role="11c4hB">
       <node concept="3clFbS" id="39gh9oB$6Me" role="2VODD2">
         <node concept="lc7rE" id="39gh9oB$6Mz" role="3cqZAp">
@@ -194,6 +202,7 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="39gh9oB$7Vk">
+    <property role="3GE5qa" value="form" />
     <ref role="WuzLi" to="4pym:39gh9oBwoFM" resolve="EmptyLine" />
     <node concept="11bSqf" id="39gh9oB$7Vl" role="11c4hB">
       <node concept="3clFbS" id="39gh9oB$7Vm" role="2VODD2">
@@ -206,6 +215,7 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="39gh9oB$7WF">
+    <property role="3GE5qa" value="expression" />
     <ref role="WuzLi" to="4pym:39gh9oByz_p" resolve="Println" />
     <node concept="11bSqf" id="39gh9oB$7WG" role="11c4hB">
       <node concept="3clFbS" id="39gh9oB$7WH" role="2VODD2">
@@ -230,6 +240,7 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="39gh9oB$8hN">
+    <property role="3GE5qa" value="expression" />
     <ref role="WuzLi" to="4pym:39gh9oBytcJ" resolve="DoExpression" />
     <node concept="11bSqf" id="39gh9oB$8hO" role="11c4hB">
       <node concept="3clFbS" id="39gh9oB$8hP" role="2VODD2">

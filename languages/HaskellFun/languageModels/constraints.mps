@@ -40,8 +40,14 @@
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
       </concept>
     </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
+    </language>
   </registry>
   <node concept="1M2fIO" id="2yqiTrEC1kF">
+    <property role="3GE5qa" value="form" />
     <ref role="1M2myG" to="4pym:2yqiTrEC13P" resolve="Import" />
     <node concept="nKS2y" id="2yqiTrEC1IJ" role="1MLUbF">
       <node concept="3clFbS" id="2yqiTrEC1IK" role="2VODD2">

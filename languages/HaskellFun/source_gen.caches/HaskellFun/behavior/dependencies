@@ -13,9 +13,9 @@
   <dependency className="HaskellFun.behavior.BehaviorAspectDescriptor" file="BehaviorAspectDescriptor.java">
     <classNode dependClassName="HaskellFun.behavior.AlgebraicDataType_BehaviorDescriptor" />
     <classNode dependClassName="HaskellFun.behavior.Constructor_BehaviorDescriptor" />
+    <classNode dependClassName="HaskellFun.behavior.DeclarationParameter_BehaviorDescriptor" />
+    <classNode dependClassName="HaskellFun.behavior.DeclarationReference_BehaviorDescriptor" />
     <classNode dependClassName="HaskellFun.behavior.Declaration_BehaviorDescriptor" />
-    <classNode dependClassName="HaskellFun.behavior.DefinitionParameter_BehaviorDescriptor" />
-    <classNode dependClassName="HaskellFun.behavior.DefinitionReference_BehaviorDescriptor" />
     <classNode dependClassName="HaskellFun.behavior.DoExpression_BehaviorDescriptor" />
     <classNode dependClassName="HaskellFun.behavior.EmptyLine_BehaviorDescriptor" />
     <classNode dependClassName="HaskellFun.behavior.HaskellModule_BehaviorDescriptor" />
@@ -38,17 +38,7 @@
     <classNode extendsClassName="java.lang.Cloneable" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
-  <dependency className="HaskellFun.behavior.Declaration_BehaviorDescriptor" file="Declaration_BehaviorDescriptor.java">
-    <classNode dependClassName="HaskellFun.behavior.Form_BehaviorDescriptor" />
-    <classNode dependClassName="java.lang.Override" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.IValidIdentifier_BehaviorDescriptor" />
-    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
-    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
-    <classNode extendsClassName="java.lang.Cloneable" />
-    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
-  </dependency>
-  <dependency className="HaskellFun.behavior.DefinitionParameter_BehaviorDescriptor" file="DefinitionParameter_BehaviorDescriptor.java">
+  <dependency className="HaskellFun.behavior.DeclarationParameter_BehaviorDescriptor" file="DeclarationParameter_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.IValidIdentifier_BehaviorDescriptor" />
@@ -58,11 +48,21 @@
     <classNode extendsClassName="java.lang.Cloneable" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
-  <dependency className="HaskellFun.behavior.DefinitionReference_BehaviorDescriptor" file="DefinitionReference_BehaviorDescriptor.java">
+  <dependency className="HaskellFun.behavior.DeclarationReference_BehaviorDescriptor" file="DeclarationReference_BehaviorDescriptor.java">
     <classNode dependClassName="HaskellFun.behavior.HaskellExpression_BehaviorDescriptor" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.Expression_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="HaskellFun.behavior.Declaration_BehaviorDescriptor" file="Declaration_BehaviorDescriptor.java">
+    <classNode dependClassName="HaskellFun.behavior.Form_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.IValidIdentifier_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="java.lang.Cloneable" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>

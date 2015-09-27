@@ -728,20 +728,20 @@
     </file>
   </root>
   <root nodeRef="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/3625473111732402638">
-    <file name="DefinitionReference_Editor.java">
-      <node id="3625473111732402638" at="20,79,21,62" concept="7" />
-      <node id="3625473111732402638" at="23,88,24,96" concept="6" />
-      <node id="3625473111732402638" at="24,96,25,47" concept="2" />
-      <node id="3625473111732402638" at="25,47,26,28" concept="2" />
-      <node id="3625473111732402638" at="26,28,27,79" concept="0" />
-      <node id="3625473111732402638" at="26,28,27,79" concept="2" />
-      <node id="3625473111732402638" at="27,79,28,22" concept="7" />
-      <node id="3625473111732402638" at="30,86,31,81" concept="6" />
+    <file name="DeclarationReference_Editor.java">
+      <node id="3625473111732402638" at="20,79,21,63" concept="7" />
+      <node id="3625473111732402638" at="23,89,24,96" concept="6" />
+      <node id="3625473111732402638" at="24,96,25,48" concept="2" />
+      <node id="3625473111732402638" at="25,48,26,28" concept="2" />
+      <node id="3625473111732402638" at="26,28,27,80" concept="0" />
+      <node id="3625473111732402638" at="26,28,27,80" concept="2" />
+      <node id="3625473111732402638" at="27,80,28,22" concept="7" />
+      <node id="3625473111732402638" at="30,87,31,81" concept="6" />
       <node id="3625473111732402638" at="31,81,32,35" concept="2" />
       <node id="3625473111732402638" at="32,35,33,48" concept="2" />
       <node id="3625473111732402638" at="33,48,34,26" concept="6" />
-      <node id="3625473111732402638" at="34,26,35,90" concept="2" />
-      <node id="3625473111732402638" at="35,90,36,58" concept="2" />
+      <node id="3625473111732402638" at="34,26,35,92" concept="2" />
+      <node id="3625473111732402638" at="35,92,36,58" concept="2" />
       <node id="3625473111732402638" at="37,39,38,40" concept="2" />
       <node id="3625473111732402638" at="38,40,39,39" concept="2" />
       <node id="3625473111732402638" at="40,5,41,73" concept="2" />
@@ -750,10 +750,10 @@
       <node id="3625473111732402638" at="44,35,45,82" concept="6" />
       <node id="3625473111732402638" at="45,82,46,109" concept="7" />
       <node id="3625473111732402638" at="47,10,48,22" concept="7" />
-      <node id="3625473111732402642" at="51,32,52,14" concept="9" />
+      <node id="3625473111732402642" at="51,33,52,14" concept="9" />
       <node id="3625473111732402642" at="54,69,55,67" concept="7" />
-      <node id="3625473111732402642" at="57,81,58,65" concept="7" />
-      <node id="3625473111732402649" at="60,91,61,84" concept="6" />
+      <node id="3625473111732402642" at="57,81,58,66" concept="7" />
+      <node id="3625473111732402649" at="60,92,61,84" concept="6" />
       <node id="3625473111732402649" at="61,84,62,31" concept="2" />
       <node id="3625473111732402649" at="62,31,63,44" concept="2" />
       <node id="3625473111732402649" at="63,44,64,33" concept="2" />
@@ -770,20 +770,20 @@
       <node id="3625473111732402649" at="75,84,76,111" concept="7" />
       <node id="3625473111732402649" at="77,12,78,24" concept="7" />
       <node id="3625473111732402638" at="20,0,23,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="3625473111732402642" at="51,0,54,0" concept="1" trace="_Inline_y4gui_a0a#()V" />
+      <node id="3625473111732402642" at="51,0,54,0" concept="1" trace="_Inline_qqwn5p_a0a#()V" />
       <node id="3625473111732402642" at="54,0,57,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="3625473111732402642" at="57,0,60,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="3625473111732402638" at="36,58,40,5" concept="4" />
       <node id="3625473111732402638" at="43,59,48,22" concept="4" />
       <node id="3625473111732402649" at="73,61,78,24" concept="4" />
-      <node id="3625473111732402638" at="23,0,30,0" concept="5" trace="createCollection_y4gui_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="3625473111732402638" at="30,0,50,0" concept="5" trace="createRefCell_y4gui_a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="3625473111732402649" at="60,0,80,0" concept="5" trace="createProperty_y4gui_a0a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="3625473111732402638" at="20,79,21,62" />
-      <scope id="3625473111732402638" at="26,28,27,79" />
-      <scope id="3625473111732402642" at="51,32,52,14" />
+      <node id="3625473111732402638" at="23,0,30,0" concept="5" trace="createCollection_qqwn5p_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="3625473111732402638" at="30,0,50,0" concept="5" trace="createRefCell_qqwn5p_a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="3625473111732402649" at="60,0,80,0" concept="5" trace="createProperty_qqwn5p_a0a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <scope id="3625473111732402638" at="20,79,21,63" />
+      <scope id="3625473111732402638" at="26,28,27,80" />
+      <scope id="3625473111732402642" at="51,33,52,14" />
       <scope id="3625473111732402642" at="54,69,55,67" />
-      <scope id="3625473111732402642" at="57,81,58,65" />
+      <scope id="3625473111732402642" at="57,81,58,66" />
       <scope id="3625473111732402638" at="37,39,39,39" />
       <scope id="3625473111732402638" at="44,35,46,109">
         <var name="manager" id="3625473111732402638" />
@@ -803,20 +803,20 @@
         <var name="editorContext" id="3625473111732402642" />
         <var name="node" id="3625473111732402642" />
       </scope>
-      <scope id="3625473111732402638" at="23,88,28,22">
+      <scope id="3625473111732402638" at="23,89,28,22">
         <var name="editorCell" id="3625473111732402638" />
       </scope>
       <scope id="3625473111732402638" at="23,0,30,0">
         <var name="editorContext" id="3625473111732402638" />
         <var name="node" id="3625473111732402638" />
       </scope>
-      <scope id="3625473111732402638" at="30,86,48,22">
+      <scope id="3625473111732402638" at="30,87,48,22">
         <var name="attributeConcept" id="3625473111732402638" />
         <var name="attributeKind" id="3625473111732402638" />
         <var name="editorCell" id="3625473111732402638" />
         <var name="provider" id="3625473111732402638" />
       </scope>
-      <scope id="3625473111732402649" at="60,91,78,24">
+      <scope id="3625473111732402649" at="60,92,78,24">
         <var name="attributeConcept" id="3625473111732402649" />
         <var name="attributeKind" id="3625473111732402649" />
         <var name="editorCell" id="3625473111732402649" />
@@ -831,12 +831,12 @@
         <var name="editorContext" id="3625473111732402649" />
         <var name="node" id="3625473111732402649" />
       </scope>
-      <unit id="3625473111732402642" at="50,0,81,0" name="HaskellFun.editor.DefinitionReference_Editor$_Inline_y4gui_a0a" />
-      <unit id="3625473111732402638" at="19,0,82,0" name="HaskellFun.editor.DefinitionReference_Editor" />
+      <unit id="3625473111732402642" at="50,0,81,0" name="HaskellFun.editor.DeclarationReference_Editor$_Inline_qqwn5p_a0a" />
+      <unit id="3625473111732402638" at="19,0,82,0" name="HaskellFun.editor.DeclarationReference_Editor" />
     </file>
   </root>
   <root nodeRef="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/3625473111732411002">
-    <file name="DefinitionParameter_Editor.java">
+    <file name="DeclarationParameter_Editor.java">
       <node id="3625473111732411002" at="14,79,15,61" concept="7" />
       <node id="3625473111732411007" at="17,87,18,82" concept="6" />
       <node id="3625473111732411007" at="18,82,19,29" concept="2" />
@@ -853,7 +853,7 @@
       <node id="3625473111732411007" at="31,10,32,22" concept="7" />
       <node id="3625473111732411002" at="14,0,17,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="3625473111732411007" at="27,59,32,22" concept="4" />
-      <node id="3625473111732411007" at="17,0,34,0" concept="5" trace="createProperty_px4aij_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="3625473111732411007" at="17,0,34,0" concept="5" trace="createProperty_g7cfu6_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="3625473111732411002" at="14,79,15,61" />
       <scope id="3625473111732411007" at="28,35,30,109">
         <var name="manager" id="3625473111732411007" />
@@ -872,7 +872,7 @@
         <var name="editorContext" id="3625473111732411007" />
         <var name="node" id="3625473111732411007" />
       </scope>
-      <unit id="3625473111732411002" at="13,0,35,0" name="HaskellFun.editor.DefinitionParameter_Editor" />
+      <unit id="3625473111732411002" at="13,0,35,0" name="HaskellFun.editor.DeclarationParameter_Editor" />
     </file>
   </root>
   <root nodeRef="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/654027536476935071">
