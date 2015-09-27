@@ -81,7 +81,7 @@
   <node concept="1TIwiD" id="39gh9oBwy5B">
     <property role="TrG5h" value="Declaration" />
     <property role="34LRSv" value="definition" />
-    <property role="3GE5qa" value="daclaration" />
+    <property role="3GE5qa" value="declaration" />
     <ref role="1TJDcQ" node="39gh9oBwoFG" resolve="Form" />
     <node concept="1TJgyj" id="39gh9oByA5p" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -135,7 +135,7 @@
   </node>
   <node concept="1TIwiD" id="39gh9oByzAM">
     <property role="TrG5h" value="DeclarationReference" />
-    <property role="3GE5qa" value="daclaration" />
+    <property role="3GE5qa" value="declaration" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="1TJgyj" id="39gh9oByzAP" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -149,7 +149,7 @@
   </node>
   <node concept="1TIwiD" id="39gh9oBy_Dt">
     <property role="TrG5h" value="DeclarationParameter" />
-    <property role="3GE5qa" value="daclaration" />
+    <property role="3GE5qa" value="declaration" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="39gh9oBz_8a" role="PzmwI">
       <ref role="PrY4T" to="tpee:hCUYCKd" resolve="IValidIdentifier" />

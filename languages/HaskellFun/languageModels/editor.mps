@@ -192,7 +192,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="39gh9oBxpPS">
-    <property role="3GE5qa" value="daclaration" />
+    <property role="3GE5qa" value="declaration" />
     <ref role="1XX52x" to="4pym:39gh9oBwy5B" resolve="Declaration" />
     <node concept="3EZMnI" id="39gh9oBxpPU" role="2wV5jI">
       <node concept="3F0A7n" id="39gh9oBxpQ4" role="3EZMnx">
@@ -263,7 +263,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="39gh9oByzBe">
-    <property role="3GE5qa" value="daclaration" />
+    <property role="3GE5qa" value="declaration" />
     <ref role="1XX52x" to="4pym:39gh9oByzAM" resolve="DeclarationReference" />
     <node concept="1iCGBv" id="39gh9oByzBg" role="2wV5jI">
       <ref role="1NtTu8" to="4pym:39gh9oByzAP" />
@@ -276,7 +276,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="39gh9oBy_DU">
-    <property role="3GE5qa" value="daclaration" />
+    <property role="3GE5qa" value="declaration" />
     <ref role="1XX52x" to="4pym:39gh9oBy_Dt" resolve="DeclarationParameter" />
     <node concept="3F0A7n" id="39gh9oBy_DZ" role="2wV5jI">
       <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />

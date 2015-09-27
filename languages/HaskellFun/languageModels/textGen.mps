@@ -117,7 +117,7 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="39gh9oB$53B">
-    <property role="3GE5qa" value="daclaration" />
+    <property role="3GE5qa" value="declaration" />
     <ref role="WuzLi" to="4pym:39gh9oBwy5B" resolve="Declaration" />
     <node concept="11bSqf" id="39gh9oB$53C" role="11c4hB">
       <node concept="3clFbS" id="39gh9oB$53D" role="2VODD2">
@@ -161,7 +161,7 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="39gh9oB$6x_">
-    <property role="3GE5qa" value="daclaration" />
+    <property role="3GE5qa" value="declaration" />
     <ref role="WuzLi" to="4pym:39gh9oBy_Dt" resolve="DeclarationParameter" />
     <node concept="11bSqf" id="39gh9oB$6xA" role="11c4hB">
       <node concept="3clFbS" id="39gh9oB$6xB" role="2VODD2">
@@ -179,7 +179,7 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="39gh9oB$6Mc">
-    <property role="3GE5qa" value="daclaration" />
+    <property role="3GE5qa" value="declaration" />
     <ref role="WuzLi" to="4pym:39gh9oByzAM" resolve="DeclarationReference" />
     <node concept="11bSqf" id="39gh9oB$6Md" role="11c4hB">
       <node concept="3clFbS" id="39gh9oB$6Me" role="2VODD2">
