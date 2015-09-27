@@ -15,21 +15,27 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
   public Collection<ConceptEditor> getEditors(ConceptDescriptor descriptor) {
     switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0b, descriptor.getConceptFqName())) {
       case 0:
-        return Collections.<ConceptEditor>singletonList(new Declaration_Editor());
+        return Collections.<ConceptEditor>singletonList(new AlgebraicDataType_Editor());
       case 1:
-        return Collections.<ConceptEditor>singletonList(new DefinitionParameter_Editor());
+        return Collections.<ConceptEditor>singletonList(new Constructor_Editor());
       case 2:
-        return Collections.<ConceptEditor>singletonList(new DefinitionReference_Editor());
+        return Collections.<ConceptEditor>singletonList(new Declaration_Editor());
       case 3:
-        return Collections.<ConceptEditor>singletonList(new DoExpression_Editor());
+        return Collections.<ConceptEditor>singletonList(new DefinitionParameter_Editor());
       case 4:
-        return Collections.<ConceptEditor>singletonList(new EmptyLine_Editor());
+        return Collections.<ConceptEditor>singletonList(new DefinitionReference_Editor());
       case 5:
-        return Collections.<ConceptEditor>singletonList(new HaskellModule_Editor());
+        return Collections.<ConceptEditor>singletonList(new DoExpression_Editor());
       case 6:
-        return Collections.<ConceptEditor>singletonList(new Import_Editor());
+        return Collections.<ConceptEditor>singletonList(new EmptyLine_Editor());
       case 7:
+        return Collections.<ConceptEditor>singletonList(new HaskellModule_Editor());
+      case 8:
+        return Collections.<ConceptEditor>singletonList(new Import_Editor());
+      case 9:
         return Collections.<ConceptEditor>singletonList(new Println_Editor());
+      case 10:
+        return Collections.<ConceptEditor>singletonList(new TypeVariable_Editor());
       default:
     }
     return Collections.<ConceptEditor>emptyList();
@@ -39,5 +45,5 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
   }
 
 
-  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"HaskellFun.structure.Declaration", "HaskellFun.structure.DefinitionParameter", "HaskellFun.structure.DefinitionReference", "HaskellFun.structure.DoExpression", "HaskellFun.structure.EmptyLine", "HaskellFun.structure.HaskellModule", "HaskellFun.structure.Import", "HaskellFun.structure.Println"};
+  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"HaskellFun.structure.AlgebraicDataType", "HaskellFun.structure.Constructor", "HaskellFun.structure.Declaration", "HaskellFun.structure.DefinitionParameter", "HaskellFun.structure.DefinitionReference", "HaskellFun.structure.DoExpression", "HaskellFun.structure.EmptyLine", "HaskellFun.structure.HaskellModule", "HaskellFun.structure.Import", "HaskellFun.structure.Println", "HaskellFun.structure.TypeVariable"};
 }

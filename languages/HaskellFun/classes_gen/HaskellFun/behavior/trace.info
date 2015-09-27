@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debug-info>
   <root>
+    <file name="AlgebraicDataType_BehaviorDescriptor.java">
+      <unit at="9,0,20,0" name="HaskellFun.behavior.AlgebraicDataType_BehaviorDescriptor" />
+    </file>
     <file name="BehaviorAspectDescriptor.java">
-      <unit at="9,0,36,0" name="HaskellFun.behavior.BehaviorAspectDescriptor" />
+      <unit at="9,0,42,0" name="HaskellFun.behavior.BehaviorAspectDescriptor" />
+    </file>
+    <file name="Constructor_BehaviorDescriptor.java">
+      <unit at="10,0,21,0" name="HaskellFun.behavior.Constructor_BehaviorDescriptor" />
     </file>
     <file name="Declaration_BehaviorDescriptor.java">
       <unit at="9,0,20,0" name="HaskellFun.behavior.Declaration_BehaviorDescriptor" />
@@ -33,6 +39,9 @@
     </file>
     <file name="Println_BehaviorDescriptor.java">
       <unit at="7,0,15,0" name="HaskellFun.behavior.Println_BehaviorDescriptor" />
+    </file>
+    <file name="TypeVariable_BehaviorDescriptor.java">
+      <unit at="10,0,21,0" name="HaskellFun.behavior.TypeVariable_BehaviorDescriptor" />
     </file>
   </root>
 </debug-info>

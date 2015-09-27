@@ -35,6 +35,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -153,6 +156,50 @@
     </node>
     <node concept="PrWs8" id="2yqiTrECi53" role="PzmwI">
       <ref role="PrY4T" node="39gh9oByzyL" resolve="HaskellExpression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="$j$Dh91Vhd">
+    <property role="TrG5h" value="AlgebraicDataType" />
+    <property role="34LRSv" value="data" />
+    <property role="3GE5qa" value="algebraicDataType" />
+    <ref role="1TJDcQ" node="39gh9oBwoFG" resolve="Form" />
+    <node concept="1TJgyj" id="$j$Dh921di" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="typeVars" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="$j$Dh921dm" resolve="TypeVariable" />
+    </node>
+    <node concept="1TJgyj" id="$j$Dh921cJ" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="constructore" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="$j$Dh921cG" resolve="Constructor" />
+    </node>
+    <node concept="1TJgyj" id="$j$Dh921df" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="declarations" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="39gh9oBwy5B" resolve="Declaration" />
+    </node>
+    <node concept="PrWs8" id="$j$Dh920Ea" role="PzmwI">
+      <ref role="PrY4T" to="tpee:hCUYCKd" resolve="IValidIdentifier" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="$j$Dh921cG">
+    <property role="3GE5qa" value="algebraicDataType" />
+    <property role="TrG5h" value="Constructor" />
+    <property role="34LRSv" value="constructor" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="$j$Dh921cH" role="PzmwI">
+      <ref role="PrY4T" to="tpee:hCUYCKd" resolve="IValidIdentifier" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="$j$Dh921dm">
+    <property role="TrG5h" value="TypeVariable" />
+    <property role="34LRSv" value="type variable" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="$j$Dh921dn" role="PzmwI">
+      <ref role="PrY4T" to="tpee:hCUYCKd" resolve="IValidIdentifier" />
     </node>
   </node>
 </model>
