@@ -4,11 +4,11 @@ package HaskellFun.behavior;
 
 import jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor;
 
-public abstract class Statement_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor {
-  public Statement_BehaviorDescriptor() {
+public abstract class Form_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor {
+  public Form_BehaviorDescriptor() {
   }
   @Override
   public String getConceptFqName() {
-    return "HaskellFun.structure.Statement";
+    return "HaskellFun.structure.Form";
   }
 }

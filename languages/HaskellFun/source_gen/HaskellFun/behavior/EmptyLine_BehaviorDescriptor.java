@@ -4,7 +4,7 @@ package HaskellFun.behavior;
 
 import jetbrains.mps.lang.core.behavior.IDontSubstituteByDefault_BehaviorDescriptor;
 
-public class EmptyLine_BehaviorDescriptor extends Statement_BehaviorDescriptor implements IDontSubstituteByDefault_BehaviorDescriptor {
+public class EmptyLine_BehaviorDescriptor extends Form_BehaviorDescriptor implements IDontSubstituteByDefault_BehaviorDescriptor {
   public EmptyLine_BehaviorDescriptor() {
   }
   @Override

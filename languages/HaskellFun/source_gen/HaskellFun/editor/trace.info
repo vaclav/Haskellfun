@@ -143,16 +143,16 @@
       <node id="3625473111731834171" at="26,34,27,49" concept="2" />
       <node id="3625473111731834171" at="27,49,28,40" concept="2" />
       <node id="3625473111731834171" at="28,40,29,34" concept="2" />
-      <node id="3625473111731834171" at="29,34,30,200" concept="2" />
-      <node id="3625473111731834171" at="30,200,31,22" concept="6" />
-      <node id="8920266709876922601" at="36,47,37,46" concept="6" />
-      <node id="8920266709876922601" at="34,0,36,0" concept="1" trace="ReplaceWith_Statement_cellMenu_s23fc5_a0a#()V" />
+      <node id="3625473111731834171" at="29,34,30,195" concept="2" />
+      <node id="3625473111731834171" at="30,195,31,22" concept="6" />
+      <node id="8920266709876922601" at="36,47,37,41" concept="6" />
+      <node id="8920266709876922601" at="34,0,36,0" concept="1" trace="ReplaceWith_Form_cellMenu_s23fc5_a0a#()V" />
       <node id="3625473111731834171" at="19,0,22,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="8920266709876922601" at="36,0,39,0" concept="4" trace="getReplacementConceptName#()Ljava/lang/String;" />
       <node id="3625473111731834171" at="22,0,33,0" concept="4" trace="createConstant_s23fc5_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="8920266709876922601" at="34,56,34,56" />
+      <scope id="8920266709876922601" at="34,51,34,51" />
       <scope id="3625473111731834171" at="19,79,20,61" />
-      <scope id="8920266709876922601" at="36,47,37,46" />
+      <scope id="8920266709876922601" at="36,47,37,41" />
       <scope id="8920266709876922601" at="34,0,36,0" />
       <scope id="3625473111731834171" at="19,0,22,0">
         <var name="editorContext" id="3625473111731834171" />
@@ -167,7 +167,7 @@
         <var name="editorContext" id="3625473111731834171" />
         <var name="node" id="3625473111731834171" />
       </scope>
-      <unit id="8920266709876922601" at="33,0,40,0" name="HaskellFun.editor.EmptyLine_Editor$ReplaceWith_Statement_cellMenu_s23fc5_a0a" />
+      <unit id="8920266709876922601" at="33,0,40,0" name="HaskellFun.editor.EmptyLine_Editor$ReplaceWith_Form_cellMenu_s23fc5_a0a" />
       <unit id="3625473111731834171" at="18,0,41,0" name="HaskellFun.editor.EmptyLine_Editor" />
     </file>
   </root>
@@ -346,7 +346,7 @@
     </file>
   </root>
   <root nodeRef="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/3625473111732100472">
-    <file name="Definition_Editor.java">
+    <file name="Declaration_Editor.java">
       <node id="3625473111732100472" at="32,79,33,63" concept="6" />
       <node id="3625473111732100472" at="35,89,36,96" concept="5" />
       <node id="3625473111732100472" at="36,96,37,48" concept="2" />
@@ -365,15 +365,15 @@
       <node id="3625473111732100472" at="50,42,51,26" concept="5" />
       <node id="3625473111732100472" at="51,26,52,58" concept="2" />
       <node id="3625473111732100472" at="52,58,53,42" concept="2" />
-      <node id="3625473111732100472" at="53,42,54,204" concept="2" />
-      <node id="3625473111732100472" at="54,204,55,57" concept="5" />
+      <node id="3625473111732100472" at="53,42,54,205" concept="2" />
+      <node id="3625473111732100472" at="54,205,55,57" concept="5" />
       <node id="3625473111732100472" at="55,57,56,59" concept="5" />
       <node id="3625473111732100472" at="57,35,58,82" concept="5" />
       <node id="3625473111732100472" at="58,82,59,109" concept="6" />
       <node id="3625473111732100472" at="60,10,61,22" concept="6" />
       <node id="3625473111732410901" at="64,60,65,32" concept="8" />
-      <node id="3625473111732100472" at="68,91,69,127" concept="5" />
-      <node id="3625473111732100472" at="69,127,70,106" concept="5" />
+      <node id="3625473111732100472" at="68,91,69,128" concept="5" />
+      <node id="3625473111732100472" at="69,128,70,106" concept="5" />
       <node id="3625473111732100472" at="70,106,71,51" concept="2" />
       <node id="3625473111732100472" at="71,51,72,49" concept="2" />
       <node id="3625473111732100472" at="72,49,73,22" concept="6" />
@@ -411,10 +411,10 @@
       <node id="3625473111732100472" at="32,0,35,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="3625473111732100472" at="39,81,42,5" concept="0" />
       <node id="3625473111732100472" at="39,81,42,5" concept="3" />
-      <node id="3625473111732410901" at="64,0,67,0" concept="1" trace="ApplySideTransforms_null_cellMenu_7940ks_a0a0#()V" />
-      <node id="3625473111732100472" at="76,0,79,0" concept="1" trace="parametersListHandler_7940ks_b0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <node id="3625473111732410901" at="64,0,67,0" concept="1" trace="ApplySideTransforms_null_cellMenu_kvmsqx_a0a0#()V" />
+      <node id="3625473111732100472" at="76,0,79,0" concept="1" trace="parametersListHandler_kvmsqx_b0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="3625473111732100472" at="100,9,103,9" concept="3" />
-      <node id="3625473111732412781" at="107,0,110,0" concept="7" trace="renderingCondition_7940ks_a1a#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+      <node id="3625473111732412781" at="107,0,110,0" concept="7" trace="renderingCondition_kvmsqx_a1a#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
       <node id="3625473111732100498" at="121,58,124,5" concept="3" />
       <node id="3625473111732100472" at="79,0,83,0" concept="4" trace="createNodeToInsert#(Ljetbrains/mps/openapi/editor/EditorContext;)Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="3625473111732100472" at="96,134,100,9" concept="3" />
@@ -422,13 +422,13 @@
       <node id="3625473111732100472" at="83,0,88,0" concept="4" trace="createNodeCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="3625473111732100498" at="127,59,132,22" concept="3" />
       <node id="3625473111732100472" at="88,0,94,0" concept="4" trace="createEmptyCell#(Ljetbrains/mps/openapi/editor/EditorContext;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="3625473111732100490" at="110,0,116,0" concept="4" trace="createConstant_7940ks_c0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="3625473111732100472" at="68,0,75,0" concept="4" trace="createRefNodeList_7940ks_b0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="3625473111732100490" at="110,0,116,0" concept="4" trace="createConstant_kvmsqx_c0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="3625473111732100472" at="68,0,75,0" concept="4" trace="createRefNodeList_kvmsqx_b0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="3625473111732100472" at="94,132,104,7" concept="3" />
-      <node id="3625473111732100472" at="35,0,47,0" concept="4" trace="createCollection_7940ks_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="3625473111732100472" at="35,0,47,0" concept="4" trace="createCollection_kvmsqx_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="3625473111732100472" at="94,0,106,0" concept="4" trace="installElementCellActions#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/cells/EditorCell;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
-      <node id="3625473111732100472" at="47,0,63,0" concept="4" trace="createProperty_7940ks_a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="3625473111732100498" at="116,0,134,0" concept="4" trace="createRefNode_7940ks_d0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="3625473111732100472" at="47,0,63,0" concept="4" trace="createProperty_kvmsqx_a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="3625473111732100498" at="116,0,134,0" concept="4" trace="createRefNode_kvmsqx_d0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="3625473111732100472" at="32,79,33,63" />
       <scope id="3625473111732100472" at="38,28,39,81" />
       <scope id="3625473111732100472" at="40,61,41,86" />
@@ -530,9 +530,9 @@
         <var name="editorContext" id="3625473111732100498" />
         <var name="node" id="3625473111732100498" />
       </scope>
-      <unit id="3625473111732410901" at="63,0,68,0" name="HaskellFun.editor.Definition_Editor$ApplySideTransforms_null_cellMenu_7940ks_a0a0" />
-      <unit id="3625473111732100472" at="75,0,107,0" name="HaskellFun.editor.Definition_Editor$parametersListHandler_7940ks_b0" />
-      <unit id="3625473111732100472" at="31,0,135,0" name="HaskellFun.editor.Definition_Editor" />
+      <unit id="3625473111732410901" at="63,0,68,0" name="HaskellFun.editor.Declaration_Editor$ApplySideTransforms_null_cellMenu_kvmsqx_a0a0" />
+      <unit id="3625473111732100472" at="75,0,107,0" name="HaskellFun.editor.Declaration_Editor$parametersListHandler_kvmsqx_b0" />
+      <unit id="3625473111732100472" at="31,0,135,0" name="HaskellFun.editor.Declaration_Editor" />
     </file>
   </root>
   <root nodeRef="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/3625473111732402391">

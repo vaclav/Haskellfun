@@ -14,7 +14,7 @@
   </root>
   <root nodeRef="r:920d52b9-4691-419e-b14b-b18bb1a47f76(HaskellFun.actions)/3625473111732410926">
     <file name="QueriesGenerated.java">
-      <node id="3625473111732410927" at="57,193,58,93" concept="4" />
+      <node id="3625473111732410927" at="57,194,58,93" concept="4" />
       <node id="3625473111732411510" at="60,94,61,249" concept="4" />
       <node id="3625473111732650527" at="61,249,62,166" concept="1" />
       <node id="3625473111732411806" at="62,166,63,251" concept="5" />
@@ -23,7 +23,7 @@
       <node id="3625473111732410927" at="72,37,73,43" concept="4" />
       <node id="3625473111732410927" at="73,43,74,61" concept="4" />
       <node id="3625473111732410927" at="74,61,75,88" concept="4" />
-      <node id="3625473111732410927" at="75,88,76,480" concept="5" />
+      <node id="3625473111732410927" at="75,88,76,482" concept="5" />
       <node id="3625473111732410927" at="78,7,79,18" concept="5" />
       <node id="3625473111732685521" at="81,202,82,93" concept="4" />
       <node id="3625473111732685526" at="84,94,85,249" concept="4" />
@@ -34,7 +34,7 @@
       <node id="3625473111732685521" at="96,37,97,43" concept="4" />
       <node id="3625473111732685521" at="97,43,98,61" concept="4" />
       <node id="3625473111732685521" at="98,61,99,88" concept="4" />
-      <node id="3625473111732685521" at="99,88,100,480" concept="5" />
+      <node id="3625473111732685521" at="99,88,100,482" concept="5" />
       <node id="3625473111732685521" at="102,7,103,18" concept="5" />
       <node id="3625473111732410927" at="65,0,68,0" concept="3" trace="getMatchingText#(Ljava/lang/String;)Ljava/lang/String;" />
       <node id="3625473111732410927" at="68,0,71,0" concept="3" trace="getVisibleMatchingText#(Ljava/lang/String;)Ljava/lang/String;" />
@@ -48,7 +48,7 @@
       <node id="3625473111732410927" at="58,93,78,7" concept="1" />
       <node id="3625473111732685521" at="82,93,102,7" concept="0" />
       <node id="3625473111732685521" at="82,93,102,7" concept="1" />
-      <node id="3625473111732410927" at="57,0,81,0" concept="6" trace="sideTransform_ActionsFactory_Definition_3625473111732410927#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/action/SideTransformActionsBuilderContext;)Ljava/util/List;" />
+      <node id="3625473111732410927" at="57,0,81,0" concept="6" trace="sideTransform_ActionsFactory_Declaration_3625473111732410927#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/action/SideTransformActionsBuilderContext;)Ljava/util/List;" />
       <node id="3625473111732685521" at="81,0,105,0" concept="6" trace="sideTransform_ActionsFactory_DefinitionParameter_3625473111732685521#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/action/SideTransformActionsBuilderContext;)Ljava/util/List;" />
       <scope id="3625473111732646639" at="65,53,66,23" />
       <scope id="3625473111732410927" at="68,60,69,40" />
@@ -72,12 +72,12 @@
       <scope id="3625473111732685521" at="92,0,95,0">
         <var name="pattern" id="3625473111732685521" />
       </scope>
-      <scope id="3625473111732410927" at="72,37,76,480">
+      <scope id="3625473111732410927" at="72,37,76,482">
         <var name="containingLink" id="3625473111732410927" />
         <var name="parent" id="3625473111732410927" />
         <var name="sourceNode" id="3625473111732410927" />
       </scope>
-      <scope id="3625473111732685521" at="96,37,100,480">
+      <scope id="3625473111732685521" at="96,37,100,482">
         <var name="containingLink" id="3625473111732685521" />
         <var name="parent" id="3625473111732685521" />
         <var name="sourceNode" id="3625473111732685521" />
@@ -94,7 +94,7 @@
       <scope id="3625473111732685521" at="95,0,102,0" />
       <scope id="3625473111732410927" at="58,93,78,7" />
       <scope id="3625473111732685521" at="82,93,102,7" />
-      <scope id="3625473111732410927" at="57,193,79,18">
+      <scope id="3625473111732410927" at="57,194,79,18">
         <var name="result" id="3625473111732410927" />
       </scope>
       <scope id="3625473111732685521" at="81,202,103,18">
@@ -115,10 +115,10 @@
   <root nodeRef="r:920d52b9-4691-419e-b14b-b18bb1a47f76(HaskellFun.actions)/3625473111732739208">
     <file name="QueriesGenerated.java">
       <node id="3625473111732739209" at="29,208,30,93" concept="4" />
-      <node id="3625473111732739209" at="31,5,32,177" concept="4" />
-      <node id="3625473111732739209" at="32,177,33,62" concept="4" />
-      <node id="3625473111732709670" at="36,94,37,271" concept="4" />
-      <node id="3625473111732706779" at="37,271,38,164" concept="1" />
+      <node id="3625473111732739209" at="31,5,32,178" concept="4" />
+      <node id="3625473111732739209" at="32,178,33,62" concept="4" />
+      <node id="3625473111732709670" at="36,94,37,272" concept="4" />
+      <node id="3625473111732706779" at="37,272,38,164" concept="1" />
       <node id="3625473111732713417" at="38,164,39,23" concept="5" />
       <node id="3625473111732785028" at="42,121,43,122" concept="1" />
       <node id="3625473111732788326" at="43,122,44,24" concept="5" />

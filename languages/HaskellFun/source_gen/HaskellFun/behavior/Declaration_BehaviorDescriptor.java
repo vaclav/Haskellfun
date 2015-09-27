@@ -6,14 +6,14 @@ import jetbrains.mps.baseLanguage.behavior.IValidIdentifier_BehaviorDescriptor;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.core.behavior.INamedConcept_Behavior;
 
-public class Definition_BehaviorDescriptor extends Statement_BehaviorDescriptor implements IValidIdentifier_BehaviorDescriptor {
-  public Definition_BehaviorDescriptor() {
+public class Declaration_BehaviorDescriptor extends Form_BehaviorDescriptor implements IValidIdentifier_BehaviorDescriptor {
+  public Declaration_BehaviorDescriptor() {
   }
   public String virtual_getFqName_1213877404258(SNode thisNode) {
     return INamedConcept_Behavior.virtual_getFqName_1213877404258(thisNode);
   }
   @Override
   public String getConceptFqName() {
-    return "HaskellFun.structure.Definition";
+    return "HaskellFun.structure.Declaration";
   }
 }

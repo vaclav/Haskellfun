@@ -27,14 +27,14 @@ public class EmptyLine_Editor extends DefaultNodeEditor {
     style.set(StyleAttributes.EDITABLE, 0, true);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
-    editorCell.setSubstituteInfo(new CompositeSubstituteInfo(editorContext, new BasicCellContext(node), new SubstituteInfoPartExt[]{new EmptyLine_Editor.ReplaceWith_Statement_cellMenu_s23fc5_a0a()}));
+    editorCell.setSubstituteInfo(new CompositeSubstituteInfo(editorContext, new BasicCellContext(node), new SubstituteInfoPartExt[]{new EmptyLine_Editor.ReplaceWith_Form_cellMenu_s23fc5_a0a()}));
     return editorCell;
   }
-  public static class ReplaceWith_Statement_cellMenu_s23fc5_a0a extends AbstractCellMenuPart_ReplaceNode_CustomNodeConcept {
-    public ReplaceWith_Statement_cellMenu_s23fc5_a0a() {
+  public static class ReplaceWith_Form_cellMenu_s23fc5_a0a extends AbstractCellMenuPart_ReplaceNode_CustomNodeConcept {
+    public ReplaceWith_Form_cellMenu_s23fc5_a0a() {
     }
     public String getReplacementConceptName() {
-      return "HaskellFun.structure.Statement";
+      return "HaskellFun.structure.Form";
     }
   }
 }

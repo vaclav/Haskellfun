@@ -16,7 +16,7 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
       case 4:
         return new EmptyLine_BehaviorDescriptor();
       case 0:
-        return new Definition_BehaviorDescriptor();
+        return new Declaration_BehaviorDescriptor();
       case 3:
         return new DoExpression_BehaviorDescriptor();
       case 7:
@@ -31,5 +31,5 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return BehaviorAspectInterpreted.getInstance().getDescriptor(fqName);
     }
   }
-  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"HaskellFun.structure.Definition", "HaskellFun.structure.DefinitionParameter", "HaskellFun.structure.DefinitionReference", "HaskellFun.structure.DoExpression", "HaskellFun.structure.EmptyLine", "HaskellFun.structure.HaskellModule", "HaskellFun.structure.Import", "HaskellFun.structure.Println"};
+  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"HaskellFun.structure.Declaration", "HaskellFun.structure.DefinitionParameter", "HaskellFun.structure.DefinitionReference", "HaskellFun.structure.DoExpression", "HaskellFun.structure.EmptyLine", "HaskellFun.structure.HaskellModule", "HaskellFun.structure.Import", "HaskellFun.structure.Println"};
 }

@@ -49,14 +49,14 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="body" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="39gh9oBwoFG" resolve="Statement" />
+      <ref role="20lvS9" node="39gh9oBwoFG" resolve="Form" />
     </node>
     <node concept="PrWs8" id="39gh9oBwoEQ" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="39gh9oBwoFG">
-    <property role="TrG5h" value="Statement" />
+    <property role="TrG5h" value="Form" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -64,15 +64,15 @@
   <node concept="1TIwiD" id="39gh9oBwoFM">
     <property role="TrG5h" value="EmptyLine" />
     <property role="34LRSv" value="&lt;empty&gt;" />
-    <ref role="1TJDcQ" node="39gh9oBwoFG" resolve="Statement" />
+    <ref role="1TJDcQ" node="39gh9oBwoFG" resolve="Form" />
     <node concept="PrWs8" id="39gh9oBwoK9" role="PzmwI">
       <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
     </node>
   </node>
   <node concept="1TIwiD" id="39gh9oBwy5B">
-    <property role="TrG5h" value="Definition" />
+    <property role="TrG5h" value="Declaration" />
     <property role="34LRSv" value="definition" />
-    <ref role="1TJDcQ" node="39gh9oBwoFG" resolve="Statement" />
+    <ref role="1TJDcQ" node="39gh9oBwoFG" resolve="Form" />
     <node concept="1TJgyj" id="39gh9oByA5p" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="parameters" />
@@ -127,7 +127,7 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="definition" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="39gh9oBwy5B" resolve="Definition" />
+      <ref role="20lvS9" node="39gh9oBwy5B" resolve="Declaration" />
     </node>
     <node concept="PrWs8" id="39gh9oByzAN" role="PzmwI">
       <ref role="PrY4T" node="39gh9oByzyL" resolve="HaskellExpression" />
@@ -144,7 +144,7 @@
     <property role="TrG5h" value="Import" />
     <property role="34LRSv" value="import" />
     <property role="R4oN_" value="import a module or selected functions" />
-    <ref role="1TJDcQ" node="39gh9oBwoFG" resolve="Statement" />
+    <ref role="1TJDcQ" node="39gh9oBwoFG" resolve="Form" />
     <node concept="1TJgyj" id="2yqiTrEC1kC" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="module" />

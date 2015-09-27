@@ -42,7 +42,7 @@
     </file>
   </root>
   <root nodeRef="r:ea316719-3d72-4fe8-a4ea-870993d9f4ac(HaskellFun.textGen)/3625473111732801767">
-    <file name="Definition_TextGen.java">
+    <file name="Declaration_TextGen.java">
       <node id="3625473111732853041" at="12,42,13,24" concept="1" />
       <node id="3625473111732801787" at="13,24,14,167" concept="1" />
       <node id="3625473111732801787" at="14,167,15,21" concept="1" />
@@ -69,7 +69,7 @@
       <scope id="3625473111732801767" at="12,0,26,0">
         <var name="node" id="3625473111732801767" />
       </scope>
-      <unit id="3625473111732801767" at="11,0,27,0" name="HaskellFun.textGen.Definition_TextGen" />
+      <unit id="3625473111732801767" at="11,0,27,0" name="HaskellFun.textGen.Declaration_TextGen" />
     </file>
   </root>
   <root nodeRef="r:ea316719-3d72-4fe8-a4ea-870993d9f4ac(HaskellFun.textGen)/3625473111732807781">

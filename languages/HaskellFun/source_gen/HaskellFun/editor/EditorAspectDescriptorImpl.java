@@ -15,7 +15,7 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
   public Collection<ConceptEditor> getEditors(ConceptDescriptor descriptor) {
     switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0b, descriptor.getConceptFqName())) {
       case 0:
-        return Collections.<ConceptEditor>singletonList(new Definition_Editor());
+        return Collections.<ConceptEditor>singletonList(new Declaration_Editor());
       case 1:
         return Collections.<ConceptEditor>singletonList(new DefinitionParameter_Editor());
       case 2:
@@ -39,5 +39,5 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
   }
 
 
-  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"HaskellFun.structure.Definition", "HaskellFun.structure.DefinitionParameter", "HaskellFun.structure.DefinitionReference", "HaskellFun.structure.DoExpression", "HaskellFun.structure.EmptyLine", "HaskellFun.structure.HaskellModule", "HaskellFun.structure.Import", "HaskellFun.structure.Println"};
+  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"HaskellFun.structure.Declaration", "HaskellFun.structure.DefinitionParameter", "HaskellFun.structure.DefinitionReference", "HaskellFun.structure.DoExpression", "HaskellFun.structure.EmptyLine", "HaskellFun.structure.HaskellModule", "HaskellFun.structure.Import", "HaskellFun.structure.Println"};
 }

@@ -4,20 +4,23 @@
     <file name="BehaviorAspectDescriptor.java">
       <unit at="9,0,36,0" name="HaskellFun.behavior.BehaviorAspectDescriptor" />
     </file>
+    <file name="Declaration_BehaviorDescriptor.java">
+      <unit at="9,0,20,0" name="HaskellFun.behavior.Declaration_BehaviorDescriptor" />
+    </file>
     <file name="DefinitionParameter_BehaviorDescriptor.java">
       <unit at="10,0,21,0" name="HaskellFun.behavior.DefinitionParameter_BehaviorDescriptor" />
     </file>
     <file name="DefinitionReference_BehaviorDescriptor.java">
       <unit at="7,0,15,0" name="HaskellFun.behavior.DefinitionReference_BehaviorDescriptor" />
     </file>
-    <file name="Definition_BehaviorDescriptor.java">
-      <unit at="9,0,20,0" name="HaskellFun.behavior.Definition_BehaviorDescriptor" />
-    </file>
     <file name="DoExpression_BehaviorDescriptor.java">
       <unit at="7,0,15,0" name="HaskellFun.behavior.DoExpression_BehaviorDescriptor" />
     </file>
     <file name="EmptyLine_BehaviorDescriptor.java">
       <unit at="7,0,15,0" name="HaskellFun.behavior.EmptyLine_BehaviorDescriptor" />
+    </file>
+    <file name="Form_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="HaskellFun.behavior.Form_BehaviorDescriptor" />
     </file>
     <file name="HaskellExpression_BehaviorDescriptor.java">
       <unit at="6,0,8,0" name="HaskellFun.behavior.HaskellExpression_BehaviorDescriptor" />
@@ -30,9 +33,6 @@
     </file>
     <file name="Println_BehaviorDescriptor.java">
       <unit at="7,0,15,0" name="HaskellFun.behavior.Println_BehaviorDescriptor" />
-    </file>
-    <file name="Statement_BehaviorDescriptor.java">
-      <unit at="7,0,15,0" name="HaskellFun.behavior.Statement_BehaviorDescriptor" />
     </file>
   </root>
 </debug-info>
