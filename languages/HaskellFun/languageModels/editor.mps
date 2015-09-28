@@ -69,6 +69,7 @@
         <property id="1140017977771" name="readOnly" index="1Intyy" />
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
+      <concept id="7667708318090725848" name="jetbrains.mps.lang.editor.structure.IndentLayoutIndentAnchorStyleClassItem" flags="ln" index="1Bsynf" />
       <concept id="1073389214265" name="jetbrains.mps.lang.editor.structure.EditorCellModel" flags="ng" index="3EYTF0">
         <reference id="1139959269582" name="actionMap" index="1ERwB7" />
         <child id="1142887637401" name="renderingCondition" index="pqm2j" />
@@ -397,6 +398,9 @@
             </node>
           </node>
         </node>
+        <node concept="1Bsynf" id="2AW0gR5dh7f" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="3F0ifn" id="$j$Dh92Fn$" role="3EZMnx">
         <property role="3F0ifm" value=" " />
@@ -502,6 +506,9 @@
             </node>
           </node>
         </node>
+        <node concept="ljvvj" id="2AW0gR5d3Ds" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="l2Vlx" id="$j$Dh92_i3" role="2iSdaV" />
     </node>
@@ -566,6 +573,9 @@
       <node concept="3F0ifn" id="$j$Dh95Umd" role="3EZMnx">
         <property role="3F0ifm" value="}" />
         <ref role="1ERwB7" node="$j$Dh96TZ0" resolve="ConstructorRecordIntoConstructor" />
+        <node concept="ljvvj" id="2AW0gR5d3MF" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="l2Vlx" id="$j$Dh95Uf1" role="2iSdaV" />
     </node>
@@ -592,7 +602,7 @@
   </node>
   <node concept="24kQdi" id="$j$Dh98Msx">
     <property role="3GE5qa" value="algebraicDataType" />
-    <ref role="1XX52x" to="4pym:$j$Dh98Mrt" resolve="ConstructorCall" />
+    <ref role="1XX52x" to="4pym:$j$Dh98Mrt" resolve="DataType" />
     <node concept="3EZMnI" id="$j$Dh98SW$" role="2wV5jI">
       <node concept="3F0ifn" id="$j$Dh98SWN" role="3EZMnx">
         <property role="3F0ifm" value="(" />
