@@ -14,7 +14,7 @@
     </file>
     <file name="QueriesGenerated.java">
       <unit at="108,49,126,5" name="HaskellFun.actions.QueriesGenerated$4" />
-      <unit at="29,0,208,0" name="HaskellFun.actions.QueriesGenerated" />
+      <unit at="29,0,232,0" name="HaskellFun.actions.QueriesGenerated" />
     </file>
   </root>
   <root nodeRef="r:920d52b9-4691-419e-b14b-b18bb1a47f76(HaskellFun.actions)/3625473111732410926">
@@ -191,18 +191,38 @@
       <node id="654027536477058833" at="147,61,148,88" concept="4" />
       <node id="654027536477058833" at="148,88,149,492" concept="5" />
       <node id="654027536477058833" at="151,7,152,18" concept="5" />
+      <node id="654027536478588603" at="154,199,155,93" concept="4" />
+      <node id="654027536478591331" at="157,94,158,386" concept="4" />
+      <node id="654027536478588608" at="158,386,159,160" concept="1" />
+      <node id="654027536478595636" at="159,160,160,19" concept="5" />
+      <node id="654027536478634510" at="162,53,163,23" concept="5" />
+      <node id="654027536478588603" at="165,60,166,40" concept="5" />
+      <node id="654027536478588603" at="169,37,170,43" concept="4" />
+      <node id="654027536478588603" at="170,43,171,61" concept="4" />
+      <node id="654027536478588603" at="171,61,172,88" concept="4" />
+      <node id="654027536478588603" at="172,88,173,492" concept="5" />
+      <node id="654027536478588603" at="175,7,176,18" concept="5" />
       <node id="654027536477266152" at="129,0,132,0" concept="7" trace="sideTransformHintSubstituteActionsBuilder_Precondition_AlgebraicDataType_654027536477266152#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/action/SideTransformPreconditionContext;)Z" />
       <node id="654027536477058833" at="135,0,138,0" concept="3" trace="doSubstitute#(Ljetbrains/mps/openapi/editor/EditorContext;Ljava/lang/String;)Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="654027536477058833" at="138,0,141,0" concept="3" trace="getMatchingText#(Ljava/lang/String;)Ljava/lang/String;" />
       <node id="654027536477058833" at="141,0,144,0" concept="3" trace="getVisibleMatchingText#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="654027536478588603" at="162,0,165,0" concept="3" trace="getMatchingText#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="654027536478588603" at="165,0,168,0" concept="3" trace="getVisibleMatchingText#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="654027536478588603" at="157,0,162,0" concept="3" trace="doSubstitute#(Ljetbrains/mps/openapi/editor/EditorContext;Ljava/lang/String;)Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="654027536477058833" at="144,0,151,0" concept="3" trace="isEnabled#()Z" />
+      <node id="654027536478588603" at="168,0,175,0" concept="3" trace="isEnabled#()Z" />
       <node id="654027536477058833" at="133,93,151,7" concept="0" />
       <node id="654027536477058833" at="133,93,151,7" concept="1" />
+      <node id="654027536478588603" at="155,93,175,7" concept="0" />
+      <node id="654027536478588603" at="155,93,175,7" concept="1" />
       <node id="654027536477058833" at="132,0,154,0" concept="7" trace="sideTransform_ActionsFactory_AlgebraicDataType_654027536477058833#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/action/SideTransformActionsBuilderContext;)Ljava/util/List;" />
+      <node id="654027536478588603" at="154,0,178,0" concept="7" trace="sideTransform_ActionsFactory_AlgebraicDataType_654027536478588603#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/action/SideTransformActionsBuilderContext;)Ljava/util/List;" />
       <scope id="654027536477266153" at="129,208,130,199" />
       <scope id="654027536477058934" at="135,94,136,385" />
       <scope id="654027536477058833" at="138,53,139,23" />
       <scope id="654027536477058833" at="141,60,142,40" />
+      <scope id="654027536478633997" at="162,53,163,23" />
+      <scope id="654027536478588603" at="165,60,166,40" />
       <scope id="654027536477270585" at="109,94,111,40" />
       <scope id="654027536477266152" at="129,0,132,0">
         <var name="_context" id="654027536477266152" />
@@ -218,125 +238,153 @@
       <scope id="654027536477058833" at="141,0,144,0">
         <var name="pattern" id="654027536477058833" />
       </scope>
+      <scope id="654027536478588607" at="157,94,160,19">
+        <var name="var" id="654027536478591332" />
+      </scope>
+      <scope id="654027536478588603" at="162,0,165,0">
+        <var name="pattern" id="654027536478588603" />
+      </scope>
+      <scope id="654027536478588603" at="165,0,168,0">
+        <var name="pattern" id="654027536478588603" />
+      </scope>
       <scope id="654027536477058833" at="145,37,149,492">
         <var name="containingLink" id="654027536477058833" />
         <var name="parent" id="654027536477058833" />
         <var name="sourceNode" id="654027536477058833" />
       </scope>
+      <scope id="654027536478588603" at="169,37,173,492">
+        <var name="containingLink" id="654027536478588603" />
+        <var name="parent" id="654027536478588603" />
+        <var name="sourceNode" id="654027536478588603" />
+      </scope>
+      <scope id="654027536478588603" at="157,0,162,0">
+        <var name="editorContext" id="654027536478588603" />
+        <var name="pattern" id="654027536478588603" />
+      </scope>
       <scope id="654027536477058833" at="144,0,151,0" />
+      <scope id="654027536478588603" at="168,0,175,0" />
       <scope id="654027536477058833" at="133,93,151,7" />
       <scope id="654027536477058833" at="132,199,152,18">
         <var name="result" id="654027536477058833" />
       </scope>
+      <scope id="654027536478588603" at="155,93,175,7" />
       <scope id="654027536477058833" at="132,0,154,0">
         <var name="_context" id="654027536477058833" />
         <var name="operationContext" id="654027536477058833" />
       </scope>
+      <scope id="654027536478588603" at="154,199,176,18">
+        <var name="result" id="654027536478588603" />
+      </scope>
+      <scope id="654027536478588603" at="154,0,178,0">
+        <var name="_context" id="654027536478588603" />
+        <var name="operationContext" id="654027536478588603" />
+      </scope>
       <unit id="654027536477058833" at="134,49,151,5" name="HaskellFun.actions.QueriesGenerated$5" />
+      <unit id="654027536478588603" at="156,49,175,5" name="HaskellFun.actions.QueriesGenerated$6" />
     </file>
   </root>
   <root nodeRef="r:920d52b9-4691-419e-b14b-b18bb1a47f76(HaskellFun.actions)/654027536477990009">
     <file name="QueriesGenerated.java">
-      <node id="654027536477990010" at="154,193,155,93" concept="4" />
-      <node id="654027536478434144" at="157,94,158,270" concept="4" />
-      <node id="654027536478448783" at="158,270,159,227" concept="4" />
-      <node id="654027536478505285" at="160,35,161,370" concept="1" />
-      <node id="654027536478452876" at="162,9,163,26" concept="5" />
-      <node id="654027536478452460" at="163,26,164,0" concept="6" />
-      <node id="654027536477990010" at="166,53,167,19" concept="5" />
-      <node id="654027536477990010" at="169,60,170,40" concept="5" />
-      <node id="654027536477990010" at="173,37,174,43" concept="4" />
-      <node id="654027536477990010" at="174,43,175,61" concept="4" />
-      <node id="654027536477990010" at="175,61,176,88" concept="4" />
-      <node id="654027536477990010" at="176,88,177,492" concept="5" />
-      <node id="654027536478328921" at="181,94,182,236" concept="4" />
-      <node id="654027536478277041" at="182,236,183,242" concept="5" />
-      <node id="654027536478280136" at="186,55,187,25" concept="5" />
-      <node id="654027536478281345" at="188,9,189,20" concept="5" />
-      <node id="654027536477990010" at="191,60,192,40" concept="5" />
-      <node id="654027536477990010" at="195,37,196,43" concept="4" />
-      <node id="654027536477990010" at="196,43,197,61" concept="4" />
-      <node id="654027536477990010" at="197,61,198,88" concept="4" />
-      <node id="654027536477990010" at="198,88,199,492" concept="5" />
-      <node id="654027536477990010" at="201,7,202,18" concept="5" />
-      <node id="654027536478279146" at="204,73,205,51" concept="5" />
-      <node id="654027536478449711" at="159,227,162,9" concept="2" />
-      <node id="654027536477990010" at="166,0,169,0" concept="3" trace="getMatchingText#(Ljava/lang/String;)Ljava/lang/String;" />
-      <node id="654027536477990010" at="169,0,172,0" concept="3" trace="getVisibleMatchingText#(Ljava/lang/String;)Ljava/lang/String;" />
-      <node id="654027536478277621" at="185,53,188,9" concept="2" />
-      <node id="654027536477990010" at="191,0,194,0" concept="3" trace="getVisibleMatchingText#(Ljava/lang/String;)Ljava/lang/String;" />
-      <node id="654027536478279146" at="204,0,207,0" concept="7" trace="neq_x583g4_a0a0b0a0a0a0c0g#(Ljava/lang/Object;Ljava/lang/Object;)Z" />
-      <node id="654027536477990010" at="181,0,185,0" concept="3" trace="doSubstitute#(Ljetbrains/mps/openapi/editor/EditorContext;Ljava/lang/String;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-      <node id="654027536477990010" at="185,0,191,0" concept="3" trace="getMatchingText#(Ljava/lang/String;)Ljava/lang/String;" />
-      <node id="654027536477990010" at="172,0,179,0" concept="3" trace="isEnabled#()Z" />
-      <node id="654027536477990010" at="194,0,201,0" concept="3" trace="isEnabled#()Z" />
-      <node id="654027536477990010" at="157,0,166,0" concept="3" trace="doSubstitute#(Ljetbrains/mps/openapi/editor/EditorContext;Ljava/lang/String;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-      <node id="654027536477990010" at="179,7,201,7" concept="0" />
-      <node id="654027536477990010" at="179,7,201,7" concept="1" />
-      <node id="654027536477990010" at="155,93,179,7" concept="0" />
-      <node id="654027536477990010" at="155,93,179,7" concept="1" />
-      <node id="654027536477990010" at="154,0,204,0" concept="7" trace="sideTransform_ActionsFactory_Constructor_654027536477990010#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/action/SideTransformActionsBuilderContext;)Ljava/util/List;" />
-      <scope id="654027536478449713" at="160,35,161,370" />
-      <scope id="654027536477990010" at="166,53,167,19" />
-      <scope id="654027536477990010" at="169,60,170,40" />
-      <scope id="654027536478277622" at="186,55,187,25" />
-      <scope id="654027536477990010" at="191,60,192,40" />
-      <scope id="654027536478279146" at="204,73,205,51" />
-      <scope id="654027536478277040" at="181,94,183,242">
+      <node id="654027536477990010" at="178,193,179,93" concept="4" />
+      <node id="654027536478434144" at="181,94,182,270" concept="4" />
+      <node id="654027536478448783" at="182,270,183,227" concept="4" />
+      <node id="654027536478505285" at="184,35,185,370" concept="1" />
+      <node id="654027536478452876" at="186,9,187,26" concept="5" />
+      <node id="654027536478452460" at="187,26,188,0" concept="6" />
+      <node id="654027536477990010" at="190,53,191,19" concept="5" />
+      <node id="654027536477990010" at="193,60,194,40" concept="5" />
+      <node id="654027536477990010" at="197,37,198,43" concept="4" />
+      <node id="654027536477990010" at="198,43,199,61" concept="4" />
+      <node id="654027536477990010" at="199,61,200,88" concept="4" />
+      <node id="654027536477990010" at="200,88,201,492" concept="5" />
+      <node id="654027536478328921" at="205,94,206,236" concept="4" />
+      <node id="654027536478277041" at="206,236,207,242" concept="5" />
+      <node id="654027536478280136" at="210,55,211,25" concept="5" />
+      <node id="654027536478281345" at="212,9,213,20" concept="5" />
+      <node id="654027536477990010" at="215,60,216,40" concept="5" />
+      <node id="654027536477990010" at="219,37,220,43" concept="4" />
+      <node id="654027536477990010" at="220,43,221,61" concept="4" />
+      <node id="654027536477990010" at="221,61,222,88" concept="4" />
+      <node id="654027536477990010" at="222,88,223,492" concept="5" />
+      <node id="654027536477990010" at="225,7,226,18" concept="5" />
+      <node id="654027536478279146" at="228,73,229,51" concept="5" />
+      <node id="654027536478449711" at="183,227,186,9" concept="2" />
+      <node id="654027536477990010" at="190,0,193,0" concept="3" trace="getMatchingText#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="654027536477990010" at="193,0,196,0" concept="3" trace="getVisibleMatchingText#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="654027536478277621" at="209,53,212,9" concept="2" />
+      <node id="654027536477990010" at="215,0,218,0" concept="3" trace="getVisibleMatchingText#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="654027536478279146" at="228,0,231,0" concept="7" trace="neq_x583g4_a0a0b0a0a0a0c0h#(Ljava/lang/Object;Ljava/lang/Object;)Z" />
+      <node id="654027536477990010" at="205,0,209,0" concept="3" trace="doSubstitute#(Ljetbrains/mps/openapi/editor/EditorContext;Ljava/lang/String;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="654027536477990010" at="209,0,215,0" concept="3" trace="getMatchingText#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="654027536477990010" at="196,0,203,0" concept="3" trace="isEnabled#()Z" />
+      <node id="654027536477990010" at="218,0,225,0" concept="3" trace="isEnabled#()Z" />
+      <node id="654027536477990010" at="181,0,190,0" concept="3" trace="doSubstitute#(Ljetbrains/mps/openapi/editor/EditorContext;Ljava/lang/String;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="654027536477990010" at="203,7,225,7" concept="0" />
+      <node id="654027536477990010" at="203,7,225,7" concept="1" />
+      <node id="654027536477990010" at="179,93,203,7" concept="0" />
+      <node id="654027536477990010" at="179,93,203,7" concept="1" />
+      <node id="654027536477990010" at="178,0,228,0" concept="7" trace="sideTransform_ActionsFactory_Constructor_654027536477990010#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/action/SideTransformActionsBuilderContext;)Ljava/util/List;" />
+      <scope id="654027536478449713" at="184,35,185,370" />
+      <scope id="654027536477990010" at="190,53,191,19" />
+      <scope id="654027536477990010" at="193,60,194,40" />
+      <scope id="654027536478277622" at="210,55,211,25" />
+      <scope id="654027536477990010" at="215,60,216,40" />
+      <scope id="654027536478279146" at="228,73,229,51" />
+      <scope id="654027536478277040" at="205,94,207,242">
         <var name="t" id="654027536478328922" />
       </scope>
-      <scope id="654027536477990010" at="166,0,169,0">
+      <scope id="654027536477990010" at="190,0,193,0">
         <var name="pattern" id="654027536477990010" />
       </scope>
-      <scope id="654027536477990010" at="169,0,172,0">
+      <scope id="654027536477990010" at="193,0,196,0">
         <var name="pattern" id="654027536477990010" />
       </scope>
-      <scope id="654027536477990010" at="191,0,194,0">
+      <scope id="654027536477990010" at="215,0,218,0">
         <var name="pattern" id="654027536477990010" />
       </scope>
-      <scope id="654027536478279146" at="204,0,207,0">
+      <scope id="654027536478279146" at="228,0,231,0">
         <var name="a" id="654027536478279146" />
         <var name="b" id="654027536478279146" />
       </scope>
-      <scope id="654027536477990010" at="173,37,177,492">
+      <scope id="654027536477990010" at="197,37,201,492">
         <var name="containingLink" id="654027536477990010" />
         <var name="parent" id="654027536477990010" />
         <var name="sourceNode" id="654027536477990010" />
       </scope>
-      <scope id="654027536477990010" at="181,0,185,0">
+      <scope id="654027536477990010" at="205,0,209,0">
         <var name="editorContext" id="654027536477990010" />
         <var name="pattern" id="654027536477990010" />
       </scope>
-      <scope id="654027536478277234" at="185,53,189,20" />
-      <scope id="654027536477990010" at="195,37,199,492">
+      <scope id="654027536478277234" at="209,53,213,20" />
+      <scope id="654027536477990010" at="219,37,223,492">
         <var name="containingLink" id="654027536477990010" />
         <var name="parent" id="654027536477990010" />
         <var name="sourceNode" id="654027536477990010" />
       </scope>
-      <scope id="654027536477990010" at="185,0,191,0">
+      <scope id="654027536477990010" at="209,0,215,0">
         <var name="pattern" id="654027536477990010" />
       </scope>
-      <scope id="654027536477990036" at="157,94,164,0">
+      <scope id="654027536477990036" at="181,94,188,0">
         <var name="firstEntry" id="654027536478448784" />
         <var name="newNode" id="654027536478434145" />
       </scope>
-      <scope id="654027536477990010" at="172,0,179,0" />
-      <scope id="654027536477990010" at="194,0,201,0" />
-      <scope id="654027536477990010" at="157,0,166,0">
+      <scope id="654027536477990010" at="196,0,203,0" />
+      <scope id="654027536477990010" at="218,0,225,0" />
+      <scope id="654027536477990010" at="181,0,190,0">
         <var name="editorContext" id="654027536477990010" />
         <var name="pattern" id="654027536477990010" />
       </scope>
-      <scope id="654027536477990010" at="179,7,201,7" />
-      <scope id="654027536477990010" at="155,93,179,7" />
-      <scope id="654027536477990010" at="154,193,202,18">
+      <scope id="654027536477990010" at="203,7,225,7" />
+      <scope id="654027536477990010" at="179,93,203,7" />
+      <scope id="654027536477990010" at="178,193,226,18">
         <var name="result" id="654027536477990010" />
       </scope>
-      <scope id="654027536477990010" at="154,0,204,0">
+      <scope id="654027536477990010" at="178,0,228,0">
         <var name="_context" id="654027536477990010" />
         <var name="operationContext" id="654027536477990010" />
       </scope>
-      <unit id="654027536477990010" at="180,49,201,5" name="HaskellFun.actions.QueriesGenerated$7" />
-      <unit id="654027536477990010" at="156,49,179,5" name="HaskellFun.actions.QueriesGenerated$6" />
+      <unit id="654027536477990010" at="204,49,225,5" name="HaskellFun.actions.QueriesGenerated$8" />
+      <unit id="654027536477990010" at="180,49,203,5" name="HaskellFun.actions.QueriesGenerated$7" />
     </file>
   </root>
   <root nodeRef="r:920d52b9-4691-419e-b14b-b18bb1a47f76(HaskellFun.actions)/654027536478002817">

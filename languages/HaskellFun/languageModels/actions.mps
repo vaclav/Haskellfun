@@ -151,6 +151,7 @@
       </concept>
       <concept id="1138079221458" name="jetbrains.mps.lang.actions.structure.SideTransformHintSubstituteActionsBuilder" flags="ig" index="3UNGvq">
         <property id="1215605257730" name="side" index="7I3sp" />
+        <property id="1140829165817" name="transformTag" index="2uHTBK" />
         <reference id="1138079221462" name="applicableConcept" index="3UNGvu" />
         <child id="1177442283389" name="part" index="_1QTJ" />
         <child id="1154622757656" name="precondition" index="3kShCk" />
@@ -484,6 +485,61 @@
           </node>
           <node concept="2h1dTh" id="$j$Dh92vuw" role="Cn2iK">
             <property role="2h1i$Z" value="where" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3UNGvq" id="$j$Dh98kUV" role="3UOs0v">
+      <property role="2uHTBK" value="ext_1_RTransform" />
+      <ref role="3UNGvu" to="4pym:$j$Dh91Vhd" resolve="AlgebraicDataType" />
+      <node concept="tYCnQ" id="$j$Dh98kUW" role="_1QTJ">
+        <ref role="uz4UX" to="4pym:$j$Dh91Vhd" resolve="AlgebraicDataType" />
+        <node concept="Cmt7Y" id="$j$Dh98kUX" role="uz6Si">
+          <node concept="Cnhdc" id="$j$Dh98kUY" role="Cncma">
+            <node concept="3clFbS" id="$j$Dh98kUZ" role="2VODD2">
+              <node concept="3cpWs8" id="$j$Dh98l_z" role="3cqZAp">
+                <node concept="3cpWsn" id="$j$Dh98l_$" role="3cpWs9">
+                  <property role="TrG5h" value="var" />
+                  <node concept="3Tqbb2" id="$j$Dh98l_x" role="1tU5fm">
+                    <ref role="ehGHo" to="4pym:$j$Dh921dm" resolve="TypeVariable" />
+                  </node>
+                  <node concept="2OqwBi" id="$j$Dh98l__" role="33vP2m">
+                    <node concept="2OqwBi" id="$j$Dh98l_A" role="2Oq$k0">
+                      <node concept="Cj7Ep" id="$j$Dh98l_B" role="2Oq$k0" />
+                      <node concept="3Tsc0h" id="$j$Dh98l_C" role="2OqNvi">
+                        <ref role="3TtcxE" to="4pym:$j$Dh921di" />
+                      </node>
+                    </node>
+                    <node concept="2DeJg1" id="$j$Dh98l_D" role="2OqNvi" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="$j$Dh98kV0" role="3cqZAp">
+                <node concept="37vLTI" id="$j$Dh98mpS" role="3clFbG">
+                  <node concept="ub8z3" id="$j$Dh98mua" role="37vLTx" />
+                  <node concept="2OqwBi" id="$j$Dh98lFX" role="37vLTJ">
+                    <node concept="37vLTw" id="$j$Dh98l_E" role="2Oq$k0">
+                      <ref role="3cqZAo" node="$j$Dh98l_$" resolve="var" />
+                    </node>
+                    <node concept="3TrcHB" id="$j$Dh98lSq" role="2OqNvi">
+                      <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="$j$Dh98mCO" role="3cqZAp">
+                <node concept="37vLTw" id="$j$Dh98mCM" role="3clFbG">
+                  <ref role="3cqZAo" node="$j$Dh98l_$" resolve="var" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="CmF0q" id="$j$Dh98w0c" role="Cn2iK">
+            <node concept="3clFbS" id="$j$Dh98w0d" role="2VODD2">
+              <node concept="3clFbF" id="$j$Dh98w8e" role="3cqZAp">
+                <node concept="ub8z3" id="$j$Dh98w8d" role="3clFbG" />
+              </node>
+            </node>
           </node>
         </node>
       </node>

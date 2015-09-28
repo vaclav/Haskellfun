@@ -56,6 +56,10 @@
       <concept id="654027536477435677" name="HaskellFun.structure.ConstructorRecord" flags="ng" index="1072m9">
         <child id="654027536477955454" name="entries" index="1013vE" />
       </concept>
+      <concept id="654027536478709469" name="HaskellFun.structure.ConstructorCall" flags="ig" index="10cbh9">
+        <reference id="654027536478709512" name="constructor" index="10cbms" />
+        <child id="654027536478736210" name="typeParameters" index="10c1R6" />
+      </concept>
       <concept id="2925734019484094709" name="HaskellFun.structure.Import" flags="ng" index="32e_Hz">
         <reference id="2925734019484095784" name="module" index="32e_UY" />
       </concept>
@@ -81,20 +85,34 @@
         <property role="TrG5h" value="True" />
       </node>
     </node>
+    <node concept="lOsT$" id="$j$Dh98DtF" role="lOAmu" />
+    <node concept="1052rp" id="$j$Dh98Mlz" role="lOAmu">
+      <property role="TrG5h" value="Point" />
+      <node concept="106S6S" id="$j$Dh98Ml$" role="106S6V">
+        <property role="TrG5h" value="Point" />
+        <node concept="3uibUv" id="$j$Dh98MnK" role="1072nj">
+          <ref role="3uigEE" to="e2lb:~Integer" resolve="Integer" />
+        </node>
+        <node concept="3uibUv" id="$j$Dh98Mm$" role="1072nj">
+          <ref role="3uigEE" to="e2lb:~Integer" resolve="Integer" />
+        </node>
+      </node>
+    </node>
+    <node concept="lOsT$" id="$j$Dh98MnZ" role="lOAmu" />
     <node concept="1052rp" id="$j$Dh93Vpk" role="lOAmu">
       <property role="TrG5h" value="Shape" />
       <node concept="1072m9" id="$j$Dh97CG3" role="106S6V">
         <property role="TrG5h" value="Circle" />
         <node concept="10136Z" id="$j$Dh97CG7" role="1013vE">
-          <property role="TrG5h" value="x" />
-          <node concept="3uibUv" id="$j$Dh97CGx" role="10137n">
-            <ref role="3uigEE" to="e2lb:~Integer" resolve="Integer" />
-          </node>
-        </node>
-        <node concept="10136Z" id="$j$Dh97CG9" role="1013vE">
-          <property role="TrG5h" value="y" />
-          <node concept="3uibUv" id="$j$Dh97CG6" role="10137n">
-            <ref role="3uigEE" to="e2lb:~Integer" resolve="Integer" />
+          <property role="TrG5h" value="center" />
+          <node concept="10cbh9" id="$j$Dh99V34" role="10137n">
+            <ref role="10cbms" node="$j$Dh98Ml$" resolve="Point" />
+            <node concept="3cmrfG" id="$j$Dh99V4i" role="10c1R6">
+              <property role="3cmrfH" value="10" />
+            </node>
+            <node concept="3cmrfG" id="$j$Dh99V4q" role="10c1R6">
+              <property role="3cmrfH" value="20" />
+            </node>
           </node>
         </node>
         <node concept="10136Z" id="$j$Dh97CGE" role="1013vE">
@@ -112,22 +130,26 @@
       </node>
       <node concept="106S6S" id="$j$Dh93VpP" role="106S6V">
         <property role="TrG5h" value="Rectangle" />
+        <node concept="3uibUv" id="$j$Dh98Du$" role="1072nj">
+          <ref role="3uigEE" to="e2lb:~Integer" resolve="Integer" />
+        </node>
+        <node concept="3uibUv" id="$j$Dh98DuM" role="1072nj">
+          <ref role="3uigEE" to="e2lb:~Integer" resolve="Integer" />
+        </node>
+        <node concept="3uibUv" id="$j$Dh98Dv1" role="1072nj">
+          <ref role="3uigEE" to="e2lb:~Integer" resolve="Integer" />
+        </node>
+        <node concept="3uibUv" id="$j$Dh98Dvj" role="1072nj">
+          <ref role="3uigEE" to="e2lb:~Integer" resolve="Integer" />
+        </node>
       </node>
       <node concept="106S6S" id="$j$Dh93VrB" role="106S6V">
         <property role="TrG5h" value="Triangle" />
       </node>
-      <node concept="106S6S" id="$j$Dh9720P" role="106S6V">
-        <property role="TrG5h" value="Foo" />
-        <node concept="3uibUv" id="$j$Dh9720S" role="1072nj">
-          <ref role="3uigEE" to="e2lb:~Double" resolve="Double" />
-        </node>
-        <node concept="3uibUv" id="$j$Dh9720U" role="1072nj">
-          <ref role="3uigEE" to="e2lb:~Float" resolve="Float" />
-        </node>
-        <node concept="3uibUv" id="$j$Dh9720W" role="1072nj">
-          <ref role="3uigEE" to="e2lb:~Integer" resolve="Integer" />
-        </node>
-      </node>
+    </node>
+    <node concept="lOsT$" id="$j$Dh98DsR" role="lOAmu" />
+    <node concept="1052rp" id="$j$Dh98Dpv" role="lOAmu">
+      <property role="TrG5h" value="Baz" />
       <node concept="1072m9" id="$j$Dh97sRO" role="106S6V">
         <property role="TrG5h" value="Bar" />
         <node concept="10136Z" id="$j$Dh97sRR" role="1013vE">
@@ -143,8 +165,20 @@
           </node>
         </node>
       </node>
+      <node concept="106S6S" id="$j$Dh9720P" role="106S6V">
+        <property role="TrG5h" value="Foo" />
+        <node concept="3uibUv" id="$j$Dh9720S" role="1072nj">
+          <ref role="3uigEE" to="e2lb:~Double" resolve="Double" />
+        </node>
+        <node concept="3uibUv" id="$j$Dh9720U" role="1072nj">
+          <ref role="3uigEE" to="e2lb:~Float" resolve="Float" />
+        </node>
+        <node concept="3uibUv" id="$j$Dh9720W" role="1072nj">
+          <ref role="3uigEE" to="e2lb:~Integer" resolve="Integer" />
+        </node>
+      </node>
     </node>
-    <node concept="lOsT$" id="$j$Dh93Vqy" role="lOAmu" />
+    <node concept="lOsT$" id="$j$Dh98Ds4" role="lOAmu" />
     <node concept="lOAnL" id="39gh9oBystE" role="lOAmu">
       <property role="TrG5h" value="greeting" />
       <node concept="Xl_RD" id="39gh9oBystO" role="lODR3">

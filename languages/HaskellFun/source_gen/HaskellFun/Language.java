@@ -11,6 +11,7 @@ import jetbrains.mps.generator.runtime.TemplateUtil;
 import jetbrains.mps.smodel.runtime.LanguageAspectDescriptor;
 import jetbrains.mps.openapi.actions.descriptor.ActionAspectDescriptor;
 import HaskellFun.actions.ActionAspectDescriptorImpl;
+import jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor;
 import jetbrains.mps.smodel.runtime.ConstraintsAspectDescriptor;
 import jetbrains.mps.openapi.editor.descriptor.EditorAspectDescriptor;
 import HaskellFun.editor.EditorAspectDescriptorImpl;
@@ -47,6 +48,9 @@ public class Language extends LanguageRuntime {
   protected <T extends LanguageAspectDescriptor> T createAspectDescriptor(Class<T> descriptorClass) {
     if (descriptorClass == ActionAspectDescriptor.class) {
       return (T) new ActionAspectDescriptorImpl();
+    }
+    if (descriptorClass == BehaviorAspectDescriptor.class) {
+      return (T) new HaskellFun.behavior.BehaviorAspectDescriptor();
     }
     if (descriptorClass == ConstraintsAspectDescriptor.class) {
       return (T) new HaskellFun.constraints.ConstraintsAspectDescriptor();

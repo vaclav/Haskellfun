@@ -259,5 +259,22 @@
       <ref role="PrY4T" to="tpee:hCUYCKd" resolve="IValidIdentifier" />
     </node>
   </node>
+  <node concept="1TIwiD" id="$j$Dh98Mrt">
+    <property role="3GE5qa" value="algebraicDataType" />
+    <property role="TrG5h" value="ConstructorCall" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1H" resolve="Type" />
+    <node concept="1TJgyj" id="$j$Dh98SXi" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="typeParameters" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="$j$Dh98Ms8" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="constructor" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="$j$Dh95Uch" resolve="AbstractConstructor" />
+    </node>
+  </node>
 </model>
 

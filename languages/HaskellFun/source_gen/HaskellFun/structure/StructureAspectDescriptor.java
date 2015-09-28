@@ -15,6 +15,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptAbstractConstructor = new ConceptDescriptorBuilder("HaskellFun.structure.AbstractConstructor", MetaIdFactory.conceptId(0x70eb8650b1874f45L, 0x995803d27f5d94baL, 0x91392944917a311L)).super_("jetbrains.mps.lang.core.structure.BaseConcept").super_(MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL)).parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.baseLanguage.structure.IValidIdentifier").parentIds(MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL), MetaIdFactory.conceptId(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x11a3afa8c0dL)).abstract_().create();
   /*package*/ final ConceptDescriptor myConceptAlgebraicDataType = new ConceptDescriptorBuilder("HaskellFun.structure.AlgebraicDataType", MetaIdFactory.conceptId(0x70eb8650b1874f45L, 0x995803d27f5d94baL, 0x91392944907b44dL)).super_("HaskellFun.structure.Form").super_(MetaIdFactory.conceptId(0x70eb8650b1874f45L, 0x995803d27f5d94baL, 0x3250449627818aecL)).parents("HaskellFun.structure.Form", "jetbrains.mps.baseLanguage.structure.IValidIdentifier").parentIds(MetaIdFactory.conceptId(0x70eb8650b1874f45L, 0x995803d27f5d94baL, 0x3250449627818aecL), MetaIdFactory.conceptId(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x11a3afa8c0dL)).propertyDescriptors(new ConceptDescriptorBuilder.Prop(654027536477261946L, "isAbstract")).properties("isAbstract").childDescriptors(new ConceptDescriptorBuilder.Link(654027536476934994L, "typeVars", MetaIdFactory.conceptId(0x70eb8650b1874f45L, 0x995803d27f5d94baL, 0x913929449081356L), true, true, false), new ConceptDescriptorBuilder.Link(654027536476934959L, "constructore", MetaIdFactory.conceptId(0x70eb8650b1874f45L, 0x995803d27f5d94baL, 0x91392944917a311L), false, true, false), new ConceptDescriptorBuilder.Link(654027536476934991L, "declarations", MetaIdFactory.conceptId(0x70eb8650b1874f45L, 0x995803d27f5d94baL, 0x3250449627822167L), true, true, false)).children(new String[]{"typeVars", "constructore", "declarations"}, new boolean[]{true, true, true}).alias("data", "").create();
   /*package*/ final ConceptDescriptor myConceptConstructor = new ConceptDescriptorBuilder("HaskellFun.structure.Constructor", MetaIdFactory.conceptId(0x70eb8650b1874f45L, 0x995803d27f5d94baL, 0x91392944908132cL)).super_("HaskellFun.structure.AbstractConstructor").super_(MetaIdFactory.conceptId(0x70eb8650b1874f45L, 0x995803d27f5d94baL, 0x91392944917a311L)).parents("HaskellFun.structure.AbstractConstructor").parentIds(MetaIdFactory.conceptId(0x70eb8650b1874f45L, 0x995803d27f5d94baL, 0x91392944917a311L)).childDescriptors(new ConceptDescriptorBuilder.Link(654027536477435719L, "types", MetaIdFactory.conceptId(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506dL), true, true, false)).children(new String[]{"types"}, new boolean[]{true}).alias("constructor", "").create();
+  /*package*/ final ConceptDescriptor myConceptConstructorCall = new ConceptDescriptorBuilder("HaskellFun.structure.ConstructorCall", MetaIdFactory.conceptId(0x70eb8650b1874f45L, 0x995803d27f5d94baL, 0x9139294492326ddL)).super_("jetbrains.mps.baseLanguage.structure.Type").super_(MetaIdFactory.conceptId(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506dL)).parents("jetbrains.mps.baseLanguage.structure.Type").parentIds(MetaIdFactory.conceptId(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506dL)).referenceDescriptors(new ConceptDescriptorBuilder.Ref(654027536478709512L, "constructor", MetaIdFactory.conceptId(0x70eb8650b1874f45L, 0x995803d27f5d94baL, 0x91392944917a311L), false)).references("constructor").childDescriptors(new ConceptDescriptorBuilder.Link(654027536478736210L, "typeParameters", MetaIdFactory.conceptId(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL), true, true, false)).children(new String[]{"typeParameters"}, new boolean[]{true}).create();
   /*package*/ final ConceptDescriptor myConceptConstructorRecord = new ConceptDescriptorBuilder("HaskellFun.structure.ConstructorRecord", MetaIdFactory.conceptId(0x70eb8650b1874f45L, 0x995803d27f5d94baL, 0x9139294490fb71dL)).super_("HaskellFun.structure.AbstractConstructor").super_(MetaIdFactory.conceptId(0x70eb8650b1874f45L, 0x995803d27f5d94baL, 0x91392944917a311L)).parents("HaskellFun.structure.AbstractConstructor").parentIds(MetaIdFactory.conceptId(0x70eb8650b1874f45L, 0x995803d27f5d94baL, 0x91392944917a311L)).childDescriptors(new ConceptDescriptorBuilder.Link(654027536477955454L, "entries", MetaIdFactory.conceptId(0x70eb8650b1874f45L, 0x995803d27f5d94baL, 0x91392944917a32bL), true, true, false)).children(new String[]{"entries"}, new boolean[]{true}).alias("constructor with record syntax", "").create();
   /*package*/ final ConceptDescriptor myConceptDeclaration = new ConceptDescriptorBuilder("HaskellFun.structure.Declaration", MetaIdFactory.conceptId(0x70eb8650b1874f45L, 0x995803d27f5d94baL, 0x3250449627822167L)).super_("HaskellFun.structure.Form").super_(MetaIdFactory.conceptId(0x70eb8650b1874f45L, 0x995803d27f5d94baL, 0x3250449627818aecL)).parents("HaskellFun.structure.Form", "jetbrains.mps.baseLanguage.structure.IValidIdentifier").parentIds(MetaIdFactory.conceptId(0x70eb8650b1874f45L, 0x995803d27f5d94baL, 0x3250449627818aecL), MetaIdFactory.conceptId(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x11a3afa8c0dL)).childDescriptors(new ConceptDescriptorBuilder.Link(3625473111732412761L, "parameters", MetaIdFactory.conceptId(0x70eb8650b1874f45L, 0x995803d27f5d94baL, 0x32504496278a5a5dL), true, true, false), new ConceptDescriptorBuilder.Link(3625473111731919189L, "value", MetaIdFactory.conceptId(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL), false, false, false)).children(new String[]{"parameters", "value"}, new boolean[]{true, false}).alias("definition", "").create();
   /*package*/ final ConceptDescriptor myConceptDeclarationParameter = new ConceptDescriptorBuilder("HaskellFun.structure.DeclarationParameter", MetaIdFactory.conceptId(0x70eb8650b1874f45L, 0x995803d27f5d94baL, 0x32504496278a5a5dL)).super_("jetbrains.mps.lang.core.structure.BaseConcept").super_(MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL)).parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.baseLanguage.structure.IValidIdentifier").parentIds(MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL), MetaIdFactory.conceptId(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x11a3afa8c0dL)).create();
@@ -31,13 +32,13 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptAbstractConstructor, myConceptAlgebraicDataType, myConceptConstructor, myConceptConstructorRecord, myConceptDeclaration, myConceptDeclarationParameter, myConceptDeclarationReference, myConceptDoExpression, myConceptEmptyLine, myConceptForm, myConceptHaskellExpression, myConceptHaskellModule, myConceptImport, myConceptPrintln, myConceptRecordEntry, myConceptTypeVariable);
+    return Arrays.asList(myConceptAbstractConstructor, myConceptAlgebraicDataType, myConceptConstructor, myConceptConstructorCall, myConceptConstructorRecord, myConceptDeclaration, myConceptDeclarationParameter, myConceptDeclarationReference, myConceptDoExpression, myConceptEmptyLine, myConceptForm, myConceptHaskellExpression, myConceptHaskellModule, myConceptImport, myConceptPrintln, myConceptRecordEntry, myConceptTypeVariable);
   }
 
   @Override
   @Nullable
   public ConceptDescriptor getDescriptor(String conceptFqName) {
-    switch (Arrays.binarySearch(stringSwitchCases_1htk8d_a0a0u, conceptFqName)) {
+    switch (Arrays.binarySearch(stringSwitchCases_1htk8d_a0a0v, conceptFqName)) {
       case 0:
         return myConceptAbstractConstructor;
       case 1:
@@ -45,34 +46,36 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
       case 2:
         return myConceptConstructor;
       case 3:
-        return myConceptConstructorRecord;
+        return myConceptConstructorCall;
       case 4:
-        return myConceptDeclaration;
+        return myConceptConstructorRecord;
       case 5:
-        return myConceptDeclarationParameter;
+        return myConceptDeclaration;
       case 6:
-        return myConceptDeclarationReference;
+        return myConceptDeclarationParameter;
       case 7:
-        return myConceptDoExpression;
+        return myConceptDeclarationReference;
       case 8:
-        return myConceptEmptyLine;
+        return myConceptDoExpression;
       case 9:
-        return myConceptForm;
+        return myConceptEmptyLine;
       case 10:
-        return myConceptHaskellExpression;
+        return myConceptForm;
       case 11:
-        return myConceptHaskellModule;
+        return myConceptHaskellExpression;
       case 12:
-        return myConceptImport;
+        return myConceptHaskellModule;
       case 13:
-        return myConceptPrintln;
+        return myConceptImport;
       case 14:
-        return myConceptRecordEntry;
+        return myConceptPrintln;
       case 15:
+        return myConceptRecordEntry;
+      case 16:
         return myConceptTypeVariable;
       default:
         return null;
     }
   }
-  private static String[] stringSwitchCases_1htk8d_a0a0u = new String[]{"HaskellFun.structure.AbstractConstructor", "HaskellFun.structure.AlgebraicDataType", "HaskellFun.structure.Constructor", "HaskellFun.structure.ConstructorRecord", "HaskellFun.structure.Declaration", "HaskellFun.structure.DeclarationParameter", "HaskellFun.structure.DeclarationReference", "HaskellFun.structure.DoExpression", "HaskellFun.structure.EmptyLine", "HaskellFun.structure.Form", "HaskellFun.structure.HaskellExpression", "HaskellFun.structure.HaskellModule", "HaskellFun.structure.Import", "HaskellFun.structure.Println", "HaskellFun.structure.RecordEntry", "HaskellFun.structure.TypeVariable"};
+  private static String[] stringSwitchCases_1htk8d_a0a0v = new String[]{"HaskellFun.structure.AbstractConstructor", "HaskellFun.structure.AlgebraicDataType", "HaskellFun.structure.Constructor", "HaskellFun.structure.ConstructorCall", "HaskellFun.structure.ConstructorRecord", "HaskellFun.structure.Declaration", "HaskellFun.structure.DeclarationParameter", "HaskellFun.structure.DeclarationReference", "HaskellFun.structure.DoExpression", "HaskellFun.structure.EmptyLine", "HaskellFun.structure.Form", "HaskellFun.structure.HaskellExpression", "HaskellFun.structure.HaskellModule", "HaskellFun.structure.Import", "HaskellFun.structure.Println", "HaskellFun.structure.RecordEntry", "HaskellFun.structure.TypeVariable"};
 }

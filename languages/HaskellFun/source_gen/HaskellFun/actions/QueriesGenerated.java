@@ -151,6 +151,30 @@ public class QueriesGenerated {
     });
     return result;
   }
+  public static List<SubstituteAction> sideTransform_ActionsFactory_AlgebraicDataType_654027536478588603(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
+    List<SubstituteAction> result = ListSequence.fromList(new ArrayList<SubstituteAction>());
+    ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(MetaAdapterFactory.getConcept(0x70eb8650b1874f45L, 0x995803d27f5d94baL, 0x91392944907b44dL, "HaskellFun.structure.AlgebraicDataType").getDeclarationNode(), _context.getSourceNode()) {
+      public SNode doSubstitute(@Nullable final EditorContext editorContext, String pattern) {
+        SNode var = SNodeFactoryOperations.addNewChild(_context.getSourceNode(), MetaAdapterFactory.getContainmentLink(0x70eb8650b1874f45L, 0x995803d27f5d94baL, 0x91392944907b44dL, 0x913929449081352L, "typeVars"), SNodeFactoryOperations.asInstanceConcept(MetaAdapterFactory.getConcept(0x70eb8650b1874f45L, 0x995803d27f5d94baL, 0x913929449081356L, "HaskellFun.structure.TypeVariable")));
+        SPropertyOperations.set(var, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), pattern);
+        return var;
+      }
+      public String getMatchingText(String pattern) {
+        return pattern;
+      }
+      public String getVisibleMatchingText(String pattern) {
+        return getMatchingText(pattern);
+      }
+      @Override
+      protected boolean isEnabled() {
+        SNode sourceNode = getSourceNode();
+        SNode parent = SNodeOperations.getParent(sourceNode);
+        SNode containingLink = SNodeOperations.getContainingLinkDeclaration(sourceNode);
+        return parent == null || containingLink == null || (ModelConstraints.canBeParent(parent, MetaAdapterFactory.getConcept(0x70eb8650b1874f45L, 0x995803d27f5d94baL, 0x91392944907b44dL, "HaskellFun.structure.AlgebraicDataType").getDeclarationNode(), containingLink, null, null) && ModelConstraints.canBeAncestor(parent, null, MetaAdapterFactory.getConcept(0x70eb8650b1874f45L, 0x995803d27f5d94baL, 0x91392944907b44dL, "HaskellFun.structure.AlgebraicDataType").getDeclarationNode(), null));
+      }
+    });
+    return result;
+  }
   public static List<SubstituteAction> sideTransform_ActionsFactory_Constructor_654027536477990010(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
     List<SubstituteAction> result = ListSequence.fromList(new ArrayList<SubstituteAction>());
     ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(MetaAdapterFactory.getConcept(0x70eb8650b1874f45L, 0x995803d27f5d94baL, 0x9139294490fb71dL, "HaskellFun.structure.ConstructorRecord").getDeclarationNode(), _context.getSourceNode()) {
@@ -183,7 +207,7 @@ public class QueriesGenerated {
         return ListSequence.fromList(SLinkOperations.getChildren(_context.getSourceNode(), MetaAdapterFactory.getContainmentLink(0x70eb8650b1874f45L, 0x995803d27f5d94baL, 0x91392944908132cL, 0x9139294490fb747L, "types"))).insertElement(0, t);
       }
       public String getMatchingText(String pattern) {
-        if (neq_x583g4_a0a0b0a0a0a0c0g(pattern, "{")) {
+        if (neq_x583g4_a0a0b0a0a0a0c0h(pattern, "{")) {
           return pattern;
         }
         return null;
@@ -201,7 +225,7 @@ public class QueriesGenerated {
     });
     return result;
   }
-  private static boolean neq_x583g4_a0a0b0a0a0a0c0g(Object a, Object b) {
+  private static boolean neq_x583g4_a0a0b0a0a0a0c0h(Object a, Object b) {
     return !(((a != null ? a.equals(b) : a == b)));
   }
 }

@@ -2,6 +2,7 @@
 <dependenciesRoot>
   <dependency className="HaskellFun.Language" file="Language.java">
     <classNode dependClassName="HaskellFun.actions.ActionAspectDescriptorImpl" />
+    <classNode dependClassName="HaskellFun.behavior.BehaviorAspectDescriptor" />
     <classNode dependClassName="HaskellFun.constraints.ConstraintsAspectDescriptor" />
     <classNode dependClassName="HaskellFun.editor.EditorAspectDescriptorImpl" />
     <classNode dependClassName="HaskellFun.structure.StructureAspectDescriptor" />
@@ -15,6 +16,7 @@
     <classNode dependClassName="jetbrains.mps.openapi.actions.descriptor.ActionAspectDescriptor" />
     <classNode dependClassName="jetbrains.mps.openapi.editor.descriptor.EditorAspectDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.adapter.ids.SLanguageId" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.ConstraintsAspectDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.LanguageAspectDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.StructureAspectDescriptor" />

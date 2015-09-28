@@ -12,7 +12,14 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
+import jetbrains.mps.openapi.editor.style.Style;
+import jetbrains.mps.editor.runtime.style.StyleImpl;
+import jetbrains.mps.editor.runtime.style.StyleAttributes;
+import jetbrains.mps.nodeEditor.cellMenu.CompositeSubstituteInfo;
+import jetbrains.mps.nodeEditor.cellMenu.SubstituteInfoPartExt;
 import jetbrains.mps.nodeEditor.EditorManager;
+import jetbrains.mps.lang.editor.generator.internal.AbstractCellMenuPart_ApplySideTransforms;
+import jetbrains.mps.nodeEditor.CellSide;
 import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
@@ -21,19 +28,12 @@ import jetbrains.mps.openapi.editor.cells.CellActionType;
 import jetbrains.mps.nodeEditor.cellActions.CellAction_DeleteNode;
 import jetbrains.mps.openapi.editor.cells.DefaultSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandlerElementKeyMap;
-import jetbrains.mps.openapi.editor.style.Style;
-import jetbrains.mps.editor.runtime.style.StyleImpl;
-import jetbrains.mps.editor.runtime.style.StyleAttributes;
-import jetbrains.mps.nodeEditor.cellMenu.CompositeSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.BasicCellContext;
-import jetbrains.mps.nodeEditor.cellMenu.SubstituteInfoPartExt;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.lang.editor.generator.internal.AbstractCellMenuPart_ApplySideTransforms;
-import jetbrains.mps.nodeEditor.CellSide;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Vertical;
 
 public class AlgebraicDataType_Editor extends DefaultNodeEditor {
@@ -49,7 +49,9 @@ public class AlgebraicDataType_Editor extends DefaultNodeEditor {
     }
     editorCell.addEditorCell(this.createConstant_5p42xf_b0(editorContext, node));
     editorCell.addEditorCell(this.createProperty_5p42xf_c0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNodeList_5p42xf_d0(editorContext, node));
+    if (renderingCondition_5p42xf_a3a(node, editorContext)) {
+      editorCell.addEditorCell(this.createRefNodeList_5p42xf_d0(editorContext, node));
+    }
     editorCell.addEditorCell(this.createConstant_5p42xf_e0(editorContext, node));
     editorCell.addEditorCell(this.createRefNodeList_5p42xf_f0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_5p42xf_g0(editorContext, node));
@@ -84,7 +86,10 @@ public class AlgebraicDataType_Editor extends DefaultNodeEditor {
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_name");
-    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.RT_ANCHOR_TAG, 0, "ext_1_RTransform");
+    editorCell.getStyle().putAll(style);
+    editorCell.setSubstituteInfo(new CompositeSubstituteInfo(editorContext, provider.getCellContext(), new SubstituteInfoPartExt[]{new AlgebraicDataType_Editor.ApplySideTransforms_null_cellMenu_5p42xf_a0c0()}));
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
@@ -92,6 +97,11 @@ public class AlgebraicDataType_Editor extends DefaultNodeEditor {
       return manager.createNodeRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
     } else
     return editorCell;
+  }
+  public static class ApplySideTransforms_null_cellMenu_5p42xf_a0c0 extends AbstractCellMenuPart_ApplySideTransforms {
+    public ApplySideTransforms_null_cellMenu_5p42xf_a0c0() {
+      super(CellSide.RIGHT, "ext_1_RTransform");
+    }
   }
   private EditorCell createRefNodeList_5p42xf_d0(EditorContext editorContext, SNode node) {
     AbstractCellListHandler handler = new AlgebraicDataType_Editor.typeVarsListHandler_5p42xf_d0(node, "typeVars", editorContext);
@@ -131,6 +141,9 @@ public class AlgebraicDataType_Editor extends DefaultNodeEditor {
         }
       }
     }
+  }
+  private static boolean renderingCondition_5p42xf_a3a(SNode node, EditorContext editorContext) {
+    return ListSequence.fromList(SLinkOperations.getChildren(node, MetaAdapterFactory.getContainmentLink(0x70eb8650b1874f45L, 0x995803d27f5d94baL, 0x91392944907b44dL, 0x913929449081352L, "typeVars"))).isNotEmpty();
   }
   private EditorCell createConstant_5p42xf_e0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "=");
