@@ -1073,7 +1073,7 @@
       <node id="654027536476956468" at="114,0,117,0" concept="1" trace="typeVarsListHandler_5p42xf_d0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="654027536476956468" at="138,9,141,9" concept="4" />
       <node id="654027536478564381" at="145,0,148,0" concept="8" trace="renderingCondition_5p42xf_a3a#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
-      <node id="654027536476956468" at="162,0,165,0" concept="1" trace="constructoreListHandler_5p42xf_f0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <node id="654027536476956468" at="162,0,165,0" concept="1" trace="constructorsListHandler_5p42xf_f0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="654027536476956468" at="169,0,172,0" concept="5" trace="nodeFactory#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="654027536476956468" at="190,9,193,9" concept="4" />
       <node id="654027536477169471" at="221,0,224,0" concept="8" trace="_StyleParameter_QueryFunction_5p42xf_a1g0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
@@ -1365,7 +1365,7 @@
       <unit id="654027536477124578" at="224,0,229,0" name="HaskellFun.editor.AlgebraicDataType_Editor$ApplySideTransforms_null_cellMenu_5p42xf_a0g0" />
       <unit id="654027536476956468" at="113,0,145,0" name="HaskellFun.editor.AlgebraicDataType_Editor$typeVarsListHandler_5p42xf_d0" />
       <unit id="654027536476956468" at="251,0,283,0" name="HaskellFun.editor.AlgebraicDataType_Editor$declarationsListHandler_5p42xf_i0" />
-      <unit id="654027536476956468" at="161,0,209,0" name="HaskellFun.editor.AlgebraicDataType_Editor$constructoreListHandler_5p42xf_f0" />
+      <unit id="654027536476956468" at="161,0,209,0" name="HaskellFun.editor.AlgebraicDataType_Editor$constructorsListHandler_5p42xf_f0" />
       <unit id="654027536476956468" at="39,0,287,0" name="HaskellFun.editor.AlgebraicDataType_Editor" />
     </file>
   </root>

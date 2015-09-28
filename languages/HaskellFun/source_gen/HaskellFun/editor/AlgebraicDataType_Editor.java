@@ -152,14 +152,14 @@ public class AlgebraicDataType_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private EditorCell createRefNodeList_5p42xf_f0(EditorContext editorContext, SNode node) {
-    AbstractCellListHandler handler = new AlgebraicDataType_Editor.constructoreListHandler_5p42xf_f0(node, "constructore", editorContext);
+    AbstractCellListHandler handler = new AlgebraicDataType_Editor.constructorsListHandler_5p42xf_f0(node, "constructors", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Indent(), false);
-    editorCell.setCellId("refNodeList_constructore");
+    editorCell.setCellId("refNodeList_constructors");
     editorCell.setRole(handler.getElementRole());
     return editorCell;
   }
-  private static class constructoreListHandler_5p42xf_f0 extends RefNodeListHandler {
-    public constructoreListHandler_5p42xf_f0(SNode ownerNode, String childRole, EditorContext context) {
+  private static class constructorsListHandler_5p42xf_f0 extends RefNodeListHandler {
+    public constructorsListHandler_5p42xf_f0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
     public SNode createNodeToInsert(EditorContext editorContext) {
