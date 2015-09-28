@@ -7,39 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82d2034e-ef27-461b-8855-3b4269c8fa16" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/HaskellFun/source_gen/HaskellFun/constraints/ConstraintsAspectDescriptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/HaskellFun/source_gen/HaskellFun/behavior/Import_BehaviorDescriptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/HaskellFun/source_gen/HaskellFun/constraints/Import_Constraints.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/HaskellFun/source_gen/HaskellFun/editor/Import_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/HaskellFun/sandbox/source_gen/HaskellFun/sandbox/TryImport.fr" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HaskellFun/classes_gen/HaskellFun/editor/HaskellModule_Editor.class" afterPath="$PROJECT_DIR$/languages/HaskellFun/classes_gen/HaskellFun/editor/HaskellModule_Editor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HaskellFun/classes_gen/HaskellFun/Language.class" afterPath="$PROJECT_DIR$/languages/HaskellFun/classes_gen/HaskellFun/Language.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HaskellFun/source_gen/HaskellFun/behavior/BehaviorAspectDescriptor.java" afterPath="$PROJECT_DIR$/languages/HaskellFun/source_gen/HaskellFun/behavior/BehaviorAspectDescriptor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HaskellFun/source_gen/HaskellFun/editor/EditorAspectDescriptorImpl.java" afterPath="$PROJECT_DIR$/languages/HaskellFun/source_gen/HaskellFun/editor/EditorAspectDescriptorImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HaskellFun/source_gen/HaskellFun/Language.java" afterPath="$PROJECT_DIR$/languages/HaskellFun/source_gen/HaskellFun/Language.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HaskellFun/source_gen/HaskellFun/structure/StructureAspectDescriptor.java" afterPath="$PROJECT_DIR$/languages/HaskellFun/source_gen/HaskellFun/structure/StructureAspectDescriptor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HaskellFun/languageModels/constraints.mps" afterPath="$PROJECT_DIR$/languages/HaskellFun/languageModels/constraints.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HaskellFun/source_gen.caches/HaskellFun/dependencies" afterPath="$PROJECT_DIR$/languages/HaskellFun/source_gen.caches/HaskellFun/dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HaskellFun/source_gen.caches/HaskellFun/behavior/dependencies" afterPath="$PROJECT_DIR$/languages/HaskellFun/source_gen.caches/HaskellFun/behavior/dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HaskellFun/source_gen.caches/HaskellFun/constraints/dependencies" afterPath="$PROJECT_DIR$/languages/HaskellFun/source_gen.caches/HaskellFun/constraints/dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HaskellFun/source_gen.caches/HaskellFun/editor/dependencies" afterPath="$PROJECT_DIR$/languages/HaskellFun/source_gen.caches/HaskellFun/editor/dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HaskellFun/languageModels/editor.mps" afterPath="$PROJECT_DIR$/languages/HaskellFun/languageModels/editor.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HaskellFun/source_gen.caches/HaskellFun/generated" afterPath="$PROJECT_DIR$/languages/HaskellFun/source_gen.caches/HaskellFun/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HaskellFun/source_gen.caches/HaskellFun/constraints/generated" afterPath="$PROJECT_DIR$/languages/HaskellFun/source_gen.caches/HaskellFun/constraints/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HaskellFun/source_gen.caches/HaskellFun/editor/generated" afterPath="$PROJECT_DIR$/languages/HaskellFun/source_gen.caches/HaskellFun/editor/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HaskellFun/source_gen.caches/HaskellFun/structure/generated" afterPath="$PROJECT_DIR$/languages/HaskellFun/source_gen.caches/HaskellFun/structure/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HaskellFun/sandbox/models/HaskellFun/sandbox.mps" afterPath="$PROJECT_DIR$/languages/HaskellFun/sandbox/models/HaskellFun/sandbox.mps" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/HaskellFun/source_gen.caches/HaskellFun/actions/generated" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/HaskellFun/source_gen.caches/HaskellFun/behavior/generated" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/HaskellFun/source_gen.caches/HaskellFun/constraints/generated" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/HaskellFun/source_gen.caches/HaskellFun/editor/generated" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/HaskellFun/source_gen.caches/HaskellFun/generated" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/HaskellFun/source_gen.caches/HaskellFun/structure/generated" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/HaskellFun/source_gen.caches/HaskellFun/textGen/generated" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/HaskellFun/source_gen.caches/HaskellFun/typesystem/generated" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HaskellFun/languageModels/structure.mps" afterPath="$PROJECT_DIR$/languages/HaskellFun/languageModels/structure.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HaskellFun/classes_gen/HaskellFun/trace.info" afterPath="$PROJECT_DIR$/languages/HaskellFun/classes_gen/HaskellFun/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HaskellFun/classes_gen/HaskellFun/behavior/trace.info" afterPath="$PROJECT_DIR$/languages/HaskellFun/classes_gen/HaskellFun/behavior/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HaskellFun/classes_gen/HaskellFun/constraints/trace.info" afterPath="$PROJECT_DIR$/languages/HaskellFun/classes_gen/HaskellFun/constraints/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HaskellFun/classes_gen/HaskellFun/editor/trace.info" afterPath="$PROJECT_DIR$/languages/HaskellFun/classes_gen/HaskellFun/editor/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HaskellFun/classes_gen/HaskellFun/structure/trace.info" afterPath="$PROJECT_DIR$/languages/HaskellFun/classes_gen/HaskellFun/structure/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HaskellFun/source_gen/HaskellFun/trace.info" afterPath="$PROJECT_DIR$/languages/HaskellFun/source_gen/HaskellFun/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HaskellFun/source_gen/HaskellFun/behavior/trace.info" afterPath="$PROJECT_DIR$/languages/HaskellFun/source_gen/HaskellFun/behavior/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HaskellFun/source_gen/HaskellFun/constraints/trace.info" afterPath="$PROJECT_DIR$/languages/HaskellFun/source_gen/HaskellFun/constraints/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HaskellFun/source_gen/HaskellFun/editor/trace.info" afterPath="$PROJECT_DIR$/languages/HaskellFun/source_gen/HaskellFun/editor/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HaskellFun/source_gen/HaskellFun/structure/trace.info" afterPath="$PROJECT_DIR$/languages/HaskellFun/source_gen/HaskellFun/structure/trace.info" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/workspace.xml" afterPath="$PROJECT_DIR$/.mps/workspace.xml" />
     </list>
     <ignored path="Haskellfun.iws" />
@@ -57,7 +33,7 @@
       <list>
         <TabState>
           <option name="title" value="Console" />
-          <option name="history" value="kaurqQAABAAHKF8qewvcwEoUt5/OspxSfY4AAB1UZW1wTW9kZWxfMTQ0Mjk0ODQxNjgyODU0NzAwMBdI+TGOy1aLT8+uROxCY+olEAAALlRlbXBNb2R1bGVmOTMxOGVjYi01NjhiLTRmY2YtYWU0NC1lYzQyNjNlYTI1MTD/////q6urq1paWloAAs6rUZUl6k8im5IQO5XKjAwAABdqZXRicmFpbnMubXBzLmxhbmcuY29yZQABAAABEDluqqQAAA1JTmFtZWRDb25jZXB0ABIAAQAAARA5bsBBAAAEbmFtZQAAAADeGthtblBKArMG1NF/ZMN1AAAaamV0YnJhaW5zLm1wcy5jb25zb2xlLmJhc2UAAxX7NAUfclosAAALQ29uc29sZVJvb3QAEgAAAAAAAhX7NAUfcluvAAAHaGlzdG9yeQAV+zQFH3JbsQAADWNvbW1hbmRIb2xkZXIABOJxYKy0SEsAAA1Db21tYW5kSG9sZGVyABIAAAAAAAAKg18owaoCvgAAB0hpc3RvcnkAEgAAAAAAAKWlpaUABd4a2G1uUEoCswbU0X9kw3UBAAAABf/////yZpHSDe9MBq7GLLkMSvCkAAAdamV0YnJhaW5zLm1wcy5jb25zb2xlLnNjcmlwdHP/////GoVUxOuEQ7qMNG8NkMbnWgAAH2pldGJyYWlucy5tcHMuY29uc29sZS5ibENvbW1hbmT/////peTeU0ajRNqqs2j98cNO0AAAIWpldGJyYWlucy5tcHMuY29uc29sZS5pZGVDb21tYW5kc/////+ZWnOUf3ZLi6kpxTRIcIEGAAAmamV0YnJhaW5zLm1wcy5jb25zb2xlLmludGVybmFsQ29tbWFuZHP/////AAAAARdI+8Jd0l2kSDqLGXCSjhti1wAAJGpldGJyYWlucy5tcHMuZGV2a2l0LmdlbmVyYWwtcHVycG9zZQAAAAUHKDWbHSt3xEbfm/KyXL6jIlQAACRqZXRicmFpbnMubXBzLmNvbnNvbGUuYmFzZS5zdHJ1Y3R1cmVw/////wco5xLzU1w8QoitzofJVqUv+wAAJ2pldGJyYWlucy5tcHMuY29uc29sZS5zY3JpcHRzLnN0cnVjdHVyZXD/////ByiTW6DucpFMqqgH126PxpORAAApamV0YnJhaW5zLm1wcy5jb25zb2xlLmJsQ29tbWFuZC5zdHJ1Y3R1cmVw/////wcoE1pgbwN2TFyauEAw8FGgYgAAK2pldGJyYWlucy5tcHMuY29uc29sZS5pZGVDb21tYW5kcy5zdHJ1Y3R1cmVw/////wcokERSBqlzTB23YDDlx3t0lwAAMGpldGJyYWlucy5tcHMuY29uc29sZS5pbnRlcm5hbENvbW1hbmRzLnN0cnVjdHVyZXD/////urq6ugAAAAEAARgomkuW6peUOP//ewAAAAAAAAAAAAIAAxgomkuW6peUOQAAewAAAAAAAAAAAAB9AAIYKJpLluqXlDoAAXsAAQAAAQAAAAkAAAAAAAAAAH19" />
+          <option name="history" value="kaurqQAABAAHKKOE+rAkQk+qhwokIV5IulUAAB1UZW1wTW9kZWxfMTQ0MzQ0MDQ1MjkyNDkxMDAwMBdIyzGiNd+fRKe4w/tvemNfHAAALlRlbXBNb2R1bGVjYjMxYTIzNS1kZjlmLTQ0YTctYjhjMy1mYjZmN2E2MzVmMWP/////q6urq1paWloAAs6rUZUl6k8im5IQO5XKjAwAABdqZXRicmFpbnMubXBzLmxhbmcuY29yZQABAAABEDluqqQAAA1JTmFtZWRDb25jZXB0ABIAAQAAARA5bsBBAAAEbmFtZQAAAADeGthtblBKArMG1NF/ZMN1AAAaamV0YnJhaW5zLm1wcy5jb25zb2xlLmJhc2UAAxX7NAUfclosAAALQ29uc29sZVJvb3QAEgAAAAAAAhX7NAUfcluvAAAHaGlzdG9yeQAV+zQFH3JbsQAADWNvbW1hbmRIb2xkZXIABOJxYKy0SEsAAA1Db21tYW5kSG9sZGVyABIAAAAAAAAKg18owaoCvgAAB0hpc3RvcnkAEgAAAAAAAKWlpaUABd4a2G1uUEoCswbU0X9kw3UBAAAABf/////yZpHSDe9MBq7GLLkMSvCkAAAdamV0YnJhaW5zLm1wcy5jb25zb2xlLnNjcmlwdHP/////GoVUxOuEQ7qMNG8NkMbnWgAAH2pldGJyYWlucy5tcHMuY29uc29sZS5ibENvbW1hbmT/////peTeU0ajRNqqs2j98cNO0AAAIWpldGJyYWlucy5tcHMuY29uc29sZS5pZGVDb21tYW5kc/////+ZWnOUf3ZLi6kpxTRIcIEGAAAmamV0YnJhaW5zLm1wcy5jb25zb2xlLmludGVybmFsQ29tbWFuZHP/////AAAAARdI+8Jd0l2kSDqLGXCSjhti1wAAJGpldGJyYWlucy5tcHMuZGV2a2l0LmdlbmVyYWwtcHVycG9zZQAAAAUHKDWbHSt3xEbfm/KyXL6jIlQAACRqZXRicmFpbnMubXBzLmNvbnNvbGUuYmFzZS5zdHJ1Y3R1cmVw/////wco5xLzU1w8QoitzofJVqUv+wAAJ2pldGJyYWlucy5tcHMuY29uc29sZS5zY3JpcHRzLnN0cnVjdHVyZXD/////ByiTW6DucpFMqqgH126PxpORAAApamV0YnJhaW5zLm1wcy5jb25zb2xlLmJsQ29tbWFuZC5zdHJ1Y3R1cmVw/////wcoE1pgbwN2TFyauEAw8FGgYgAAK2pldGJyYWlucy5tcHMuY29uc29sZS5pZGVDb21tYW5kcy5zdHJ1Y3R1cmVw/////wcokERSBqlzTB23YDDlx3t0lwAAMGpldGJyYWlucy5tcHMuY29uc29sZS5pbnRlcm5hbENvbW1hbmRzLnN0cnVjdHVyZXD/////urq6ugAAAAEAARgdzN1LZN3gz///ewAAAAAAAAAAAAIAAxgdzN1LZN3g0AAAewAAAAAAAAAAAAB9AAIYHczdS2Td4NEAAXsAAQAAAQAAAAkAAAAAAAAAAH19" />
         </TabState>
       </list>
     </option>
@@ -75,119 +51,208 @@
       </option>
     </search_options>
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Hello" pinned="false" current-in-tab="false">
-        <entry file="mps://node://HaskellFun.sandbox/HaskellFun.sandbox/Hello">
+      <file leaf-file-name="AbstractConstructor" pinned="false" current-in-tab="false">
+        <entry file="mps://node://HaskellFun/HaskellFun.structure/AbstractConstructor">
           <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
               <memento viewPositionX="0" viewPositionY="0">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="20" />
-                    <property name="caretX" value="71" />
+                    <property name="caretXRelative" value="4" />
+                    <property name="caretX" value="151" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="name" cellNumber="0" isInList="false">
+                      <node node_reference="r:abc540d4-3f70-4969-8e52-358d4ba9345e(HaskellFun.structure)/654027536477954833" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <folded />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/654027536476956468" viewPositionX="0" viewPositionY="-4">
+                <selectionStack />
+                <errorMarkers />
+                <folded />
+              </inspectorMemento>
+              <node node_ref="r:abc540d4-3f70-4969-8e52-358d4ba9345e(HaskellFun.structure)/654027536477954833" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AlgebraicDataType" pinned="false" current-in-tab="true">
+        <entry file="mps://node://HaskellFun/HaskellFun.structure/AlgebraicDataType">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+              <memento viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="4" />
+                    <property name="caretX" value="247" />
                     <property name="sideSelectDirection" value="NONE" />
                     <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/3625473111732670984" />
+                      <node node_reference="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/654027536476956468" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
                 <errorMarkers />
                 <folded />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/2925734019484202459" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/654027536476956468" viewPositionX="0" viewPositionY="-4">
                 <selectionStack />
                 <errorMarkers />
                 <folded />
               </inspectorMemento>
+              <node node_ref="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/654027536476956468" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HaskellModule" pinned="false" current-in-tab="false">
-        <entry file="mps://node://HaskellFun/HaskellFun.structure/HaskellModule">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="selectionEnd" value="1" />
-                    <property name="hasNonTrivialSelection" value="true" />
-                    <property name="caretXRelative" value="4" />
-                    <property name="selectionStart" value="0" />
-                    <property name="caretX" value="163" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="ReadOnlyModelAccessor_abi8e8_a" cellNumber="0" isInList="false">
-                      <node node_reference="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/3625473111731872052" />
-                    </cellInfo>
-                  </stackElement>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
-                    <property name="caretXRelative" value="-103" />
-                    <property name="caretX" value="0" />
-                    <property name="sideSelectDirection" value="LEFT" />
-                    <cellInfo cellId="Collection_adk1cf_a" cellNumber="0" isInList="false">
-                      <node node_reference="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/3625473111731872052" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorMarkers />
-                <folded />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/2925734019484202459" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorMarkers />
-                <folded />
-              </inspectorMemento>
-              <node node_ref="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/3625473111731872033" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Definition" pinned="false" current-in-tab="false">
-        <entry file="mps://node://HaskellFun/HaskellFun.structure/Definition">
+      <file leaf-file-name="RecordEntry" pinned="false" current-in-tab="false">
+        <entry file="mps://node://HaskellFun/HaskellFun.structure/RecordEntry">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
               <memento viewPositionX="0" viewPositionY="0">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="0" />
-                    <property name="caretX" value="47" />
+                    <property name="caretXRelative" value="4" />
+                    <property name="caretX" value="247" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="ReadOnlyModelAccessor_mtiojs_a" cellNumber="0" isInList="false">
-                      <node node_reference="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/3625473111732100474" />
-                    </cellInfo>
-                  </stackElement>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="selectionEnd" value="2" />
-                    <property name="hasNonTrivialSelection" value="true" />
-                    <property name="caretXRelative" value="0" />
-                    <property name="selectionStart" value="0" />
-                    <property name="caretX" value="47" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="ReadOnlyModelAccessor_mtiojs_a" cellNumber="0" isInList="false">
-                      <node node_reference="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/3625473111732100474" />
-                    </cellInfo>
-                  </stackElement>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
-                    <property name="caretXRelative" value="-47" />
-                    <property name="caretX" value="0" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Collection_cvgoyj_a0_0" cellNumber="0" isInList="false">
-                      <node node_reference="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/3625473111732100474" />
+                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                      <node node_reference="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/654027536477954908" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
                 <errorMarkers />
                 <folded />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/2925734019484202459" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/654027536476956468" viewPositionX="0" viewPositionY="-4">
                 <selectionStack />
                 <errorMarkers />
                 <folded />
               </inspectorMemento>
-              <node node_ref="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/3625473111732100472" />
+              <node node_ref="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/654027536477954908" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TypeVariable" pinned="false" current-in-tab="false">
+        <entry file="mps://node://HaskellFun/HaskellFun.structure/TypeVariable">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+              <memento viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="4" />
+                    <property name="caretX" value="247" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                      <node node_reference="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/654027536476935071" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <folded />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/654027536476956468" viewPositionX="0" viewPositionY="-4">
+                <selectionStack />
+                <errorMarkers />
+                <folded />
+              </inspectorMemento>
+              <node node_ref="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/654027536476935071" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Constructor" pinned="false" current-in-tab="false">
+        <entry file="mps://node://HaskellFun/HaskellFun.structure/Constructor">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+              <memento viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="4" />
+                    <property name="caretX" value="247" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                      <node node_reference="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/654027536477082451" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <folded />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/654027536476956468" viewPositionX="0" viewPositionY="-4">
+                <selectionStack />
+                <errorMarkers />
+                <folded />
+              </inspectorMemento>
+              <node node_ref="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/654027536477082451" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConstructorRecord" pinned="false" current-in-tab="false">
+        <entry file="mps://node://HaskellFun/HaskellFun.structure/ConstructorRecord">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+              <memento viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="4" />
+                    <property name="caretX" value="247" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                      <node node_reference="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/654027536477954983" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <folded />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/654027536476956468" viewPositionX="0" viewPositionY="-4">
+                <selectionStack />
+                <errorMarkers />
+                <folded />
+              </inspectorMemento>
+              <node node_ref="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/654027536477954983" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataType" pinned="false" current-in-tab="false">
+        <entry file="mps://node://HaskellFun/HaskellFun.structure/DataType">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+              <memento viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="4" />
+                    <property name="caretX" value="247" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                      <node node_reference="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/654027536478709537" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <folded />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/654027536476956468" viewPositionX="0" viewPositionY="-4">
+                <selectionStack />
+                <errorMarkers />
+                <folded />
+              </inspectorMemento>
+              <node node_ref="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/654027536478709537" />
             </state>
           </provider>
         </entry>
@@ -200,8 +265,8 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="4" />
-                    <property name="caretX" value="247" />
+                    <property name="caretXRelative" value="100" />
+                    <property name="caretX" value="343" />
                     <property name="sideSelectDirection" value="NONE" />
                     <cellInfo cellId="property_name" cellNumber="0" isInList="false">
                       <node node_reference="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/3625473111732402391" />
@@ -211,7 +276,7 @@
                 <errorMarkers />
                 <folded />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/2925734019484202459" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/654027536476956468" viewPositionX="0" viewPositionY="-4">
                 <selectionStack />
                 <errorMarkers />
                 <folded />
@@ -229,8 +294,8 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="4" />
-                    <property name="caretX" value="247" />
+                    <property name="caretXRelative" value="60" />
+                    <property name="caretX" value="303" />
                     <property name="sideSelectDirection" value="NONE" />
                     <cellInfo cellId="property_name" cellNumber="0" isInList="false">
                       <node node_reference="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/3625473111732402589" />
@@ -240,7 +305,7 @@
                 <errorMarkers />
                 <folded />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/2925734019484202459" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/654027536476956468" viewPositionX="0" viewPositionY="-4">
                 <selectionStack />
                 <errorMarkers />
                 <folded />
@@ -250,149 +315,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Import" pinned="false" current-in-tab="false">
-        <entry file="mps://node://HaskellFun/HaskellFun.structure/Import">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="12" />
-                    <property name="caretX" value="151" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_role" cellNumber="0" isInList="false">
-                      <node node_reference="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/2925734019484237549" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorMarkers>
-                  <errorMarker text="module" modelText="value" propertyCell="true" cellId="property_role" cellNumber="0" isInList="false">
-                    <node node_reference="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/2925734019484237549" />
-                  </errorMarker>
-                </errorMarkers>
-                <folded />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/2925734019484202459" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorMarkers />
-                <folded />
-              </inspectorMemento>
-              <node node_ref="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/2925734019484202580" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="???_Constraints" pinned="false" current-in-tab="false">
-        <entry file="mps://node://HaskellFun/HaskellFun.constraints/???_Constraints">
+      <file leaf-file-name="Demo" pinned="false" current-in-tab="false">
+        <entry file="mps://node://HaskellFun.sandbox/HaskellFun.sandbox/Demo">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="48" />
-                    <property name="caretX" value="127" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_role" cellNumber="0" isInList="false">
-                      <node node_reference="r:c7be9095-ef97-4a40-8cad-c81b98f70d5c(HaskellFun.constraints)/2925734019484144278" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorMarkers />
-                <folded />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/2925734019484202459" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorMarkers />
-                <folded />
-              </inspectorMemento>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TryImport" pinned="false" current-in-tab="true">
-        <entry file="mps://node://HaskellFun.sandbox/HaskellFun.sandbox/TryImport">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="0" />
-                    <property name="caretX" value="15" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_s23fc5_a" cellNumber="0" isInList="false">
-                      <node node_reference="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/2925734019484202459" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorMarkers />
-                <folded />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/2925734019484202459" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorMarkers />
-                <folded />
-              </inspectorMemento>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EmptyLine" pinned="false" current-in-tab="false">
-        <entry file="mps://node://HaskellFun/HaskellFun.structure/EmptyLine">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
               <memento viewPositionX="0" viewPositionY="0">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
                     <property name="caretXRelative" value="4" />
-                    <property name="caretX" value="247" />
+                    <property name="caretX" value="71" />
                     <property name="sideSelectDirection" value="NONE" />
                     <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/3625473111731834171" />
+                      <node node_reference="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/8920266709876824314" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
                 <errorMarkers />
                 <folded />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/2925734019484202459" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/654027536476956468" viewPositionX="0" viewPositionY="-4">
                 <selectionStack />
                 <errorMarkers />
                 <folded />
               </inspectorMemento>
-              <node node_ref="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/3625473111731834171" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Statement" pinned="false" current-in-tab="false">
-        <entry file="mps://node://HaskellFun/HaskellFun.structure/Statement">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="0" />
-                    <property name="caretX" value="319" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_ueqr71_a1b4a0" cellNumber="0" isInList="false">
-                      <node node_reference="r:abc540d4-3f70-4969-8e52-358d4ba9345e(HaskellFun.structure)/3625473111731833580" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorMarkers />
-                <folded />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/2925734019484202459" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorMarkers />
-                <folded />
-              </inspectorMemento>
-              <node node_ref="r:abc540d4-3f70-4969-8e52-358d4ba9345e(HaskellFun.structure)/3625473111731833580" />
             </state>
           </provider>
         </entry>
@@ -419,8 +365,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="678" />
-    <option name="y" value="235" />
+    <option name="x" value="449" />
+    <option name="y" value="298" />
     <option name="width" value="1440" />
     <option name="height" value="873" />
   </component>
@@ -489,6 +435,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="FileSystem" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -496,24 +443,6 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Modules Pool">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Empty">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Modules Pool">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Languages">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Empty">
@@ -525,60 +454,6 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="HaskellFun">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Empty">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Project">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="HaskellFun">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="HaskellFun.textGen">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Empty">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Project">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="HaskellFun">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="HaskellFun.constraints">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Empty">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Project">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="HaskellFun">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="HaskellFun.actions">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -614,7 +489,95 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="HaskellFun.editor">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="expression">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Empty">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Project">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="HaskellFun">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="HaskellFun.editor">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="declaration">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Empty">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Project">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="HaskellFun">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="HaskellFun.editor">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="algebraicDataType">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Empty">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Project">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="HaskellFun">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="HaskellFun.structure">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Empty">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Project">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="HaskellFun">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="HaskellFun.structure">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="algebraicDataType">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -643,7 +606,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="FileSystem" />
       <pane id="Favorites" />
     </panes>
   </component>
@@ -745,7 +707,7 @@
     <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="ToolWindowManager">
-    <frame x="678" y="235" width="1440" height="873" extended-state="0" />
+    <frame x="449" y="298" width="1440" height="873" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32971996" sideWeight="0.49973616" order="7" side_tool="false" content_ui="tabs" />
@@ -760,25 +722,25 @@
       <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33333334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32876712" sideWeight="0.5003524" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32816538" sideWeight="0.5003524" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.49964765" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Dependencies Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32876712" sideWeight="0.49964765" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277202" sideWeight="0.49964765" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Module Dependencies" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Class Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cell Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -788,8 +750,8 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32971996" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Migration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32971996" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32971996" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -853,6 +815,143 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="20" />
+                <property name="caretX" value="71" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/3625473111732670984" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/2925734019484202459" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://HaskellFun/HaskellFun.structure/HaskellModule">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/2925734019484202459" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+          </inspectorMemento>
+          <node node_ref="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/3625473111731872033" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://HaskellFun/HaskellFun.structure/DoExpression">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/2925734019484202459" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+          </inspectorMemento>
+          <node node_ref="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/3625473111732402391" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://HaskellFun/HaskellFun.structure/Println">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/2925734019484202459" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+          </inspectorMemento>
+          <node node_ref="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/3625473111732402589" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://HaskellFun/HaskellFun.structure/Import">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/2925734019484202459" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+          </inspectorMemento>
+          <node node_ref="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/2925734019484202580" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://HaskellFun.sandbox/HaskellFun.sandbox/TryImport">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="15" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_s23fc5_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/2925734019484202459" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/2925734019484202459" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://HaskellFun/HaskellFun.structure/EmptyLine">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/2925734019484202459" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+          </inspectorMemento>
+          <node node_ref="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/3625473111731834171" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://HaskellFun.sandbox/HaskellFun.sandbox/Hello">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
                 <property name="caretXRelative" value="0" />
                 <property name="caretX" value="31" />
                 <property name="sideSelectDirection" value="NONE" />
@@ -886,23 +985,6 @@
             <folded />
           </inspectorMemento>
           <node node_ref="r:ea316719-3d72-4fe8-a4ea-870993d9f4ac(HaskellFun.textGen)/3625473111732797265" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://HaskellFun/HaskellFun.structure/Definition">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <folded />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/3625473111732410873" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <folded />
-          </inspectorMemento>
-          <node node_ref="r:ea316719-3d72-4fe8-a4ea-870993d9f4ac(HaskellFun.textGen)/3625473111732801767" />
         </state>
       </provider>
     </entry>
@@ -1054,60 +1136,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://HaskellFun/HaskellFun.structure/DefinitionParameter">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="4" />
-                <property name="caretX" value="247" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/3625473111732411002" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <folded />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/3625473111732402391" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <folded />
-          </inspectorMemento>
-          <node node_ref="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/3625473111732411002" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://HaskellFun/HaskellFun.structure/DefinitionReference">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="4" />
-                <property name="caretX" value="247" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/3625473111732402638" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <folded />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/3625473111732402391" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <folded />
-          </inspectorMemento>
-          <node node_ref="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/3625473111732402638" />
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://node://HaskellFun/HaskellFun.structure/EmptyLine">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
@@ -1115,8 +1143,8 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="4" />
-                <property name="caretX" value="247" />
+                <property name="caretXRelative" value="76" />
+                <property name="caretX" value="319" />
                 <property name="sideSelectDirection" value="NONE" />
                 <cellInfo cellId="property_name" cellNumber="0" isInList="false">
                   <node node_reference="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/3625473111731834171" />
@@ -1126,7 +1154,7 @@
             <errorMarkers />
             <folded />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/2925734019484202459" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:abc540d4-3f70-4969-8e52-358d4ba9345e(HaskellFun.structure)/654027536476910669" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <folded />
@@ -1179,38 +1207,11 @@
             <errorMarkers />
             <folded />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/2925734019484202459" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:abc540d4-3f70-4969-8e52-358d4ba9345e(HaskellFun.structure)/654027536476934956" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <folded />
           </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://HaskellFun/HaskellFun.structure/Statement">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="0" />
-                <property name="caretX" value="319" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_ueqr71_a1b4a0" cellNumber="0" isInList="false">
-                  <node node_reference="r:abc540d4-3f70-4969-8e52-358d4ba9345e(HaskellFun.structure)/3625473111731833580" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <folded />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/2925734019484202459" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <folded />
-          </inspectorMemento>
-          <node node_ref="r:abc540d4-3f70-4969-8e52-358d4ba9345e(HaskellFun.structure)/3625473111731833580" />
         </state>
       </provider>
     </entry>
@@ -1221,53 +1222,23 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="12" />
-                <property name="caretX" value="151" />
+                <property name="caretXRelative" value="52" />
+                <property name="caretX" value="295" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_role" cellNumber="0" isInList="false">
-                  <node node_reference="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/2925734019484237549" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/2925734019484202580" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
-            <errorMarkers>
-              <errorMarker text="module" modelText="value" propertyCell="true" cellId="property_role" cellNumber="0" isInList="false">
-                <node node_reference="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/2925734019484237549" />
-              </errorMarker>
-            </errorMarkers>
+            <errorMarkers />
             <folded />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/2925734019484202459" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:abc540d4-3f70-4969-8e52-358d4ba9345e(HaskellFun.structure)/654027536477435677" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <folded />
           </inspectorMemento>
           <node node_ref="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/2925734019484202580" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://HaskellFun/HaskellFun.constraints/???_Constraints">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="48" />
-                <property name="caretX" value="127" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_role" cellNumber="0" isInList="false">
-                  <node node_reference="r:c7be9095-ef97-4a40-8cad-c81b98f70d5c(HaskellFun.constraints)/2925734019484144278" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <folded />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/2925734019484202459" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <folded />
-          </inspectorMemento>
         </state>
       </provider>
     </entry>
@@ -1289,7 +1260,7 @@
             <errorMarkers />
             <folded />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/2925734019484202459" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/654027536477299373" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <folded />
@@ -1303,29 +1274,19 @@
           <memento viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="selectionEnd" value="1" />
-                <property name="hasNonTrivialSelection" value="true" />
-                <property name="caretXRelative" value="4" />
-                <property name="selectionStart" value="0" />
-                <property name="caretX" value="163" />
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="108" />
+                <property name="caretX" value="351" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="ReadOnlyModelAccessor_abi8e8_a" cellNumber="0" isInList="false">
-                  <node node_reference="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/3625473111731872052" />
-                </cellInfo>
-              </stackElement>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
-                <property name="caretXRelative" value="-103" />
-                <property name="caretX" value="0" />
-                <property name="sideSelectDirection" value="LEFT" />
-                <cellInfo cellId="Collection_adk1cf_a" cellNumber="0" isInList="false">
-                  <node node_reference="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/3625473111731872052" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/3625473111731872033" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
             <errorMarkers />
             <folded />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/2925734019484202459" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/654027536477954908" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <folded />
@@ -1341,8 +1302,8 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="4" />
-                <property name="caretX" value="247" />
+                <property name="caretXRelative" value="100" />
+                <property name="caretX" value="343" />
                 <property name="sideSelectDirection" value="NONE" />
                 <cellInfo cellId="property_name" cellNumber="0" isInList="false">
                   <node node_reference="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/3625473111732402391" />
@@ -1352,7 +1313,7 @@
             <errorMarkers />
             <folded />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/2925734019484202459" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/654027536476956468" viewPositionX="0" viewPositionY="-4">
             <selectionStack />
             <errorMarkers />
             <folded />
@@ -1368,8 +1329,8 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="4" />
-                <property name="caretX" value="247" />
+                <property name="caretXRelative" value="60" />
+                <property name="caretX" value="303" />
                 <property name="sideSelectDirection" value="NONE" />
                 <cellInfo cellId="property_name" cellNumber="0" isInList="false">
                   <node node_reference="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/3625473111732402589" />
@@ -1379,7 +1340,7 @@
             <errorMarkers />
             <folded />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/2925734019484202459" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/654027536476956468" viewPositionX="0" viewPositionY="-4">
             <selectionStack />
             <errorMarkers />
             <folded />
@@ -1388,49 +1349,218 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://HaskellFun/HaskellFun.structure/Definition">
+    <entry file="mps://node://HaskellFun.sandbox/HaskellFun.sandbox/Demo">
       <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
           <memento viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="0" />
-                <property name="caretX" value="47" />
+                <property name="caretXRelative" value="4" />
+                <property name="caretX" value="71" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="ReadOnlyModelAccessor_mtiojs_a" cellNumber="0" isInList="false">
-                  <node node_reference="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/3625473111732100474" />
-                </cellInfo>
-              </stackElement>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="selectionEnd" value="2" />
-                <property name="hasNonTrivialSelection" value="true" />
-                <property name="caretXRelative" value="0" />
-                <property name="selectionStart" value="0" />
-                <property name="caretX" value="47" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="ReadOnlyModelAccessor_mtiojs_a" cellNumber="0" isInList="false">
-                  <node node_reference="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/3625473111732100474" />
-                </cellInfo>
-              </stackElement>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
-                <property name="caretXRelative" value="-47" />
-                <property name="caretX" value="0" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Collection_cvgoyj_a0_0" cellNumber="0" isInList="false">
-                  <node node_reference="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/3625473111732100474" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/8920266709876824314" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
             <errorMarkers />
             <folded />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:a870ae4c-5856-4f27-ba29-894084d4c696(HaskellFun.sandbox)/2925734019484202459" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/654027536476956468" viewPositionX="0" viewPositionY="-4">
             <selectionStack />
             <errorMarkers />
             <folded />
           </inspectorMemento>
-          <node node_ref="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/3625473111732100472" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://HaskellFun/HaskellFun.structure/AbstractConstructor">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="4" />
+                <property name="caretX" value="151" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="name" cellNumber="0" isInList="false">
+                  <node node_reference="r:abc540d4-3f70-4969-8e52-358d4ba9345e(HaskellFun.structure)/654027536477954833" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/654027536476956468" viewPositionX="0" viewPositionY="-4">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+          </inspectorMemento>
+          <node node_ref="r:abc540d4-3f70-4969-8e52-358d4ba9345e(HaskellFun.structure)/654027536477954833" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://HaskellFun/HaskellFun.structure/AlgebraicDataType">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="4" />
+                <property name="caretX" value="247" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/654027536476956468" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/654027536476956468" viewPositionX="0" viewPositionY="-4">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+          </inspectorMemento>
+          <node node_ref="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/654027536476956468" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://HaskellFun/HaskellFun.structure/Constructor">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="4" />
+                <property name="caretX" value="247" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/654027536477082451" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/654027536476956468" viewPositionX="0" viewPositionY="-4">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+          </inspectorMemento>
+          <node node_ref="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/654027536477082451" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://HaskellFun/HaskellFun.structure/ConstructorRecord">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="4" />
+                <property name="caretX" value="247" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/654027536477954983" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/654027536476956468" viewPositionX="0" viewPositionY="-4">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+          </inspectorMemento>
+          <node node_ref="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/654027536477954983" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://HaskellFun/HaskellFun.structure/DataType">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="4" />
+                <property name="caretX" value="247" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/654027536478709537" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/654027536476956468" viewPositionX="0" viewPositionY="-4">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+          </inspectorMemento>
+          <node node_ref="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/654027536478709537" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://HaskellFun/HaskellFun.structure/RecordEntry">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="4" />
+                <property name="caretX" value="247" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/654027536477954908" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/654027536476956468" viewPositionX="0" viewPositionY="-4">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+          </inspectorMemento>
+          <node node_ref="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/654027536477954908" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://HaskellFun/HaskellFun.structure/TypeVariable">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="4" />
+                <property name="caretX" value="247" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/654027536476935071" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/654027536476956468" viewPositionX="0" viewPositionY="-4">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+          </inspectorMemento>
+          <node node_ref="r:bc0b285f-b241-43a4-b259-464c121746da(HaskellFun.editor)/654027536476935071" />
         </state>
       </provider>
     </entry>
