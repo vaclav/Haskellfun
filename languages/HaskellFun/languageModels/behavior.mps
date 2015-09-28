@@ -58,9 +58,6 @@
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
       </concept>
-      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
-        <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
-      </concept>
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
@@ -76,7 +73,6 @@
       <concept id="767145758118872833" name="jetbrains.mps.lang.actions.structure.NF_LinkList_AddNewChildOperation" flags="nn" index="2DeJg1" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
-      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS">
         <reference id="1145383142433" name="elementConcept" index="2I9WkF" />
       </concept>
@@ -130,7 +126,7 @@
   </node>
   <node concept="13h7C7" id="$j$Dh98SXG">
     <property role="3GE5qa" value="algebraicDataType" />
-    <ref role="13h7C2" to="4pym:$j$Dh98Mrt" resolve="ConstructorCall" />
+    <ref role="13h7C2" to="4pym:$j$Dh98Mrt" resolve="DataType" />
     <node concept="13i0hz" id="$j$Dh98SXJ" role="13h7CS">
       <property role="TrG5h" value="hasTypeParameters" />
       <node concept="3Tm1VV" id="$j$Dh98SXK" role="1B3o_S" />
@@ -145,8 +141,8 @@
                   <ref role="3Tt5mk" to="4pym:$j$Dh98Ms8" />
                 </node>
               </node>
-              <node concept="2qgKlT" id="$j$Dh99j$$" role="2OqNvi">
-                <ref role="37wK5l" node="$j$Dh99j16" resolve="parameterTypes" />
+              <node concept="3Tsc0h" id="$j$Dh9aqg4" role="2OqNvi">
+                <ref role="3TtcxE" to="4pym:$j$Dh921di" />
               </node>
             </node>
             <node concept="3GX2aA" id="$j$Dh99o_l" role="2OqNvi" />

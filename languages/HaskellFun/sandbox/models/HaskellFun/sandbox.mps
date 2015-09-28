@@ -56,8 +56,8 @@
       <concept id="654027536477435677" name="HaskellFun.structure.ConstructorRecord" flags="ng" index="1072m9">
         <child id="654027536477955454" name="entries" index="1013vE" />
       </concept>
-      <concept id="654027536478709469" name="HaskellFun.structure.ConstructorCall" flags="ig" index="10cbh9">
-        <reference id="654027536478709512" name="constructor" index="10cbms" />
+      <concept id="654027536478709469" name="HaskellFun.structure.DataType" flags="ig" index="10cbh9">
+        <reference id="654027536478709512" name="algebraicDataType" index="10cbms" />
         <child id="654027536478736210" name="typeParameters" index="10c1R6" />
       </concept>
       <concept id="2925734019484094709" name="HaskellFun.structure.Import" flags="ng" index="32e_Hz">
@@ -105,14 +105,8 @@
         <property role="TrG5h" value="Circle" />
         <node concept="10136Z" id="$j$Dh97CG7" role="1013vE">
           <property role="TrG5h" value="center" />
-          <node concept="10cbh9" id="$j$Dh99V34" role="10137n">
-            <ref role="10cbms" node="$j$Dh98Ml$" resolve="Point" />
-            <node concept="3cmrfG" id="$j$Dh99V4i" role="10c1R6">
-              <property role="3cmrfH" value="10" />
-            </node>
-            <node concept="3cmrfG" id="$j$Dh99V4q" role="10c1R6">
-              <property role="3cmrfH" value="20" />
-            </node>
+          <node concept="10cbh9" id="$j$Dh9aA$y" role="10137n">
+            <ref role="10cbms" node="$j$Dh98Mlz" resolve="Point" />
           </node>
         </node>
         <node concept="10136Z" id="$j$Dh97CGE" role="1013vE">
@@ -179,6 +173,35 @@
       </node>
     </node>
     <node concept="lOsT$" id="$j$Dh98Ds4" role="lOAmu" />
+    <node concept="lOsT$" id="$j$Dh9aA$_" role="lOAmu" />
+    <node concept="1052rp" id="$j$Dh9aAAw" role="lOAmu">
+      <property role="TrG5h" value="A" />
+      <node concept="106S6S" id="$j$Dh9aAAx" role="106S6V">
+        <property role="TrG5h" value="A" />
+      </node>
+      <node concept="106S72" id="$j$Dh9aABz" role="106S76">
+        <property role="TrG5h" value="a" />
+      </node>
+      <node concept="106S72" id="$j$Dh9aAB_" role="106S76">
+        <property role="TrG5h" value="b" />
+      </node>
+    </node>
+    <node concept="1052rp" id="$j$Dh9aACI" role="lOAmu">
+      <property role="TrG5h" value="B" />
+      <node concept="106S6S" id="$j$Dh9aACJ" role="106S6V">
+        <property role="TrG5h" value="B" />
+        <node concept="10cbh9" id="$j$Dh9aADR" role="1072nj">
+          <ref role="10cbms" node="$j$Dh9aAAw" resolve="A" />
+          <node concept="3uibUv" id="$j$Dh9aBF4" role="10c1R6">
+            <ref role="3uigEE" to="e2lb:~Integer" resolve="Integer" />
+          </node>
+          <node concept="3uibUv" id="$j$Dh9aBFk" role="10c1R6">
+            <ref role="3uigEE" to="e2lb:~Float" resolve="Float" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="lOsT$" id="$j$Dh9aBFA" role="lOAmu" />
     <node concept="lOAnL" id="39gh9oBystE" role="lOAmu">
       <property role="TrG5h" value="greeting" />
       <node concept="Xl_RD" id="39gh9oBystO" role="lODR3">

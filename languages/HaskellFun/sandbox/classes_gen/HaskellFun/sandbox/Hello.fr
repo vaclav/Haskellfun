@@ -4,6 +4,8 @@ module Hello where
 <!TextGen not found for 'HaskellFun.structure.AlgebraicDataType'!>
 <!TextGen not found for 'HaskellFun.structure.AlgebraicDataType'!>
 <!TextGen not found for 'HaskellFun.structure.AlgebraicDataType'!>
+
+<!TextGen not found for 'HaskellFun.structure.AlgebraicDataType'!><!TextGen not found for 'HaskellFun.structure.AlgebraicDataType'!>
 greeting  = "Hello, Frege MPS!"
 
 <!TextGen not found for 'HaskellFun.structure.AlgebraicDataType'!>

@@ -4,11 +4,11 @@ package HaskellFun.behavior;
 
 import jetbrains.mps.baseLanguage.behavior.Type_BehaviorDescriptor;
 
-public class ConstructorCall_BehaviorDescriptor extends Type_BehaviorDescriptor {
-  public ConstructorCall_BehaviorDescriptor() {
+public class DataType_BehaviorDescriptor extends Type_BehaviorDescriptor {
+  public DataType_BehaviorDescriptor() {
   }
   @Override
   public String getConceptFqName() {
-    return "HaskellFun.structure.ConstructorCall";
+    return "HaskellFun.structure.DataType";
   }
 }

@@ -14,14 +14,14 @@
     <file name="BehaviorAspectDescriptor.java">
       <unit at="9,0,48,0" name="HaskellFun.behavior.BehaviorAspectDescriptor" />
     </file>
-    <file name="ConstructorCall_BehaviorDescriptor.java">
-      <unit at="7,0,15,0" name="HaskellFun.behavior.ConstructorCall_BehaviorDescriptor" />
-    </file>
     <file name="ConstructorRecord_BehaviorDescriptor.java">
       <unit at="8,0,19,0" name="HaskellFun.behavior.ConstructorRecord_BehaviorDescriptor" />
     </file>
     <file name="Constructor_BehaviorDescriptor.java">
       <unit at="8,0,19,0" name="HaskellFun.behavior.Constructor_BehaviorDescriptor" />
+    </file>
+    <file name="DataType_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="HaskellFun.behavior.DataType_BehaviorDescriptor" />
     </file>
     <file name="DeclarationParameter_BehaviorDescriptor.java">
       <unit at="10,0,21,0" name="HaskellFun.behavior.DeclarationParameter_BehaviorDescriptor" />
@@ -72,19 +72,19 @@
     </file>
   </root>
   <root nodeRef="r:22daec1a-2f0b-43e0-9a62-04d3c6ff9903(HaskellFun.behavior)/654027536478736236">
-    <file name="ConstructorCall_Behavior.java">
-      <node id="654027536478755052" at="15,83,16,357" concept="2" />
-      <node id="654027536478736236" at="13,0,15,0" concept="3" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-      <node id="654027536478736236" at="15,0,18,0" concept="3" trace="call_hasTypeParameters_654027536478736239#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-      <scope id="654027536478736238" at="13,43,13,43" />
-      <scope id="654027536478736242" at="15,83,16,357" />
-      <scope id="654027536478736236" at="13,0,15,0">
+    <file name="DataType_Behavior.java">
+      <node id="654027536478755052" at="13,83,14,385" concept="2" />
+      <node id="654027536478736236" at="11,0,13,0" concept="3" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="654027536478736236" at="13,0,16,0" concept="3" trace="call_hasTypeParameters_654027536478736239#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <scope id="654027536478736238" at="11,43,11,43" />
+      <scope id="654027536478736242" at="13,83,14,385" />
+      <scope id="654027536478736236" at="11,0,13,0">
         <var name="thisNode" id="654027536478736236" />
       </scope>
-      <scope id="654027536478736236" at="15,0,18,0">
+      <scope id="654027536478736236" at="13,0,16,0">
         <var name="thisNode" id="654027536478736236" />
       </scope>
-      <unit id="654027536478736236" at="12,0,19,0" name="HaskellFun.behavior.ConstructorCall_Behavior" />
+      <unit id="654027536478736236" at="10,0,17,0" name="HaskellFun.behavior.DataType_Behavior" />
     </file>
   </root>
   <root nodeRef="r:22daec1a-2f0b-43e0-9a62-04d3c6ff9903(HaskellFun.behavior)/654027536478842947">
