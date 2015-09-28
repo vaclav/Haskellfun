@@ -151,4 +151,57 @@ public class QueriesGenerated {
     });
     return result;
   }
+  public static List<SubstituteAction> sideTransform_ActionsFactory_Constructor_654027536477990010(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
+    List<SubstituteAction> result = ListSequence.fromList(new ArrayList<SubstituteAction>());
+    ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(MetaAdapterFactory.getConcept(0x70eb8650b1874f45L, 0x995803d27f5d94baL, 0x9139294490fb71dL, "HaskellFun.structure.ConstructorRecord").getDeclarationNode(), _context.getSourceNode()) {
+      public SNode doSubstitute(@Nullable final EditorContext editorContext, String pattern) {
+        SNode newNode = SNodeFactoryOperations.replaceWithNewChild(_context.getSourceNode(), SNodeFactoryOperations.asInstanceConcept(MetaAdapterFactory.getConcept(0x70eb8650b1874f45L, 0x995803d27f5d94baL, 0x9139294490fb71dL, "HaskellFun.structure.ConstructorRecord")));
+        SNode firstEntry = ListSequence.fromList(SLinkOperations.getChildren(newNode, MetaAdapterFactory.getContainmentLink(0x70eb8650b1874f45L, 0x995803d27f5d94baL, 0x9139294490fb71dL, 0x91392944917a57eL, "entries"))).first();
+        if ((firstEntry == null)) {
+          firstEntry = SNodeFactoryOperations.addNewChild(newNode, MetaAdapterFactory.getContainmentLink(0x70eb8650b1874f45L, 0x995803d27f5d94baL, 0x9139294490fb71dL, 0x91392944917a57eL, "entries"), SNodeFactoryOperations.asInstanceConcept(MetaAdapterFactory.getConcept(0x70eb8650b1874f45L, 0x995803d27f5d94baL, 0x91392944917a32bL, "HaskellFun.structure.RecordEntry")));
+        }
+        return firstEntry;
+
+      }
+      public String getMatchingText(String pattern) {
+        return "{";
+      }
+      public String getVisibleMatchingText(String pattern) {
+        return getMatchingText(pattern);
+      }
+      @Override
+      protected boolean isEnabled() {
+        SNode sourceNode = getSourceNode();
+        SNode parent = SNodeOperations.getParent(sourceNode);
+        SNode containingLink = SNodeOperations.getContainingLinkDeclaration(sourceNode);
+        return parent == null || containingLink == null || (ModelConstraints.canBeParent(parent, MetaAdapterFactory.getConcept(0x70eb8650b1874f45L, 0x995803d27f5d94baL, 0x9139294490fb71dL, "HaskellFun.structure.ConstructorRecord").getDeclarationNode(), containingLink, null, null) && ModelConstraints.canBeAncestor(parent, null, MetaAdapterFactory.getConcept(0x70eb8650b1874f45L, 0x995803d27f5d94baL, 0x9139294490fb71dL, "HaskellFun.structure.ConstructorRecord").getDeclarationNode(), null));
+      }
+    });
+    ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(MetaAdapterFactory.getConcept(0x70eb8650b1874f45L, 0x995803d27f5d94baL, 0x9139294490fb71dL, "HaskellFun.structure.ConstructorRecord").getDeclarationNode(), _context.getSourceNode()) {
+      public SNode doSubstitute(@Nullable final EditorContext editorContext, String pattern) {
+        SNode t = SNodeFactoryOperations.createNewNode(SNodeFactoryOperations.asInstanceConcept(MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506dL, "jetbrains.mps.baseLanguage.structure.Type")), null);
+        return ListSequence.fromList(SLinkOperations.getChildren(_context.getSourceNode(), MetaAdapterFactory.getContainmentLink(0x70eb8650b1874f45L, 0x995803d27f5d94baL, 0x91392944908132cL, 0x9139294490fb747L, "types"))).insertElement(0, t);
+      }
+      public String getMatchingText(String pattern) {
+        if (neq_x583g4_a0a0b0a0a0a0c0g(pattern, "{")) {
+          return pattern;
+        }
+        return null;
+      }
+      public String getVisibleMatchingText(String pattern) {
+        return getMatchingText(pattern);
+      }
+      @Override
+      protected boolean isEnabled() {
+        SNode sourceNode = getSourceNode();
+        SNode parent = SNodeOperations.getParent(sourceNode);
+        SNode containingLink = SNodeOperations.getContainingLinkDeclaration(sourceNode);
+        return parent == null || containingLink == null || (ModelConstraints.canBeParent(parent, MetaAdapterFactory.getConcept(0x70eb8650b1874f45L, 0x995803d27f5d94baL, 0x9139294490fb71dL, "HaskellFun.structure.ConstructorRecord").getDeclarationNode(), containingLink, null, null) && ModelConstraints.canBeAncestor(parent, null, MetaAdapterFactory.getConcept(0x70eb8650b1874f45L, 0x995803d27f5d94baL, 0x9139294490fb71dL, "HaskellFun.structure.ConstructorRecord").getDeclarationNode(), null));
+      }
+    });
+    return result;
+  }
+  private static boolean neq_x583g4_a0a0b0a0a0a0c0g(Object a, Object b) {
+    return !(((a != null ? a.equals(b) : a == b)));
+  }
 }

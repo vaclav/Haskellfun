@@ -186,7 +186,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="constructore" />
       <property role="20lbJX" value="1..n" />
-      <ref role="20lvS9" node="$j$Dh921cG" resolve="Constructor" />
+      <ref role="20lvS9" node="$j$Dh95Uch" resolve="AbstractConstructor" />
     </node>
     <node concept="1TJgyj" id="$j$Dh921df" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -206,9 +206,12 @@
     <property role="3GE5qa" value="algebraicDataType" />
     <property role="TrG5h" value="Constructor" />
     <property role="34LRSv" value="constructor" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="$j$Dh921cH" role="PzmwI">
-      <ref role="PrY4T" to="tpee:hCUYCKd" resolve="IValidIdentifier" />
+    <ref role="1TJDcQ" node="$j$Dh95Uch" resolve="AbstractConstructor" />
+    <node concept="1TJgyj" id="$j$Dh93Vt7" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="types" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" to="tpee:fz3vP1H" resolve="Type" />
     </node>
   </node>
   <node concept="1TIwiD" id="$j$Dh921dm">
@@ -217,6 +220,42 @@
     <property role="3GE5qa" value="algebraicDataType" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="$j$Dh921dn" role="PzmwI">
+      <ref role="PrY4T" to="tpee:hCUYCKd" resolve="IValidIdentifier" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="$j$Dh93Vst">
+    <property role="3GE5qa" value="algebraicDataType" />
+    <property role="TrG5h" value="ConstructorRecord" />
+    <property role="34LRSv" value="constructor with record syntax" />
+    <ref role="1TJDcQ" node="$j$Dh95Uch" resolve="AbstractConstructor" />
+    <node concept="1TJgyj" id="$j$Dh95UlY" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="entries" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="$j$Dh95UcF" resolve="RecordEntry" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="$j$Dh95Uch">
+    <property role="3GE5qa" value="algebraicDataType" />
+    <property role="TrG5h" value="AbstractConstructor" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="$j$Dh95UcB" role="PzmwI">
+      <ref role="PrY4T" to="tpee:hCUYCKd" resolve="IValidIdentifier" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="$j$Dh95UcF">
+    <property role="3GE5qa" value="algebraicDataType" />
+    <property role="TrG5h" value="RecordEntry" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="$j$Dh95Ud3" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="type" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:fz3vP1H" resolve="Type" />
+    </node>
+    <node concept="PrWs8" id="$j$Dh95Ud1" role="PzmwI">
       <ref role="PrY4T" to="tpee:hCUYCKd" resolve="IValidIdentifier" />
     </node>
   </node>

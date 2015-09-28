@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
+  <dependency className="HaskellFun.behavior.AbstractConstructor_BehaviorDescriptor" file="AbstractConstructor_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.IValidIdentifier_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
   <dependency className="HaskellFun.behavior.AlgebraicDataType_BehaviorDescriptor" file="AlgebraicDataType_BehaviorDescriptor.java">
     <classNode dependClassName="HaskellFun.behavior.Form_BehaviorDescriptor" />
     <classNode dependClassName="java.lang.Override" />
@@ -12,6 +22,7 @@
   </dependency>
   <dependency className="HaskellFun.behavior.BehaviorAspectDescriptor" file="BehaviorAspectDescriptor.java">
     <classNode dependClassName="HaskellFun.behavior.AlgebraicDataType_BehaviorDescriptor" />
+    <classNode dependClassName="HaskellFun.behavior.ConstructorRecord_BehaviorDescriptor" />
     <classNode dependClassName="HaskellFun.behavior.Constructor_BehaviorDescriptor" />
     <classNode dependClassName="HaskellFun.behavior.DeclarationParameter_BehaviorDescriptor" />
     <classNode dependClassName="HaskellFun.behavior.DeclarationReference_BehaviorDescriptor" />
@@ -21,6 +32,7 @@
     <classNode dependClassName="HaskellFun.behavior.HaskellModule_BehaviorDescriptor" />
     <classNode dependClassName="HaskellFun.behavior.Import_BehaviorDescriptor" />
     <classNode dependClassName="HaskellFun.behavior.Println_BehaviorDescriptor" />
+    <classNode dependClassName="HaskellFun.behavior.RecordEntry_BehaviorDescriptor" />
     <classNode dependClassName="HaskellFun.behavior.TypeVariable_BehaviorDescriptor" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.Arrays" />
@@ -28,14 +40,16 @@
     <classNode dependClassName="jetbrains.mps.smodel.runtime.interpreted.BehaviorAspectInterpreted" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor" />
   </dependency>
-  <dependency className="HaskellFun.behavior.Constructor_BehaviorDescriptor" file="Constructor_BehaviorDescriptor.java">
+  <dependency className="HaskellFun.behavior.ConstructorRecord_BehaviorDescriptor" file="ConstructorRecord_BehaviorDescriptor.java">
+    <classNode dependClassName="HaskellFun.behavior.AbstractConstructor_BehaviorDescriptor" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.IValidIdentifier_BehaviorDescriptor" />
-    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
-    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
-    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
-    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="HaskellFun.behavior.Constructor_BehaviorDescriptor" file="Constructor_BehaviorDescriptor.java">
+    <classNode dependClassName="HaskellFun.behavior.AbstractConstructor_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="HaskellFun.behavior.DeclarationParameter_BehaviorDescriptor" file="DeclarationParameter_BehaviorDescriptor.java">
@@ -112,6 +126,16 @@
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.Expression_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="HaskellFun.behavior.RecordEntry_BehaviorDescriptor" file="RecordEntry_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.IValidIdentifier_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="java.lang.Cloneable" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
