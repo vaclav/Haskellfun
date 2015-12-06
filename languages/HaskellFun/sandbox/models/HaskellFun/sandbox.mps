@@ -161,7 +161,7 @@
       </node>
       <node concept="106S6S" id="$j$Dh9720P" role="106S6V">
         <property role="TrG5h" value="Foo" />
-        <node concept="3uibUv" id="$j$Dh9720S" role="1072nj">
+        <node concept="3uibUv" id="7Hft0QLDM3O" role="1072nj">
           <ref role="3uigEE" to="e2lb:~Double" resolve="Double" />
         </node>
         <node concept="3uibUv" id="$j$Dh9720U" role="1072nj">
@@ -266,7 +266,24 @@
   </node>
   <node concept="lO9d4" id="2yqiTrECdmv">
     <property role="TrG5h" value="TryImport" />
-    <node concept="lOsT$" id="2yqiTrECrnr" role="lOAmu" />
+    <node concept="lOsT$" id="7Hft0QLDPgT" role="lOAmu" />
+    <node concept="32e_Hz" id="7Hft0QLDPgJ" role="lOAmu">
+      <ref role="32e_UY" node="39gh9oBystC" resolve="Hello" />
+    </node>
+    <node concept="lOsT$" id="7Hft0QLDPgM" role="lOAmu" />
+    <node concept="lOAnL" id="7Hft0QLDPhp" role="lOAmu">
+      <property role="TrG5h" value="main" />
+      <node concept="lQpuT" id="7Hft0QLDPhA" role="lODR3">
+        <node concept="lQBRf" id="7Hft0QLDPhD" role="lQBQv">
+          <node concept="lQBO$" id="7Hft0QLDPhH" role="lQBRX">
+            <ref role="lQBOz" node="39gh9oBystE" resolve="greeting" />
+          </node>
+        </node>
+      </node>
+      <node concept="lQxVb" id="7Hft0QLDPh$" role="lQynf">
+        <property role="TrG5h" value="args" />
+      </node>
+    </node>
   </node>
   <node concept="lO9d4" id="7Jb9OYvWPzU">
     <property role="TrG5h" value="Demo" />
